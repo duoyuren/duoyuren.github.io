@@ -27,7 +27,7 @@
         <link>https://duoyu.ren/essay/20200521-diy-your-dictionary/</link>
         <pubDate>Thu, 21 May 2020 12:35:09 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 05 Apr 2023 22:52:23 +0800</atom:modified>
+        <atom:modified>Sat, 13 May 2023 18:08:02 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20200521-diy-your-dictionary/</guid>
         <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
         
@@ -201,7 +201,7 @@
         <link>https://duoyu.ren/essay/20161015-zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 05 Apr 2023 22:54:32 +0800</atom:modified>
+        <atom:modified>Sat, 13 May 2023 18:05:46 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20161015-zhmakeindex/</guid>
         <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
