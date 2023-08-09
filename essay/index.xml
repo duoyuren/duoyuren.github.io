@@ -62,7 +62,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Wed, 05 Jul 2023 12:25:06 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230329-dazibao/</guid>
-        <description>上學期開學時，在評敎系統查看同學們的意見，發了一通感慨，最後又跑到USTC评课社区 的類似課程頁面抱團取暖。看着那些科學家大神同樣也會被學生強</description>
+        <description>上學期開學時，在評敎系統查看同學們的意見，發了一通感慨，最後又跑到USTC评课社区的類似課程頁面抱團取暖。看着那些科學家大神同樣也會被學生強</description>
         
         <dc:creator>李二苟</dc:creator>
         <media:content url="https://duoyu.ren//images/essay/dazibao.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -478,7 +478,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sat, 13 May 2023 18:08:02 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20200521-diy-your-dictionary/</guid>
-        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
+        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》《編舟囈語》兩篇文章中。雖然大體的版</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/iLJsm5bA8FxBhaE.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -684,7 +684,7 @@
         <link>https://duoyu.ren/essay/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 05 Apr 2023 22:53:22 +0800</atom:modified>
+        <atom:modified>Wed, 09 Aug 2023 11:32:00 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20191015-demos/</guid>
         <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 外鏈圖標（2023增加） 採用 im.youronly.one 的方</description>
         
@@ -992,7 +992,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Wed, 05 Apr 2023 22:54:21 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20161124-tikz-mcquail-figures/</guid>
-        <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory , the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+        <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory, the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1026,7 +1026,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sat, 13 May 2023 18:05:46 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20161015-zhmakeindex/</guid>
-        <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
+        <description>In some big documents, for example The Cangjie Chinese-English Dictionary, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately With</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1060,7 +1060,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Wed, 05 Apr 2023 22:51:00 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20160920-cang-jie-li-zi/</guid>
-        <description>導言 蒼頡檢字法 ，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
+        <description>導言 蒼頡檢字法，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/k3poLU7fPgHsdFD.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -1128,7 +1128,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Fri, 30 Jun 2023 01:43:28 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20160505-fa-xue-la-ding-yu/</guid>
-        <description>The Role of Humanities in Legal Education 法學敎育 在目前俄國人文敎育體系中日漸重要。這與社會對法律專家的需求增加有關，伴隨著法學敎育質量的上昇、人文通識課程敎育的加強，</description>
+        <description>The Role of Humanities in Legal Education 法學敎育在目前俄國人文敎育體系中日漸重要。這與社會對法律專家的需求增加有關，伴隨著法學敎育質量的上昇、人文通識課程敎育的加強，</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/J9c7tSeYv65ToGi.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>

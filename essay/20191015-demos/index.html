@@ -1285,7 +1285,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta name="keywords" content="demo">
 
 <meta name="created" content="2019-10-15T00:57:29&#43;0800">
-<meta name="modified" content="2023-04-05T22:53:22&#43;0800">
+<meta name="modified" content="2023-08-09T11:32:00&#43;0800">
 <meta property="article:published_time" content="2019-10-15T00:57:29&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1307,7 +1307,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。">
   
 
-<meta name="generator" content="Hugo 0.112.3">
+<meta name="generator" content="Hugo 0.116.1">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1332,7 +1332,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     "@type": "WebPage",
     "headline": "內容版式 Demos",
     "datePublished": "2019-10-15T00:57:29+08:00",
-    "dateModified": "2023-04-05T22:53:22+08:00",
+    "dateModified": "2023-08-09T11:32:00+08:00",
     "url" : "https://duoyu.ren/essay/20191015-demos/",
     "description": "本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。",
     "keywords": ["demo"],
@@ -1853,9 +1853,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅Oct 15, 2019 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝Apr 5, 2023 </time>
+&middot; <time class="single__info" title="Modified At"> 📝Aug 9, 2023 </time>
   
-&middot; 🔢 6464 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 13 min read</span>
+&middot; 🔢 6480 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 13 min read</span>
 <span class="single__info"> 
  
 </span>
@@ -1962,13 +1962,7 @@ if (!doNotTrack) {
       <h1 id="本站新增樣式">本站新增樣式</h1>
 <p>參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。</p>
 <h2 id="外鏈圖標2023增加">外鏈圖標（2023增加）</h2>
-<p>採用 <a href="https://im.youronly.one/techmagus/codebits/hugo/hugo-render-link/how-to-add-link-icons-hugo-markdown-links-2022140/#" title="im.youronly.one" class="icon_external" rel="noopener external">im.youronly.one</a>
-
-
- 的方案，並借鑑 <a href="https://www.jayeless.net/2021/08/hugo-mark-external-links.html" title="Jayeless.net" class="icon_external" rel="noopener external">Jayeless.net</a>
-
-
-的部分樣式，按說明文檔，將相關文件歸併到模板對應位置即可實現。</p>
+<p>採用 <a href="https://im.youronly.one/techmagus/codebits/hugo/hugo-render-link/how-to-add-link-icons-hugo-markdown-links-2022140/#" title="im.youronly.one" class="icon_external" rel="noopener external" target="_blank">im.youronly.one</a> 的方案，並借鑑 <a href="https://www.jayeless.net/2021/08/hugo-mark-external-links.html" title="Jayeless.net" class="icon_external" rel="noopener external" target="_blank">Jayeless.net</a>的部分樣式，按說明文檔，將相關文件歸併到模板對應位置即可實現。</p>
 <ul>
 <li>Create a file called <code>render-link.html</code> in this directory <code>/layouts/_default/_markup/</code></li>
 <li>Copy and paste this code:</li>
@@ -2061,7 +2055,7 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$baseurl</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">urls</span><span class="na">.Parse</span><span class="w"> </span><span class="nx">site</span><span class="na">.BaseURL</span><span class="w"> </span><span class="cp">-}}</span>
 </span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$url</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">urls</span><span class="na">.Parse</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
 </span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$getpage</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">site</span><span class="na">.GetPage</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
-</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$internal</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">lt</span><span class="w"> </span><span class="o">(</span><span class="k">len</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Host</span><span class="o">)</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="cp">-}}</span> <span class="cm">{{/* NOTE: internal links will always have an empty $url.Host */}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$internal</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">lt</span><span class="w"> </span><span class="o">(</span><span class="k">len</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Host</span><span class="o">)</span><span class="w"> </span><span class="nx">1</span><span class="w"> </span><span class="cp">-}}</span> <span class="cm">{{/* NOTE: internal links will always have an empty $url.Host */}}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Fragment</span><span class="w"> </span><span class="cp">-}}</span>
 </span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">printf</span><span class="w"> </span><span class="s">&#34;#%s&#34;</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">}}{{-</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">-}}</span>
@@ -2328,469 +2322,135 @@ if (!doNotTrack) {
 <li>
 <p>External links</p>
 <ul>
-<li>This is an <a href="https://example.com/#fragment" title="https://example.com/#fragment" class="icon_external" rel="noopener external">external links</a>
-
-
- Test&hellip;</li>
+<li>This is an <a href="https://example.com/#fragment" title="https://example.com/#fragment" class="icon_external" rel="noopener external" target="_blank">external links</a> Test&hellip;</li>
+<li>This is an <a href="https://example.com/#fragment" title="https://example.com/#fragment" class="icon_external" rel="noopener external" target="_blank">external links</a>.</li>
+<li><a href="" title="mailto:logos@duoyu.ren" class="icon_mail" target="_blank">logos@duoyu.ren</a>.</li>
 </ul>
 </li>
 <li>
 <p>Chat</p>
 <ul>
-<li><a href="irc://example.com" title="irc://" class="icon_chat" rel="noopener external">irc://</a>
-
-
- | <a href="ircs://example.com" title="ircs://" class="icon_chat" rel="noopener external">ircs://</a>
-
-
- | <a href="irc6://example.com" title="irc6://" class="icon_chat" rel="noopener external">irc6://</a>
-
-
- | <a href="xmpp://example.com" title="xmpp://" class="icon_chat" rel="noopener external">xmpp://</a>
-
-
- | <a href="jabber://example.com" title="jabber://" class="icon_chat" rel="noopener external">jabber://</a>
-
-
- | <a href="discord://example.com" title="discord://" class="icon_chat" rel="noopener external">discord://</a>
-
-
- | <a href="skype://example.com" title="skype://" class="icon_chat" rel="noopener external">skype://</a>
-
-
-</li>
+<li><a href="irc://example.com" title="irc://" class="icon_chat" rel="noopener external" target="_blank">irc://</a> | <a href="ircs://example.com" title="ircs://" class="icon_chat" rel="noopener external" target="_blank">ircs://</a> | <a href="irc6://example.com" title="irc6://" class="icon_chat" rel="noopener external" target="_blank">irc6://</a> | <a href="xmpp://example.com" title="xmpp://" class="icon_chat" rel="noopener external" target="_blank">xmpp://</a> | <a href="jabber://example.com" title="jabber://" class="icon_chat" rel="noopener external" target="_blank">jabber://</a> | <a href="discord://example.com" title="discord://" class="icon_chat" rel="noopener external" target="_blank">discord://</a> | <a href="skype://example.com" title="skype://" class="icon_chat" rel="noopener external" target="_blank">skype://</a></li>
 </ul>
 </li>
 <li>
 <p>FTP</p>
 <ul>
-<li><a href="sftp://example.com" title="sftp://" class="icon_ftp" rel="noopener external">sftp://</a>
-
-
- | <a href="ftp://example.com" title="ftp://" class="icon_ftp" rel="noopener external">ftp://</a>
-
-
- | <a href="aftp://example.com" title="aftp://" class="icon_ftp" rel="noopener external">aftp://</a>
-
-
-</li>
+<li><a href="sftp://example.com" title="sftp://" class="icon_ftp" rel="noopener external" target="_blank">sftp://</a> | <a href="ftp://example.com" title="ftp://" class="icon_ftp" rel="noopener external" target="_blank">ftp://</a> | <a href="aftp://example.com" title="aftp://" class="icon_ftp" rel="noopener external" target="_blank">aftp://</a></li>
 </ul>
 </li>
 <li>
 <p>Magnet</p>
 <ul>
-<li><a href="magnet://example.com" title="magnet://" class="icon_magnet" rel="noopener external">magnet://</a>
-
-
-</li>
+<li><a href="magnet://example.com" title="magnet://" class="icon_magnet" rel="noopener external" target="_blank">magnet://</a></li>
 </ul>
 </li>
 <li>
 <p>Mail</p>
 <ul>
-<li><a href="" title="mailto:" class="icon_mail">mailto:</a>
-
-
-</li>
+<li><a href="" title="mailto:" class="icon_mail" target="_blank">mailto:</a></li>
 </ul>
 </li>
 <li>
 <p>Remote</p>
 <ul>
-<li><a href="telnet://example.com" title="telnet://" class="icon_remote" rel="noopener external">telnet://</a>
-
-
- | <a href="ssh://example.com" title="ssh://" class="icon_remote" rel="noopener external">ssh://</a>
-
-
- | <a href="git://example.com" title="git://" class="icon_remote" rel="noopener external">git://</a>
-
-
- | <a href="svn://example.com" title="svn://" class="icon_remote" rel="noopener external">svn://</a>
-
-
- | <a href="bzr://example.com" title="bzr://" class="icon_remote" rel="noopener external">bzr://</a>
-
-
-</li>
+<li><a href="telnet://example.com" title="telnet://" class="icon_remote" rel="noopener external" target="_blank">telnet://</a> | <a href="ssh://example.com" title="ssh://" class="icon_remote" rel="noopener external" target="_blank">ssh://</a> | <a href="git://example.com" title="git://" class="icon_remote" rel="noopener external" target="_blank">git://</a> | <a href="svn://example.com" title="svn://" class="icon_remote" rel="noopener external" target="_blank">svn://</a> | <a href="bzr://example.com" title="bzr://" class="icon_remote" rel="noopener external" target="_blank">bzr://</a></li>
 </ul>
 </li>
 <li>
 <p>Tel</p>
 <ul>
-<li><a href="" title="tel:" class="icon_tel">tel:</a>
-
-
-</li>
+<li><a href="" title="tel:" class="icon_tel" target="_blank">tel:</a></li>
 </ul>
 </li>
 <li>
 <p>Books</p>
 <ul>
-<li><a href="doi://example.com" title="doi://" class="icon_books" rel="noopener external">doi://</a>
-
-
- | <a href="https://example.com/file.epub" title=".epub" class="icon_books" rel="noopener external">.epub</a>
-
-
- | <a href="https://example.com/file.mobi" title=".mobi" class="icon_books" rel="noopener external">.mobi</a>
-
-
- | <a href="https://example.com/file.pdf" title=".pdf" class="icon_books" rel="noopener external">.pdf</a>
-
-
-</li>
+<li><a href="doi://example.com" title="doi://" class="icon_books" rel="noopener external" target="_blank">doi://</a> | <a href="https://example.com/file.epub" title=".epub" class="icon_books" rel="noopener external" target="_blank">.epub</a> | <a href="https://example.com/file.mobi" title=".mobi" class="icon_books" rel="noopener external" target="_blank">.mobi</a> | <a href="https://example.com/file.pdf" title=".pdf" class="icon_books" rel="noopener external" target="_blank">.pdf</a></li>
 </ul>
 </li>
 <li>
 <p>Document</p>
 <ul>
-<li><a href="https://example.com/file.odt" title=".odt" class="icon_document" rel="noopener external">.odt</a>
-
-
- | <a href="https://example.com/file.sdw" title=".sdw" class="icon_document" rel="noopener external">.sdw</a>
-
-
- | <a href="https://example.com/file.sxw" title=".sxw" class="icon_document" rel="noopener external">.sxw</a>
-
-
- | <a href="https://example.com/file.uof" title=".uof" class="icon_document" rel="noopener external">.uof</a>
-
-
- | <a href="https://example.com/file.uot" title=".uot" class="icon_document" rel="noopener external">.uot</a>
-
-
- | <a href="https://example.com/file.doc" title=".doc" class="icon_document" rel="noopener external">.doc</a>
-
-
- | <a href="https://example.com/file.docx" title=".docx" class="icon_document" rel="noopener external">.docx</a>
-
-
-</li>
+<li><a href="https://example.com/file.odt" title=".odt" class="icon_document" rel="noopener external" target="_blank">.odt</a> | <a href="https://example.com/file.sdw" title=".sdw" class="icon_document" rel="noopener external" target="_blank">.sdw</a> | <a href="https://example.com/file.sxw" title=".sxw" class="icon_document" rel="noopener external" target="_blank">.sxw</a> | <a href="https://example.com/file.uof" title=".uof" class="icon_document" rel="noopener external" target="_blank">.uof</a> | <a href="https://example.com/file.uot" title=".uot" class="icon_document" rel="noopener external" target="_blank">.uot</a> | <a href="https://example.com/file.doc" title=".doc" class="icon_document" rel="noopener external" target="_blank">.doc</a> | <a href="https://example.com/file.docx" title=".docx" class="icon_document" rel="noopener external" target="_blank">.docx</a></li>
 </ul>
 </li>
 <li>
 <p>Text</p>
 <ul>
-<li><a href="https://example.com/file.txt" title=".txt" class="icon_text" rel="noopener external">.txt</a>
-
-
- | <a href="https://example.com/file.csv" title=".csv" class="icon_text" rel="noopener external">.csv</a>
-
-
-</li>
+<li><a href="https://example.com/file.txt" title=".txt" class="icon_text" rel="noopener external" target="_blank">.txt</a> | <a href="https://example.com/file.csv" title=".csv" class="icon_text" rel="noopener external" target="_blank">.csv</a></li>
 </ul>
 </li>
 <li>
 <p>Presentation</p>
 <ul>
-<li><a href="https://example.com/file.odp" title=".odp" class="icon_presentation" rel="noopener external">.odp</a>
-
-
- | <a href="https://example.com/file.fodp" title=".fodp" class="icon_presentation" rel="noopener external">.fodp</a>
-
-
- | <a href="https://example.com/file.sdd" title=".sdd" class="icon_presentation" rel="noopener external">.sdd</a>
-
-
- | <a href="https://example.com/file.sdp" title=".sdp" class="icon_presentation" rel="noopener external">.sdp</a>
-
-
- | <a href="https://example.com/file.sxi" title=".sxi" class="icon_presentation" rel="noopener external">.sxi</a>
-
-
- | <a href="https://example.com/file.uop" title=".uop" class="icon_presentation" rel="noopener external">.uop</a>
-
-
- | <a href="https://example.com/file.ppt" title=".ppt" class="icon_presentation" rel="noopener external">.ppt</a>
-
-
- | <a href="https://example.com/file.pptx" title=".pptx" class="icon_presentation" rel="noopener external">.pptx</a>
-
-
-</li>
+<li><a href="https://example.com/file.odp" title=".odp" class="icon_presentation" rel="noopener external" target="_blank">.odp</a> | <a href="https://example.com/file.fodp" title=".fodp" class="icon_presentation" rel="noopener external" target="_blank">.fodp</a> | <a href="https://example.com/file.sdd" title=".sdd" class="icon_presentation" rel="noopener external" target="_blank">.sdd</a> | <a href="https://example.com/file.sdp" title=".sdp" class="icon_presentation" rel="noopener external" target="_blank">.sdp</a> | <a href="https://example.com/file.sxi" title=".sxi" class="icon_presentation" rel="noopener external" target="_blank">.sxi</a> | <a href="https://example.com/file.uop" title=".uop" class="icon_presentation" rel="noopener external" target="_blank">.uop</a> | <a href="https://example.com/file.ppt" title=".ppt" class="icon_presentation" rel="noopener external" target="_blank">.ppt</a> | <a href="https://example.com/file.pptx" title=".pptx" class="icon_presentation" rel="noopener external" target="_blank">.pptx</a></li>
 </ul>
 </li>
 <li>
 <p>Spreadsheet</p>
 <ul>
-<li><a href="https://example.com/file.ods" title=".ods" class="icon_spreadsheet" rel="noopener external">.ods</a>
-
-
- | <a href="https://example.com/file.fods" title=".fods" class="icon_spreadsheet" rel="noopener external">.fods</a>
-
-
- | <a href="https://example.com/file.sdc" title=".sdc" class="icon_spreadsheet" rel="noopener external">.sdc</a>
-
-
- | <a href="https://example.com/file.sxc" title=".sxc" class="icon_spreadsheet" rel="noopener external">.sxc</a>
-
-
- | <a href="https://example.com/file.uos" title=".uos" class="icon_spreadsheet" rel="noopener external">.uos</a>
-
-
- | <a href="https://example.com/file.xls" title=".xls" class="icon_spreadsheet" rel="noopener external">.xls</a>
-
-
- | <a href="https://example.com/file.xlsx" title=".xlsx" class="icon_spreadsheet" rel="noopener external">.xlsx</a>
-
-
-</li>
+<li><a href="https://example.com/file.ods" title=".ods" class="icon_spreadsheet" rel="noopener external" target="_blank">.ods</a> | <a href="https://example.com/file.fods" title=".fods" class="icon_spreadsheet" rel="noopener external" target="_blank">.fods</a> | <a href="https://example.com/file.sdc" title=".sdc" class="icon_spreadsheet" rel="noopener external" target="_blank">.sdc</a> | <a href="https://example.com/file.sxc" title=".sxc" class="icon_spreadsheet" rel="noopener external" target="_blank">.sxc</a> | <a href="https://example.com/file.uos" title=".uos" class="icon_spreadsheet" rel="noopener external" target="_blank">.uos</a> | <a href="https://example.com/file.xls" title=".xls" class="icon_spreadsheet" rel="noopener external" target="_blank">.xls</a> | <a href="https://example.com/file.xlsx" title=".xlsx" class="icon_spreadsheet" rel="noopener external" target="_blank">.xlsx</a></li>
 </ul>
 </li>
 <li>
 <p>Audio</p>
 <ul>
-<li><a href="https://example.com/file.flac" title=".flac" class="icon_audio" rel="noopener external">.flac</a>
-
-
- | <a href="https://example.com/file.aac" title=".aac" class="icon_audio" rel="noopener external">.aac</a>
-
-
- | <a href="https://example.com/file.mka" title=".mka" class="icon_audio" rel="noopener external">.mka</a>
-
-
- | <a href="https://example.com/file.ogg" title=".ogg" class="icon_audio" rel="noopener external">.ogg</a>
-
-
- | <a href="https://example.com/file.oga" title=".oga" class="icon_audio" rel="noopener external">.oga</a>
-
-
- | <a href="https://example.com/file.opus" title=".opus" class="icon_audio" rel="noopener external">.opus</a>
-
-
- | <a href="https://example.com/file.mp3" title=".mp3" class="icon_audio" rel="noopener external">.mp3</a>
-
-
- | <a href="https://example.com/file.mpa" title=".mpa" class="icon_audio" rel="noopener external">.mpa</a>
-
-
- | <a href="https://example.com/file.mid" title=".mid" class="icon_audio" rel="noopener external">.mid</a>
-
-
- | <a href="https://example.com/file.midi" title=".midi" class="icon_audio" rel="noopener external">.midi</a>
-
-
- | <a href="https://example.com/file.wav" title=".wav" class="icon_audio" rel="noopener external">.wav</a>
-
-
- | <a href="https://example.com/file.wave" title=".wave" class="icon_audio" rel="noopener external">.wave</a>
-
-
- | <a href="https://example.com/file.wma" title=".wma" class="icon_audio" rel="noopener external">.wma</a>
-
-
-</li>
+<li><a href="https://example.com/file.flac" title=".flac" class="icon_audio" rel="noopener external" target="_blank">.flac</a> | <a href="https://example.com/file.aac" title=".aac" class="icon_audio" rel="noopener external" target="_blank">.aac</a> | <a href="https://example.com/file.mka" title=".mka" class="icon_audio" rel="noopener external" target="_blank">.mka</a> | <a href="https://example.com/file.ogg" title=".ogg" class="icon_audio" rel="noopener external" target="_blank">.ogg</a> | <a href="https://example.com/file.oga" title=".oga" class="icon_audio" rel="noopener external" target="_blank">.oga</a> | <a href="https://example.com/file.opus" title=".opus" class="icon_audio" rel="noopener external" target="_blank">.opus</a> | <a href="https://example.com/file.mp3" title=".mp3" class="icon_audio" rel="noopener external" target="_blank">.mp3</a> | <a href="https://example.com/file.mpa" title=".mpa" class="icon_audio" rel="noopener external" target="_blank">.mpa</a> | <a href="https://example.com/file.mid" title=".mid" class="icon_audio" rel="noopener external" target="_blank">.mid</a> | <a href="https://example.com/file.midi" title=".midi" class="icon_audio" rel="noopener external" target="_blank">.midi</a> | <a href="https://example.com/file.wav" title=".wav" class="icon_audio" rel="noopener external" target="_blank">.wav</a> | <a href="https://example.com/file.wave" title=".wave" class="icon_audio" rel="noopener external" target="_blank">.wave</a> | <a href="https://example.com/file.wma" title=".wma" class="icon_audio" rel="noopener external" target="_blank">.wma</a></li>
 </ul>
 </li>
 <li>
 <p>Video</p>
 <ul>
-<li><a href="https://example.com/file.av1" title=".av1" class="icon_video" rel="noopener external">.av1</a>
-
-
- | <a href="https://example.com/file.webm" title=".webm" class="icon_video" rel="noopener external">.webm</a>
-
-
- | <a href="https://example.com/file.xvid" title=".xvid" class="icon_video" rel="noopener external">.xvid</a>
-
-
- | <a href="https://example.com/file.mkv" title=".mkv" class="icon_video" rel="noopener external">.mkv</a>
-
-
- | <a href="https://example.com/file.mk3d" title=".mk3d" class="icon_video" rel="noopener external">.mk3d</a>
-
-
- | <a href="https://example.com/file.ogm" title=".ogm" class="icon_video" rel="noopener external">.ogm</a>
-
-
- | <a href="https://example.com/file.ogv" title=".ogv" class="icon_video" rel="noopener external">.ogv</a>
-
-
- | <a href="https://example.com/file.divx" title=".divx" class="icon_video" rel="noopener external">.divx</a>
-
-
- | <a href="https://example.com/file.avi" title=".avi" class="icon_video" rel="noopener external">.avi</a>
-
-
- | <a href="https://example.com/file.mp4" title=".mp4" class="icon_video" rel="noopener external">.mp4</a>
-
-
- | <a href="https://example.com/file.mpeg4" title=".mpeg4" class="icon_video" rel="noopener external">.mpeg4</a>
-
-
- | <a href="https://example.com/file.mpv" title=".mpv" class="icon_video" rel="noopener external">.mpv</a>
-
-
- | <a href="https://example.com/file.mpeg" title=".mpeg" class="icon_video" rel="noopener external">.mpeg</a>
-
-
- | <a href="https://example.com/file.mpg" title=".mpg" class="icon_video" rel="noopener external">.mpg</a>
-
-
-</li>
+<li><a href="https://example.com/file.av1" title=".av1" class="icon_video" rel="noopener external" target="_blank">.av1</a> | <a href="https://example.com/file.webm" title=".webm" class="icon_video" rel="noopener external" target="_blank">.webm</a> | <a href="https://example.com/file.xvid" title=".xvid" class="icon_video" rel="noopener external" target="_blank">.xvid</a> | <a href="https://example.com/file.mkv" title=".mkv" class="icon_video" rel="noopener external" target="_blank">.mkv</a> | <a href="https://example.com/file.mk3d" title=".mk3d" class="icon_video" rel="noopener external" target="_blank">.mk3d</a> | <a href="https://example.com/file.ogm" title=".ogm" class="icon_video" rel="noopener external" target="_blank">.ogm</a> | <a href="https://example.com/file.ogv" title=".ogv" class="icon_video" rel="noopener external" target="_blank">.ogv</a> | <a href="https://example.com/file.divx" title=".divx" class="icon_video" rel="noopener external" target="_blank">.divx</a> | <a href="https://example.com/file.avi" title=".avi" class="icon_video" rel="noopener external" target="_blank">.avi</a> | <a href="https://example.com/file.mp4" title=".mp4" class="icon_video" rel="noopener external" target="_blank">.mp4</a> | <a href="https://example.com/file.mpeg4" title=".mpeg4" class="icon_video" rel="noopener external" target="_blank">.mpeg4</a> | <a href="https://example.com/file.mpv" title=".mpv" class="icon_video" rel="noopener external" target="_blank">.mpv</a> | <a href="https://example.com/file.mpeg" title=".mpeg" class="icon_video" rel="noopener external" target="_blank">.mpeg</a> | <a href="https://example.com/file.mpg" title=".mpg" class="icon_video" rel="noopener external" target="_blank">.mpg</a></li>
 </ul>
 </li>
 <li>
 <p>Subtitle</p>
 <ul>
-<li><a href="https://example.com/file.vtt" title=".vtt" class="icon_subtitle" rel="noopener external">.vtt</a>
-
-
- | <a href="https://example.com/file.ttml" title=".ttml" class="icon_subtitle" rel="noopener external">.ttml</a>
-
-
- | <a href="https://example.com/file.dfxp" title=".dfxp" class="icon_subtitle" rel="noopener external">.dfxp</a>
-
-
- | <a href="https://example.com/file.srt" title=".srt" class="icon_subtitle" rel="noopener external">.srt</a>
-
-
- | <a href="https://example.com/file.sub" title=".sub" class="icon_subtitle" rel="noopener external">.sub</a>
-
-
- | <a href="https://example.com/file.sbv" title=".sbv" class="icon_subtitle" rel="noopener external">.sbv</a>
-
-
- | <a href="https://example.com/file.scc" title=".scc" class="icon_subtitle" rel="noopener external">.scc</a>
-
-
- | <a href="https://example.com/file.mks" title=".mks" class="icon_subtitle" rel="noopener external">.mks</a>
-
-
-</li>
+<li><a href="https://example.com/file.vtt" title=".vtt" class="icon_subtitle" rel="noopener external" target="_blank">.vtt</a> | <a href="https://example.com/file.ttml" title=".ttml" class="icon_subtitle" rel="noopener external" target="_blank">.ttml</a> | <a href="https://example.com/file.dfxp" title=".dfxp" class="icon_subtitle" rel="noopener external" target="_blank">.dfxp</a> | <a href="https://example.com/file.srt" title=".srt" class="icon_subtitle" rel="noopener external" target="_blank">.srt</a> | <a href="https://example.com/file.sub" title=".sub" class="icon_subtitle" rel="noopener external" target="_blank">.sub</a> | <a href="https://example.com/file.sbv" title=".sbv" class="icon_subtitle" rel="noopener external" target="_blank">.sbv</a> | <a href="https://example.com/file.scc" title=".scc" class="icon_subtitle" rel="noopener external" target="_blank">.scc</a> | <a href="https://example.com/file.mks" title=".mks" class="icon_subtitle" rel="noopener external" target="_blank">.mks</a></li>
 </ul>
 </li>
 <li>
 <p>Executables</p>
 <ul>
-<li><a href="https://example.com/file.deb" title=".deb" class="icon_executable" rel="noopener external">.deb</a>
-
-
- | <a href="https://example.com/file.apk" title=".apk" class="icon_executable" rel="noopener external">.apk</a>
-
-
- | <a href="https://example.com/file.exe" title=".exe" class="icon_executable" rel="noopener external">.exe</a>
-
-
- | <a href="https://example.com/file.com" title=".com" class="icon_executable" rel="noopener external">.com</a>
-
-
- | <a href="https://example.com/file.msi" title=".msi" class="icon_executable" rel="noopener external">.msi</a>
-
-
-</li>
+<li><a href="https://example.com/file.deb" title=".deb" class="icon_executable" rel="noopener external" target="_blank">.deb</a> | <a href="https://example.com/file.apk" title=".apk" class="icon_executable" rel="noopener external" target="_blank">.apk</a> | <a href="https://example.com/file.exe" title=".exe" class="icon_executable" rel="noopener external" target="_blank">.exe</a> | <a href="https://example.com/file.com" title=".com" class="icon_executable" rel="noopener external" target="_blank">.com</a> | <a href="https://example.com/file.msi" title=".msi" class="icon_executable" rel="noopener external" target="_blank">.msi</a></li>
 </ul>
 </li>
 <li>
 <p>Scripts</p>
 <ul>
-<li><a href="https://example.com/file.bat" title=".bat" class="icon_scripts" rel="noopener external">.bat</a>
-
-
- | <a href="https://example.com/file.sh" title=".sh" class="icon_scripts" rel="noopener external">.sh</a>
-
-
-</li>
+<li><a href="https://example.com/file.bat" title=".bat" class="icon_scripts" rel="noopener external" target="_blank">.bat</a> | <a href="https://example.com/file.sh" title=".sh" class="icon_scripts" rel="noopener external" target="_blank">.sh</a></li>
 </ul>
 </li>
 <li>
 <p>Fonts</p>
 <ul>
-<li><a href="https://example.com/file.woff" title=".woff" class="icon_fonts" rel="noopener external">.woff</a>
-
-
- | <a href="https://example.com/file.woff2" title=".woff2" class="icon_fonts" rel="noopener external">.woff2</a>
-
-
- | <a href="https://example.com/file.otf" title=".otf" class="icon_fonts" rel="noopener external">.otf</a>
-
-
- | <a href="https://example.com/file.ttf" title=".ttf" class="icon_fonts" rel="noopener external">.ttf</a>
-
-
- | <a href="https://example.com/file.ttc" title=".ttc" class="icon_fonts" rel="noopener external">.ttc</a>
-
-
-</li>
+<li><a href="https://example.com/file.woff" title=".woff" class="icon_fonts" rel="noopener external" target="_blank">.woff</a> | <a href="https://example.com/file.woff2" title=".woff2" class="icon_fonts" rel="noopener external" target="_blank">.woff2</a> | <a href="https://example.com/file.otf" title=".otf" class="icon_fonts" rel="noopener external" target="_blank">.otf</a> | <a href="https://example.com/file.ttf" title=".ttf" class="icon_fonts" rel="noopener external" target="_blank">.ttf</a> | <a href="https://example.com/file.ttc" title=".ttc" class="icon_fonts" rel="noopener external" target="_blank">.ttc</a></li>
 </ul>
 </li>
 <li>
 <p>Compressed files</p>
 <ul>
-<li><a href="https://example.com/file.7z" title=".7z" class="icon_compressed" rel="noopener external">.7z</a>
-
-
- | <a href="https://example.com/file.7zip" title=".7zip" class="icon_compressed" rel="noopener external">.7zip</a>
-
-
- | <a href="https://example.com/file.tar" title=".tar" class="icon_compressed" rel="noopener external">.tar</a>
-
-
- | <a href="https://example.com/file.gz" title=".gz" class="icon_compressed" rel="noopener external">.gz</a>
-
-
- | <a href="https://example.com/file.gzip" title=".gzip" class="icon_compressed" rel="noopener external">.gzip</a>
-
-
- | <a href="https://example.com/file.bz2" title=".bz2" class="icon_compressed" rel="noopener external">.bz2</a>
-
-
- | <a href="https://example.com/file.bzip2" title=".bzip2" class="icon_compressed" rel="noopener external">.bzip2</a>
-
-
- | <a href="https://example.com/file.zip" title=".zip" class="icon_compressed" rel="noopener external">.zip</a>
-
-
- | <a href="https://example.com/file.rar" title=".rar" class="icon_compressed" rel="noopener external">.rar</a>
-
-
-</li>
+<li><a href="https://example.com/file.7z" title=".7z" class="icon_compressed" rel="noopener external" target="_blank">.7z</a> | <a href="https://example.com/file.7zip" title=".7zip" class="icon_compressed" rel="noopener external" target="_blank">.7zip</a> | <a href="https://example.com/file.tar" title=".tar" class="icon_compressed" rel="noopener external" target="_blank">.tar</a> | <a href="https://example.com/file.gz" title=".gz" class="icon_compressed" rel="noopener external" target="_blank">.gz</a> | <a href="https://example.com/file.gzip" title=".gzip" class="icon_compressed" rel="noopener external" target="_blank">.gzip</a> | <a href="https://example.com/file.bz2" title=".bz2" class="icon_compressed" rel="noopener external" target="_blank">.bz2</a> | <a href="https://example.com/file.bzip2" title=".bzip2" class="icon_compressed" rel="noopener external" target="_blank">.bzip2</a> | <a href="https://example.com/file.zip" title=".zip" class="icon_compressed" rel="noopener external" target="_blank">.zip</a> | <a href="https://example.com/file.rar" title=".rar" class="icon_compressed" rel="noopener external" target="_blank">.rar</a></li>
 </ul>
 </li>
 <li>
 <p>Disk images</p>
 <ul>
-<li><a href="https://example.com/file.img" title=".img" class="icon_diskimage" rel="noopener external">.img</a>
-
-
- | <a href="https://example.com/file.iso" title=".iso" class="icon_diskimage" rel="noopener external">.iso</a>
-
-
- | <a href="https://example.com/file.dmg" title=".dmg" class="icon_diskimage" rel="noopener external">.dmg</a>
-
-
- | <a href="https://example.com/file.mds" title=".mds" class="icon_diskimage" rel="noopener external">.mds</a>
-
-
- | <a href="https://example.com/file.mdf" title=".mdf" class="icon_diskimage" rel="noopener external">.mdf</a>
-
-
- | <a href="https://example.com/file.mdx" title=".mdx" class="icon_diskimage" rel="noopener external">.mdx</a>
-
-
-</li>
+<li><a href="https://example.com/file.img" title=".img" class="icon_diskimage" rel="noopener external" target="_blank">.img</a> | <a href="https://example.com/file.iso" title=".iso" class="icon_diskimage" rel="noopener external" target="_blank">.iso</a> | <a href="https://example.com/file.dmg" title=".dmg" class="icon_diskimage" rel="noopener external" target="_blank">.dmg</a> | <a href="https://example.com/file.mds" title=".mds" class="icon_diskimage" rel="noopener external" target="_blank">.mds</a> | <a href="https://example.com/file.mdf" title=".mdf" class="icon_diskimage" rel="noopener external" target="_blank">.mdf</a> | <a href="https://example.com/file.mdx" title=".mdx" class="icon_diskimage" rel="noopener external" target="_blank">.mdx</a></li>
 </ul>
 </li>
 <li>
 <p>Image editing</p>
 <ul>
-<li><a href="https://example.com/file.xcf" title=".xcf" class="icon_imagediting" rel="noopener external">.xcf</a>
-
-
- | <a href="https://example.com/file.psd" title=".psd" class="icon_imagediting" rel="noopener external">.psd</a>
-
-
-</li>
+<li><a href="https://example.com/file.xcf" title=".xcf" class="icon_imagediting" rel="noopener external" target="_blank">.xcf</a> | <a href="https://example.com/file.psd" title=".psd" class="icon_imagediting" rel="noopener external" target="_blank">.psd</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="地圖插件2022增加">地圖插件（2022增加）</h2>
 <h3 id="leafleft">leafleft</h3>
-<p>採用 <a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external">hugo-leaf</a>
-
-
- 的方案，按其說明文檔，將相關文件歸併到模板對應位置即可實現。效果如下：</p>
+<p>採用 <a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external" target="_blank">hugo-leaf</a> 的方案，按其說明文檔，將相關文件歸併到模板對應位置即可實現。效果如下：</p>
 <pre tabindex="0"><code>{{&lt; leaflet-map mapHeight=&#34;500px&#34; mapWidth=&#34;100%&#34; mapLat=&#34;23.0511&#34; mapLon=&#34;113.39284&#34; &gt;}}
 {{&lt; /leaflet-map &gt;}}
 </code></pre><p>mapLon（Longitude）設定經度值，mapLat（Latitude）設定緯度值。</p>
@@ -2994,10 +2654,7 @@ if (!doNotTrack) {
 
 
 
-<p>按說明文檔，<a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external">hugo-leaf</a>
-
-
- 還可以在地圖標示 GPX 文件中的路線圖。但是，leafleft 因使用的 openstreet 地圖的繪製內容不符國內標準而被「牆壁」，不翻牆瀏覽則無法顯示地圖內容。2023 年初遂折騰了高德地圖版的地圖插件。</p>
+<p>按說明文檔，<a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external" target="_blank">hugo-leaf</a> 還可以在地圖標示 GPX 文件中的路線圖。但是，leafleft 因使用的 openstreet 地圖的繪製內容不符國內標準而被「牆壁」，不翻牆瀏覽則無法顯示地圖內容。2023 年初遂折騰了高德地圖版的地圖插件。</p>
 <h3 id="高德地圖">高德地圖</h3>
 <pre tabindex="0"><code>{{&lt; gaode zoom=12 imgsrc=&#34;&#34; mapLat=&#34;23.0511&#34; mapLon=&#34;113.39284&#34; sLat=&#34;23.075569&#34; sLon=&#34;113.322348&#34; / &gt;}}
 </code></pre><p>mapLon（Longitude）設定終點經度值，mapLat（Latitude）設定終點緯度值。sLon（Longitude）設定起點經度值，sLat（Latitude）設定起點緯度值。imgsrc 是圖片鏈接，如標記地點風景照等，圖片尺幅不能很大。</p>
@@ -3196,7 +2853,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><div class="notices success" >
-  success <a href="" title="text">text</a>
+  success <a href="" title="text" target="_blank">text</a>
 </div>
 <div class="notices info" >
   info text
@@ -3282,10 +2939,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
   </div>
   </div>
 <h3 id="整合自-feelit-的提示樣式">整合自 FeelIt 的提示樣式</h3>
-<p>以下樣式整合自 <a href="https://feelit.khusika.dev/zh-cn/theme-documentation-extended-shortcodes/" title="FeelIt" class="icon_external" rel="noopener external">FeelIt</a>
-
-
- 的 admonition shortcode.</p>
+<p>以下樣式整合自 <a href="https://feelit.khusika.dev/zh-cn/theme-documentation-extended-shortcodes/" title="FeelIt" class="icon_external" rel="noopener external" target="_blank">FeelIt</a> 的 admonition shortcode.</p>
 <p><code>admonition</code> shortcode 支持 <strong>12</strong> 种 帮助你在页面中插入提示的横幅.</p>
 <p>一个 <code>admonition</code> 示例:</p>
 <div class="highlight"><div class="chroma">
@@ -3296,7 +2950,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">admonition</span> <span class="na">tip</span> <span class="err">&#34;</span><span class="na">This</span> <span class="na">is</span> <span class="na">a</span> <span class="na">tip</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl">一个 <span class="ge">**</span>技巧** 横幅
+</span></span><span class="line"><span class="cl">一个 <span class="gs">**技巧**</span> 横幅
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">admonition</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></td></tr></table>
 </div>
@@ -3421,10 +3075,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </div>
 <p>樣式大致居中對齊，適用於傳統對仗詩歌。</p>
 <h2 id="父子目錄樣式">父子目錄樣式</h2>
-<p>本站圖書採父子列表樣式羅列章節目錄。在每本書文件夾內的 <code>_index.md</code> 中使用，<a href="https://learn.netlify.com/en/shortcodes/children/" title="用法" class="icon_external" rel="noopener external">用法</a>
-
-
-如下，效果見相應頁面的目錄樣式。</p>
+<p>本站圖書採父子列表樣式羅列章節目錄。在每本書文件夾內的 <code>_index.md</code> 中使用，<a href="https://learn.netlify.com/en/shortcodes/children/" title="用法" class="icon_external" rel="noopener external" target="_blank">用法</a>如下，效果見相應頁面的目錄樣式。</p>
 <table>
 <thead>
 <tr>
@@ -3452,10 +3103,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 <tr>
 <td align="left">description</td>
 <td align="left">&ldquo;false&rdquo;</td>
-<td align="left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/" title="read more info about summaries on gohugo.io" class="icon_external" rel="noopener external">read more info about summaries on gohugo.io</a>
-
-
-</td>
+<td align="left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/" title="read more info about summaries on gohugo.io" class="icon_external" rel="noopener external" target="_blank">read more info about summaries on gohugo.io</a></td>
 </tr>
 <tr>
 <td align="left">depth</td>
@@ -3511,10 +3159,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 <tr>
 <td align="left">pattern</td>
 <td align="left">&ldquo;.*&rdquo;</td>
-<td align="left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression" title="regular expressions" class="icon_external" rel="noopener external">regular expressions</a>
-
-
-.</td>
+<td align="left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression" title="regular expressions" class="icon_external" rel="noopener external" target="_blank">regular expressions</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -3735,10 +3380,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </ol>
 <h1 id="模板原有-shortcode-樣式">模板原有 shortcode 樣式</h1>
 <h2 id="katex">KaTeX</h2>
-<p>網頁顯示 LaTeX 數理公式，本是極爲迫切的需求。原模板採用 <a href="https://katex.org/" title="KaTeX" class="icon_external" rel="noopener external">KaTeX</a>
-
-
- 渲染 Markdown 中的 LaTeX 公式。經測試，一些複雜公式的渲染，似乎沒有 MathJax 效果理想。 下爲簡易效果展示。</p>
+<p>網頁顯示 LaTeX 數理公式，本是極爲迫切的需求。原模板採用 <a href="https://katex.org/" title="KaTeX" class="icon_external" rel="noopener external" target="_blank">KaTeX</a> 渲染 Markdown 中的 LaTeX 公式。經測試，一些複雜公式的渲染，似乎沒有 MathJax 效果理想。 下爲簡易效果展示。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -3915,7 +3557,7 @@ x = \begin{cases}
   }
 </script>
 
-<p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Wednesday, April 5, 2023, 22:53:22 by 王小花.</p>
+<p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Wednesday, August 9, 2023, 11:32:00 by 王小花.</p>
     </article>
     
     <script>

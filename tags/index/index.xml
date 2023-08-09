@@ -50,7 +50,7 @@
         <link>https://duoyu.ren/teaching/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sat, 13 May 2023 18:09:27 +0800</atom:modified>
+        <atom:modified>Wed, 09 Aug 2023 11:11:44 +0800</atom:modified>
         <guid>https://duoyu.ren/teaching/</guid>
         <description>使用 Hugo, Quarto, Bookdown, Python, Julia 等整理課程材料頁面，便於公式排版與章節、習題、例題的相互參照。課程門類與資料視需要或有增刪。根據務工所需，目前暫擬列入：邏輯基</description>
         

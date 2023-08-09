@@ -29,7 +29,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sat, 13 May 2023 18:08:02 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20200521-diy-your-dictionary/</guid>
-        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
+        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》《編舟囈語》兩篇文章中。雖然大體的版</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/iLJsm5bA8FxBhaE.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -135,7 +135,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Wed, 05 Apr 2023 22:54:21 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20161124-tikz-mcquail-figures/</guid>
-        <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory , the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+        <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory, the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -169,7 +169,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sat, 13 May 2023 18:05:46 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20161015-zhmakeindex/</guid>
-        <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
+        <description>In some big documents, for example The Cangjie Chinese-English Dictionary, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately With</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
