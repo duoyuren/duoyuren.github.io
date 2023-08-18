@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 09 Jul 2023 19:08:53 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Aug 2023 17:14:15 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,27 +23,9 @@
 
       
       <item>
-        <title>不求甚解</title>
-        <link>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</link>
-        <pubDate>Sun, 09 Jul 2023 19:08:53 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>dictionary</title>
         <link>https://duoyu.ren/tags/dictionary/</link>
-        <pubDate>Tue, 04 Jul 2023 15:52:53 +0800</pubDate>
+        <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/dictionary/</guid>
@@ -61,10 +43,28 @@
       <item>
         <title>枕中情書</title>
         <link>https://duoyu.ren/tags/%E6%9E%95%E4%B8%AD%E6%83%85%E6%9B%B8/</link>
-        <pubDate>Tue, 04 Jul 2023 15:52:53 +0800</pubDate>
+        <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/%E6%9E%95%E4%B8%AD%E6%83%85%E6%9B%B8/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>不求甚解</title>
+        <link>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</link>
+        <pubDate>Sun, 09 Jul 2023 19:08:53 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
