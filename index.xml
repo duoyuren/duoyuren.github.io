@@ -2231,7 +2231,7 @@
         <link>https://duoyu.ren/essay/20230409-web-server/</link>
         <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 31 Aug 2023 01:42:24 +0800</atom:modified>
+        <atom:modified>Thu, 31 Aug 2023 23:19:49 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230409-web-server/</guid>
         <description>緣起 站點內容一直存放在 GitHub 倉庫，並且先後以 GitHub Pages 等加載，六年前購買域名後又採用 Cloudflare 的加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點如</description>
         
@@ -2265,7 +2265,7 @@
         <link>https://duoyu.ren/essay/20230329-dazibao/</link>
         <pubDate>Wed, 29 Mar 2023 21:56:48 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 31 Aug 2023 01:35:17 +0800</atom:modified>
+        <atom:modified>Thu, 31 Aug 2023 23:56:52 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230329-dazibao/</guid>
         <description>上學期開學時，在評敎系統查看同學們的意見，發了一通感慨，最後又跑到USTC评课社区的類似課程頁面抱團取暖。看着那些科學家大神同樣也會被學生強</description>
         
@@ -2337,12 +2337,12 @@
         <link>https://duoyu.ren/essay/20230324-mayuan/</link>
         <pubDate>Fri, 24 Mar 2023 17:16:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 31 Aug 2023 01:46:23 +0800</atom:modified>
+        <atom:modified>Thu, 31 Aug 2023 23:55:39 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230324-mayuan/</guid>
         <description>「神說，我們要照着我們的形象，按着我們的樣式造人……神就照着自己的形象造人，乃是照着他的形象造男造女。」 所謂父子，不止要創造肉身，更致力塑造</description>
         
         <dc:creator>李二苟</dc:creator>
-        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/DnSjCaw4udZlp2T.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://jsd.cdn.zzko.cn/gh/duoyuren/picx-img@master/blog/2023/20230324-00.5bwn806gdpmo.webp" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -2367,16 +2367,16 @@
       </item>
       
       <item>
-        <title>廿六種希臘文排版字體</title>
+        <title>廿七種希臘文排版字體</title>
         <link>https://duoyu.ren/essay/20230115-greek-fonts/</link>
         <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 13 Apr 2023 22:50:25 +0800</atom:modified>
+        <atom:modified>Fri, 01 Sep 2023 00:25:59 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230115-greek-fonts/</guid>
         <description>Intro 此前整理邏輯學材料，需要用希臘字母抽象替代某些對象時都是以 TeX 命令實現。近來折騰通史材料，常常遇到古希臘人名與書名，難以用 TeX 命令逐個字母輸入</description>
         
         <dc:creator>李二苟</dc:creator>
-        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/txSbEBZl1Vv3sNU.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://jsd.cdn.zzko.cn/gh/duoyuren/picx-img@master/blog/2023/20230115-00.3rarkl0zxk.webp" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
