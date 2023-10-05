@@ -2015,6 +2015,44 @@
       </item>
       
       <item>
+        <title>汪芳庭《數理邏輯》</title>
+        <link>https://duoyu.ren/reading/20231005-wft-mathlogic/</link>
+        <pubDate>Thu, 05 Oct 2023 17:20:15 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Thu, 05 Oct 2023 18:57:01 +0800</atom:modified>
+        <guid>https://duoyu.ren/reading/20231005-wft-mathlogic/</guid>
+        <description>將近四年前，一個人在「黑暗」中摸索着學習數理邏輯，在選取人生第一本數理邏輯課本時，十分謹慎地對比了國內外流行的十來本（此後或在此站逐一列出）</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren//reading/2023/20231005-00.5ts7er1loznk.webp" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>枕中情書</category>
+            
+          
+        
+        
+          
+            
+              <category>閱讀</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>三省堂簡明露和辭典</title>
         <link>https://duoyu.ren/reading/20230818-rj-dic/</link>
         <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
@@ -2231,7 +2269,7 @@
         <link>https://duoyu.ren/essay/20230409-web-server/</link>
         <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sat, 02 Sep 2023 12:18:19 +0800</atom:modified>
+        <atom:modified>Thu, 05 Oct 2023 14:29:42 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230409-web-server/</guid>
         <description>緣起 站點內容一直存放在 GitHub 倉庫，並且先後以 GitHub Pages 等加載，六年前購買域名後又採用 Cloudflare 的加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點如</description>
         

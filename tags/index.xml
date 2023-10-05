@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 18 Aug 2023 17:14:15 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2023 17:20:15 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,12 @@
 
       
       <item>
-        <title>dictionary</title>
-        <link>https://duoyu.ren/tags/dictionary/</link>
-        <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
+        <title>logic</title>
+        <link>https://duoyu.ren/tags/logic/</link>
+        <pubDate>Thu, 05 Oct 2023 17:20:15 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
-        <guid>https://duoyu.ren/tags/dictionary/</guid>
+        <guid>https://duoyu.ren/tags/logic/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
@@ -43,10 +43,28 @@
       <item>
         <title>枕中情書</title>
         <link>https://duoyu.ren/tags/%E6%9E%95%E4%B8%AD%E6%83%85%E6%9B%B8/</link>
-        <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
+        <pubDate>Thu, 05 Oct 2023 17:20:15 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/%E6%9E%95%E4%B8%AD%E6%83%85%E6%9B%B8/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>dictionary</title>
+        <link>https://duoyu.ren/tags/dictionary/</link>
+        <pubDate>Fri, 18 Aug 2023 17:14:15 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/dictionary/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
@@ -209,24 +227,6 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/lecture/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>logic</title>
-        <link>https://duoyu.ren/tags/logic/</link>
-        <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/tags/logic/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
