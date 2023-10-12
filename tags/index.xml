@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 05 Oct 2023 17:20:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2023 15:32:35 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,10 +25,28 @@
       <item>
         <title>logic</title>
         <link>https://duoyu.ren/tags/logic/</link>
-        <pubDate>Thu, 05 Oct 2023 17:20:15 +0800</pubDate>
+        <pubDate>Sun, 15 Oct 2023 15:32:35 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/logic/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>不求甚解</title>
+        <link>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</link>
+        <pubDate>Sun, 15 Oct 2023 15:32:35 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
@@ -65,24 +83,6 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/dictionary/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>不求甚解</title>
-        <link>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</link>
-        <pubDate>Sun, 09 Jul 2023 19:08:53 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/tags/%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
