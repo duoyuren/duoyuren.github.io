@@ -87,11 +87,11 @@
         <link>https://duoyu.ren/books/art/ch01/</link>
         <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sat, 02 Sep 2023 14:39:02 +0800</atom:modified>
+        <atom:modified>Mon, 23 Oct 2023 00:54:08 +0800</atom:modified>
         <guid>https://duoyu.ren/books/art/ch01/</guid>
         <description>建設中 直排與現代排版需求 XeCJK 直書設置 在 XeCJK 中直書需要旋轉 PDF，並且原橫排環境中的樣式皆需調整以適應直排版式。以下爲需要調整的若干樣式。 總設置 結</description>
         
-        <dc:creator>李二狗</dc:creator>
+        <dc:creator>Duōyú Rén</dc:creator>
         <media:content url="https://duoyu.ren//base/papering.x9c7arylhow.webp" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -2019,11 +2019,11 @@
         <link>https://duoyu.ren/reading/20231012-czt-huakaiyiyu/</link>
         <pubDate>Thu, 12 Oct 2023 15:32:35 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 12 Oct 2023 22:44:49 +0800</atom:modified>
+        <atom:modified>Mon, 23 Oct 2023 00:52:00 +0800</atom:modified>
         <guid>https://duoyu.ren/reading/20231012-czt-huakaiyiyu/</guid>
         <description>10月8日下午在导师办公室上课，课间浏览导师书柜藏书，翻到一本名为《现代逻辑与传统逻辑》的书。从这本书的目录及正文看，感觉这本书写作的路数颇</description>
         
-        <dc:creator>李二狗</dc:creator>
+        <dc:creator>Duōyú Rén</dc:creator>
         <media:content url="https://duoyu.ren//reading/2023/20231012-00.3lu05v5gd3uo.webp" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -2307,11 +2307,11 @@
         <link>https://duoyu.ren/essay/20230409-web-server/</link>
         <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 05 Oct 2023 14:29:42 +0800</atom:modified>
+        <atom:modified>Sun, 22 Oct 2023 23:32:05 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230409-web-server/</guid>
         <description>緣起 站點內容一直存放在 GitHub 倉庫，並且先後以 GitHub Pages 等加載，六年前購買域名後又採用 Cloudflare 的加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點如</description>
         
-        <dc:creator>李二苟</dc:creator>
+        <dc:creator>Duōyú Rén</dc:creator>
         
         
         
