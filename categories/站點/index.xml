@@ -14,13 +14,47 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 19:03:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2023 09:41:20 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/categories/%E7%AB%99%E9%BB%9E/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>網站頁面字體條件設定</title>
+        <link>https://duoyu.ren/essay/20231027-web-font/</link>
+        <pubDate>Fri, 27 Oct 2023 09:41:20 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Fri, 27 Oct 2023 09:52:16 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20231027-web-font/</guid>
+        <description>站點資源字體與在線字體 默認無襯線系列字體 全部配置完畢，正常訪問網站後，便開始觀察後臺系統資源與流量使用情況。原來給不同的子欄目或子站點都指定</description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>demo</category>
+            
+          
+        
+        
+          
+            
+              <category>站點</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>在阿里雲部署站點</title>

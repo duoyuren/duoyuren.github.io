@@ -14,13 +14,31 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 12 Oct 2023 15:32:35 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2023 09:41:20 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>demo</title>
+        <link>https://duoyu.ren/tags/demo/</link>
+        <pubDate>Fri, 27 Oct 2023 09:41:20 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/demo/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>logic</title>
@@ -83,24 +101,6 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/dictionary/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>demo</title>
-        <link>https://duoyu.ren/tags/demo/</link>
-        <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/tags/demo/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
