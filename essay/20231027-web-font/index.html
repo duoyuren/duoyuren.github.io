@@ -1254,7 +1254,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta name="keywords" content="demo">
 
 <meta name="created" content="2023-10-27T09:41:20&#43;0800">
-<meta name="modified" content="2023-10-27T09:52:16&#43;0800">
+<meta name="modified" content="2023-10-27T11:28:52&#43;0800">
 <meta property="article:published_time" content="2023-10-27T09:41:20&#43;0800">
 
 <meta name="author" content="Duōyú Rén">
@@ -1291,7 +1291,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     "@type": "WebPage",
     "headline": "網站頁面字體條件設定",
     "datePublished": "2023-10-27T09:41:20+08:00",
-    "dateModified": "2023-10-27T09:52:16+08:00",
+    "dateModified": "2023-10-27T11:28:52+08:00",
     "url" : "https://duoyu.ren/essay/20231027-web-font/",
     "description": "一個強迫症折騰網頁排版字體的歷程。",
     "keywords": ["demo"],
@@ -1810,7 +1810,7 @@ if (!doNotTrack) {
   
 &middot; <time class="single__info" title="Written At">📅Oct 27, 2023 </time>
   
-&middot; 🔢 920 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 2 min read</span>
+&middot; 🔢 893 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 2 min read</span>
 <span class="single__info"> 
  
 </span>
@@ -1872,10 +1872,16 @@ if (!doNotTrack) {
 
       
       <h1 id="站點資源字體與在線字體">站點資源字體與在線字體</h1>
+<p>使用網頁字體製作工具，將 <code>.ttf</code> 字體轉換爲 <code>.woff2</code>，將生成的網頁字體放入相應路徑文件夾中，在網頁的 CSS 文檔中定義字體名稱、路徑並引用即可。對中文而言，因字體加載較多，此方法不僅消耗服務器流量較大，而且有時會導致頁面加載速度緩慢。</p>
+<p>所以，在有服務器流量約束的時候，優先使用可用的網頁在線字體，雖然這種辦法也未能盡如人意。</p>
 <h1 id="默認無襯線系列字體">默認無襯線系列字體</h1>
-<p>全部配置完畢，正常訪問網站後，便開始觀察後臺系統資源與流量使用情況。原來給不同的子欄目或子站點都指定加載了不同的字體，導致流量消耗極快。配置完畢後，僅僅打開幾個網頁查看一下版式，就消耗了近 1G 的流量，其中主要是加載漢字字體消耗的。</p>
-<p>這幾天權衡再三，心想一個月後不管還用不用商用服務器與否，哪怕回歸原有的「白嫖」方案，爲了加快境內訪問的頁面加載速度，也有必要優化漢字字體加載方案。</p>
-<p>自己偏愛舊字形，怎樣在不指定自製的 <code>.woff2</code> 字體的同時又能使網頁漢字字體使用舊字形風格呢？截至到 2023 年 4 月的辦法是使用 <a href="https://fonts.google.com/?query=Noto&#43;Sans&#43;" title="Google Fonts" class="icon_external" rel="noopener external" target="_blank">Google Fonts</a> 網頁字體。具體的方案是拉丁、西里爾、希臘字母等主要使用 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans?query=Noto&#43;Sans&#43;" title="Noto Sans" class="icon_external" rel="noopener external" target="_blank">Noto Sans</a> 無襯線字型，對應的斜體字母樣式，爲考慮美觀與視覺區分度，則選取一種對西里爾、希臘文支持較好的襯線字型如 <a href="https://fonts.google.com/specimen/STIX&#43;Two&#43;Text?query=stix" title="stix-two-text" class="icon_external" rel="noopener external" target="_blank">stix-two-text</a>. 漢字則以 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;KR" title="Noto Sans Korean" class="icon_external" rel="noopener external" target="_blank">Noto Sans Korean</a> 爲主，其字體筆畫大致較接近舊字型吧，差強人意，勉強可用。因 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;KR" title="Noto Sans Korean" class="icon_external" rel="noopener external" target="_blank">Noto Sans Korean</a> 的漢字偶有缺字，最好用同系列的 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;HK" title="Noto Sans Hong Kong" class="icon_external" rel="noopener external" target="_blank">Noto Sans Hong Kong</a> 與 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;SC" title="Noto Sans Simplified Chinese" class="icon_external" rel="noopener external" target="_blank">Noto Sans Simplified Chinese</a> 作爲候補字體。網頁的 CSS 文檔可以添加如下，Google Fonts 鏈接可以參考一些<a href="https://huangxin.dev/partly-technical/webfont-from-beginner-to-sans-serif" title="方案" class="icon_external" rel="noopener external" target="_blank">方案</a>更改爲境內可用的替換鏈接：</p>
+<p>自己偏愛舊字形，怎樣在不指定自製的 <code>.woff2</code> 字體的同時又能使網頁漢字字體使用或接近舊字形風格呢？截至到 2023 年 11 月的辦法是使用 <a href="https://fonts.google.com/?query=Noto&#43;Sans&#43;" title="Google Fonts" class="icon_external" rel="noopener external" target="_blank">Google Fonts</a> 網頁字體。具體的方案是：</p>
+<ul>
+<li>拉丁、西里爾、希臘字母等主要使用 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans?query=Noto&#43;Sans&#43;" title="Noto Sans" class="icon_external" rel="noopener external" target="_blank">Noto Sans</a> 無襯線字型，對應的斜體字母樣式，爲考慮美觀與視覺區分度，則選取一種對西里爾、希臘文支持較好的襯線字型如 <a href="https://fonts.google.com/specimen/STIX&#43;Two&#43;Text?query=stix" title="stix-two-text" class="icon_external" rel="noopener external" target="_blank">stix-two-text</a>.</li>
+<li>漢字則以 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;KR" title="Noto Sans Korean" class="icon_external" rel="noopener external" target="_blank">Noto Sans Korean</a> 爲主，其字體筆畫大致較接近舊字型吧，差強人意，勉強可用。</li>
+<li>因 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;KR" title="Noto Sans Korean" class="icon_external" rel="noopener external" target="_blank">Noto Sans Korean</a> 的漢字偶有缺字，最好用同系列的 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;HK" title="Noto Sans Hong Kong" class="icon_external" rel="noopener external" target="_blank">Noto Sans Hong Kong</a> 與 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans&#43;SC" title="Noto Sans Simplified Chinese" class="icon_external" rel="noopener external" target="_blank">Noto Sans Simplified Chinese</a> 作爲候補字體。</li>
+</ul>
+<p>網頁的 CSS 文檔可以添加如下，Google Fonts 鏈接可以參考一些<a href="https://huangxin.dev/partly-technical/webfont-from-beginner-to-sans-serif" title="方案" class="icon_external" rel="noopener external" target="_blank">方案</a>更改爲境內可用的替換鏈接：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1967,7 +1973,7 @@ if (!doNotTrack) {
 <h1 id="襯線系列字體">襯線系列字體</h1>
 <h1 id="簡體中文頁面字體">簡體中文頁面字體</h1>
 
-<p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 27, 2023, 09:52:16 by <a href="https://duoyu.ren/cycling/">👩 高松年</a>.</p>
+<p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 27, 2023, 11:28:52 by <a href="https://duoyu.ren/cycling/">👩 高松年</a>.</p>
     </article>
     
     <script>
