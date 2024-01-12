@@ -1276,7 +1276,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="The material in this chapter is an introduction to basic naive set theory. Sets, Relations, Functions, The Size of Sets.">
   
 
-<meta name="generator" content="Hugo 0.120.1">
+<meta name="generator" content="Hugo 0.121.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -2278,8 +2278,7 @@ $$
 <li>如果 $\varphi$ 或 $\psi$ 是矛盾式，那麼 $\varphi \land \psi$ 是矛盾式；但逆命題不成立。</li>
 <li>$\varphi \rightarrow \psi$ 是矛盾式當且僅當 $\varphi$ 是重言式並且 $\psi$ 是矛盾式。</li>
 <li>如果 $\varphi$ 和 $\psi$ 中一個是重言式另一個是矛盾式，那麼 $\varphi \leftrightarrow \psi$ 是矛盾式；但逆命題不成立。</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
   <div>
@@ -2298,8 +2297,7 @@ $$
 <bb>證明</bb>：施歸納於 $n.$ 當 $n=0$ 時，由上條結論知本命題成立。假設當 $n=k$ 時本條命題成立。由命題 3.1 知，$\varphi_{0}, \cdots, \varphi_{k}, \varphi_{k+1} \vDash_{0} \psi$ 當且僅當 $\varphi_{0}, \cdots, \varphi_{k} \vDash_{0} \varphi_{k+1} \rightarrow \psi$，再根據歸納假設，$\varphi_{0}, \cdots, \varphi_{k} \vDash_{0} \varphi_{k+1} \rightarrow \psi$ 當且僅當 $\vDash_{0} \varphi_{0} \rightarrow(\cdots \rightarrow(\varphi_{k} \rightarrow(\varphi_{k+1} \rightarrow \psi)) \cdots).$ 所以，$\varphi_{0}, \cdots, \varphi_{k}, \varphi_{k+1} \vDash_{0} \psi$ 當且僅當 $\vDash_{0} \varphi_{0} \rightarrow(\cdots \rightarrow(\varphi_{k} \rightarrow(\varphi_{k+1} \rightarrow \psi)) \cdots).$▗</li>
 <li>$\varphi \leftrightarrow \psi$ 是重言式當且僅當 $\varphi$ 重言等值於 $\psi.$<br />
 <bb>證明</bb>：根據命題 3.4，$\varphi$  與 $\psi$ 重言等值當且僅當 $\varphi \vDash_{0} \psi$ 並且 $\psi \vDash_{0} \varphi$，再根據上述第一條，$\varphi$ 與 $\psi$ 重言等值當且僅當 $\varphi \rightarrow \psi$ 和 $\psi \rightarrow \varphi$  都是重言式。最後，根據命題 3.7 第四條，$\varphi$ 與 $\psi$ 重言等值當且僅當 $\varphi \leftrightarrow \psi$ 是重言式。▗</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
 <p>命題 3.8 第二條的歸納證明中，歸納假設是：</p>
@@ -2349,8 +2347,7 @@ $$
 <li>對所有公式 $\varphi$，$(\neg \varphi)(\mathfrak{s})=\neg(\varphi(\mathfrak{s}));$</li>
 <li>對所有公式 $\varphi$ 和 $\psi$，$(\varphi \odot \psi)(\mathfrak{s})=\varphi(\mathfrak{s}) \odot \psi(\mathfrak{s})$，其中 $\odot \in\lbrace \wedge, \vee, \rightarrow, \leftrightarrow\rbrace.$</li>
 </ol>
-</blockquote>
-</span>
+</blockquote></span>
   </div>
   </div>
 <p>爲簡化敍述，定義 3.9 引入「$\color{red}\odot$」符號。它指的是：對所有公式 $\varphi$ 和 $\psi$，$(\varphi \wedge \psi)(\mathfrak{s})=\varphi(\mathfrak{s}) \wedge \psi(\mathfrak{s})$，$(\varphi \vee \psi)(\mathfrak{s})= \varphi(\mathfrak{s}) \vee \psi(\mathfrak{s})$，$(\varphi \rightarrow \psi)(\mathfrak{s})=\varphi(\mathfrak{s}) \rightarrow \psi(\mathfrak{s})$  並且  $(\varphi \leftrightarrow \psi)(\mathfrak{s})=\varphi(\mathfrak{s}) \leftrightarrow \psi(\mathfrak{s}).$</p>
@@ -2448,8 +2445,7 @@ $$
 <ol>
 <li>對任意命題變號 $p$，$\mathfrak{s}(p)=p(\mathfrak{s}^{\prime})(\mathfrak{s}^{\prime \prime})$，即 $\mathfrak{s}(p)=(\mathfrak{s}^{\prime}(p))(\mathfrak{s}^{\prime \prime}).$</li>
 <li>並且我們用 $\varphi(\mathfrak{s}^{\prime}\mathfrak{s}^{\prime\prime})$ 來表示 $\varphi(\mathfrak{s}).$</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
 <p>這裏的名稱和記法（稍有改動）來自 Chagrov, Zakharyaschev［1997］。雖然 $\mathfrak{s}^{\prime}$ 和 $\mathfrak{s}^{\prime\prime}$ 都是函數，而且我們也用「代入的複合」來稱呼 $\mathfrak{s}^{\prime}\mathfrak{s}^{\prime\prime}$，但 $\mathfrak{s}^{\prime}\mathfrak{s}^{\prime\prime}$ 與通常數學中討論的關係或函數的複合（composition）有所不同。$\mathfrak{s}^{\prime}\mathfrak{s}^{\prime\prime}$ 既不是通常數學中的 $\mathfrak{s}^{\prime}\circ \mathfrak{s}^{\prime\prime}$ 也不是 $\mathfrak{s}^{\prime\prime}\circ \mathfrak{s}^{\prime}.$ 這是因爲：$\mathfrak{s}^{\prime}$ 和 $\mathfrak{s}^{\prime\prime}$ 的定義域都是命題變號集且其值域都是比命題變號集更大的公式集，而在數學中，要使 $\mathfrak{s}^{\prime} \circ \mathfrak{s}^{\prime\prime}$ 或 $\mathfrak{s}^{\prime\prime} \circ \mathfrak{s}^{\prime}$ 成爲函數的複合，$\mathfrak{s}^{\prime}$ 或 $\mathfrak{s}^{\prime\prime}$ 的值域須是對方定義域的子集。</p>
@@ -2690,8 +2686,7 @@ $$
 <li>如果 $\varphi$ 和 $\psi$ 是 $A$-公式，那麼 $\neg \varphi$ 和 $(\varphi \odot \psi)$ 都是 $A$-公式，其中 $\odot \in\lbrace \vee, \wedge, \rightarrow, \leftrightarrow\rbrace;$</li>
 <li>只有這些是 $A$-公式。</li>
 </ol>
-</blockquote>
-</span>
+</blockquote></span>
   </div>
   </div>
   <div>
@@ -2764,8 +2759,7 @@ $$
 <li>$\varphi$ 是重言式當且僅當對每個  $A$-賦值 $\tau$ 都有 $\varphi^{\tau}=1;$</li>
 <li>$\varphi$ 是矛盾式當且僅當對每個  $A$-賦值 $\tau$ 都有 $\varphi^{\tau}=0;$</li>
 <li>$\varphi$ 是或然式當且僅當存在 $A$-賦值 $\tau$ 和 $\tau^{\prime}$ 使得 $\varphi^{\tau}=1$ 且 $\varphi^{\tau^{\prime}}=0.$</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
 <p><bb>證明：</bb>我們證明：$\Gamma \nvDash_{0} \varphi$ 當且僅當存在一個 $A$-賦值 $\tau$ 使得 $\tau \vDash \Gamma$ 且 $<br />
@@ -2783,8 +2777,7 @@ $$
 <li>$\varphi\lor \psi$ 是重言式當且僅當或者 $\varphi$ 是重言式或者 $\psi$ 是重言式。</li>
 <li>$\varphi \rightarrow \psi$ 是重言式當且僅當或者 $\varphi$ 是矛盾式或者 $\psi$ 是重言式。</li>
 <li>$\varphi \leftrightarrow \psi$ 是重言式當且僅當或者 $\varphi$ 和 $\psi$ 都是矛盾式或者 $\varphi$ 和 $\psi$ 都是重言式。</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
 <p><bb>證明：</bb>根據命題 3.7條目一，只需假設 $\varphi$ 和 $\psi$ 都不是重言式，而證明 $\varphi\lor \psi$ 不是重言式。根據假設，存在眞值指派 $\sigma$ 和 $\sigma^\prime$，使得 $\sigma \nvDash \varphi$ 並且 $\sigma^\prime \nvDash \varphi$。令 $\sigma^*$ 爲滿足下述條件的任意眞值指派：</p>
@@ -3288,8 +3281,7 @@ $$
 <ol>
 <li>$\phi \rightarrow \psi$ 是重言式當且僅當或者 $\phi$ 是矛盾式或者 $\psi$ 是重言式。</li>
 <li>$\phi \leftrightarrow \psi$ 是重言式當且僅當或者 $\phi$ 和 $\psi$ 都是矛盾式或者 $\phi$ 和 $\psi$ 都是重言式。</li>
-</ol>
-</span>
+</ol></span>
   </div>
   </div>
 <blockquote>
@@ -4685,7 +4677,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2013-2023, All Rights Reserved
+                    ©2013-2024, All Rights Reserved
                 
             </p>
         
