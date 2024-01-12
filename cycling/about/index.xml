@@ -5,6 +5,7 @@
     <link>https://duoyu.ren/cycling/about/</link>
     <description>Recent content in About The Site on 窮遊記</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://duoyu.ren/cycling/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <atom:link href="https://duoyu.ren/cycling/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
