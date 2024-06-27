@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>dictionary on Duōyú Rén</title>
+    <title>Dictionary on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/dictionary/</link>
-    <description>Recent content in dictionary on Duōyú Rén</description>
+    <description>Recent content in Dictionary on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>三省堂簡明露和辭典</title>
         <link>https://duoyu.ren/reading/20230818-rj-dic/</link>
@@ -59,7 +57,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>岩波英和辭典</title>
         <link>https://duoyu.ren/reading/20230704-iwanami-ejd/</link>
@@ -97,7 +95,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>懷爾德通用英語詞典</title>
         <link>https://duoyu.ren/reading/20230325-wyld-dic/</link>
@@ -135,7 +133,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>編不如抄，抄不如竊：徒手攢一本字典</title>
         <link>https://duoyu.ren/essay/20200521-diy-your-dictionary/</link>
@@ -173,7 +171,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>編舟囈語</title>
         <link>https://duoyu.ren/essay/20180409-bian-zhou-yi-yu/</link>
@@ -207,8 +205,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

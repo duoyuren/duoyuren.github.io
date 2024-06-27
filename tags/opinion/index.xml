@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>opinion on Duōyú Rén</title>
+    <title>Opinion on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/opinion/</link>
-    <description>Recent content in opinion on Duōyú Rén</description>
+    <description>Recent content in Opinion on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>克制改造他人的衝動</title>
         <link>https://duoyu.ren/essay/20230324-mayuan/</link>
@@ -55,7 +53,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>性别与阶级：谁掩饰谁</title>
         <link>https://duoyu.ren/essay/20220304-sexuality-and-class/</link>
@@ -89,7 +87,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>彩虹屁之歌</title>
         <link>https://duoyu.ren/essay/20210410-cai-hong-pi/</link>
@@ -127,7 +125,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>谁敢不讲武德？</title>
         <link>https://duoyu.ren/essay/20201129-on-mabaoguo/</link>
@@ -161,7 +159,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>蔣公的面子與徐興無的風骨</title>
         <link>https://duoyu.ren/essay/20180420-xu-xing-wu-de-feng-gu/</link>
@@ -195,7 +193,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>學而：儒門總路線</title>
         <link>https://duoyu.ren/essay/20160605-kong-zi-zong-lu-xian/</link>
@@ -229,7 +227,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>曾氏門徒、美國記者、蘇聯專家</title>
         <link>https://duoyu.ren/essay/20160409-elegist/</link>
@@ -263,8 +261,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

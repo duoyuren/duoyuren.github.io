@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>shortcode on Duōyú Rén</title>
+    <title>Shortcode on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/shortcode/</link>
-    <description>Recent content in shortcode on Duōyú Rén</description>
+    <description>Recent content in Shortcode on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>第 01 章</title>
         <link>https://duoyu.ren/books/art/ch01/</link>
@@ -55,7 +53,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 01 章</title>
         <link>https://duoyu.ren/books/zgwx/ch01/</link>
@@ -89,7 +87,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 01 章</title>
         <link>https://duoyu.ren/books/zgzx/ch01/</link>
@@ -123,7 +121,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 02 章</title>
         <link>https://duoyu.ren/books/art/ch02/</link>
@@ -157,7 +155,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 02 章</title>
         <link>https://duoyu.ren/books/zgwx/ch02/</link>
@@ -191,7 +189,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 02 章</title>
         <link>https://duoyu.ren/books/zgzx/ch02/</link>
@@ -225,7 +223,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 03 章</title>
         <link>https://duoyu.ren/books/art/ch03/</link>
@@ -259,7 +257,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 03 章</title>
         <link>https://duoyu.ren/books/zgwx/ch03/</link>
@@ -293,7 +291,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 03 章</title>
         <link>https://duoyu.ren/books/zgzx/ch03/</link>
@@ -327,7 +325,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 04 章</title>
         <link>https://duoyu.ren/books/art/ch04/</link>
@@ -361,7 +359,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 04 章</title>
         <link>https://duoyu.ren/books/zgwx/ch04/</link>
@@ -395,7 +393,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 04 章</title>
         <link>https://duoyu.ren/books/zgzx/ch04/</link>
@@ -429,7 +427,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 05 章</title>
         <link>https://duoyu.ren/books/art/ch05/</link>
@@ -463,7 +461,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 05 章</title>
         <link>https://duoyu.ren/books/zgwx/ch05/</link>
@@ -497,7 +495,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 05 章</title>
         <link>https://duoyu.ren/books/zgzx/ch05/</link>
@@ -531,7 +529,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 06 章</title>
         <link>https://duoyu.ren/books/art/ch06/</link>
@@ -565,7 +563,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 06 章</title>
         <link>https://duoyu.ren/books/zgwx/ch06/</link>
@@ -599,7 +597,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>第 06 章</title>
         <link>https://duoyu.ren/books/zgzx/ch06/</link>
@@ -633,7 +631,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>《藝術概論》筆記大綱</title>
         <link>https://duoyu.ren/books/art/</link>
@@ -665,8 +663,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

@@ -1276,7 +1276,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="The material in this chapter is an introduction to basic naive set theory. Sets, Relations, Functions, The Size of Sets.">
   
 
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.128.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1807,7 +1807,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
   
 &middot; <time class="single__info" title="Modified At"> 📝Sep 2, 2023 </time>
   
-&middot; 🔢 34982 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 70 min read</span>
+&middot; 🔢 34976 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 70 min read</span>
 <span class="single__info"> 
  
 </span>
@@ -1825,9 +1825,9 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
   🏷️
   
 
-  <li><a href="https://duoyu.ren/tags/logic/" class="single__tag" title="logic">#logic</a></li>
+  <li><a href="https://duoyu.ren/tags/logic/" class="single__tag" title="Logic">#Logic</a></li>
 
-  <li><a href="https://duoyu.ren/tags/lecture/" class="single__tag" title="lecture">#lecture</a></li>
+  <li><a href="https://duoyu.ren/tags/lecture/" class="single__tag" title="Lecture">#Lecture</a></li>
 
 </ul>
 
@@ -2213,7 +2213,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </ol>
 </blockquote>
 <p>稱 $\neg$ 爲否定號，稱主聯結詞爲 $\neg$ 的複合句爲否定句；其餘類推。</p>
-<p><img src="https://i.loli.net/2020/09/06/eoQlUqx2cbunFX5.png" alt="555.png" /></p>
+<p><img alt="555.png" src="https://i.loli.net/2020/09/06/eoQlUqx2cbunFX5.png"></p>
 <p>文科學生可能不太熟悉「當且僅當」這個詞，它相當於「等價於」。「$\varphi$ 當且僅當  $\psi$ 」的意思是：如果 $\varphi$ 那麼 $\psi$ 並且如果 $\psi$ 那麼 $\varphi$。「$\varphi$ if and only if $\psi$」的意思就是：$\varphi$ if $\psi$，and $\varphi$ only if $\psi$（其中「$\varphi$ only if $\psi$」和「if $\varphi$ then $\psi$」意思相同）。</p>
 <h1 id="符號化">符號化</h1>
 <p>無論讀者是否對命題邏輯<strong>層次</strong>的符號化（symbolization）已有了解，這種符號化畢竟是相當簡單的，所以我們只簡略地說說。</p>
@@ -2881,11 +2881,11 @@ $$
 <p>設 $\Gamma = \lbrace \varphi_0,&hellip;,\varphi_n\rbrace $ 爲任意有窮的公式集，$\varphi$ 爲任意公式。我們有：</p>
 <blockquote>
 <ol>
-<li>如果 $\Gamma$ 可滿足，那麼對任何公式集 $\Delta$，$\Gamma \cap \Delta$ 也可滿足。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X \cap Y = \lbrace  x: x \in X ~\text{且}~ x \in Y \rbrace $，它是包含 $X$ 和 $Y$ 的所有公共元素的集合，稱爲 $X$ 和 $Y$ 的<strong>交（intersection）</strong>。）</li>
-<li>如果 $\Gamma$ 不可滿足，那麼對任何有窮公式集 $\Delta$，$\Gamma \cup \Delta$ 也不可滿足。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X \cup Y = \lbrace  x: x \in X ~\text{或}~ x \in Y \rbrace $，它是包含 $X$ 的所有元素和 $Y$ 的所有元素的集合，稱爲 $X$ 和 $Y$ 的<strong>並集（union）</strong>。）</li>
+<li>如果 $\Gamma$ 可滿足，那麼對任何公式集 $\Delta$，$\Gamma \cap \Delta$ 也可滿足。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X \cap Y = \lbrace  x: x \in X <del>\text{且}</del> x \in Y \rbrace $，它是包含 $X$ 和 $Y$ 的所有公共元素的集合，稱爲 $X$ 和 $Y$ 的<strong>交（intersection）</strong>。）</li>
+<li>如果 $\Gamma$ 不可滿足，那麼對任何有窮公式集 $\Delta$，$\Gamma \cup \Delta$ 也不可滿足。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X \cup Y = \lbrace  x: x \in X <del>\text{或}</del> x \in Y \rbrace $，它是包含 $X$ 的所有元素和 $Y$ 的所有元素的集合，稱爲 $X$ 和 $Y$ 的<strong>並集（union）</strong>。）</li>
 <li>設 $\Gamma \subseteq \Delta$，其中 $\Delta$ 是任意有窮公式集。如果 $\Delta$ 可滿足則 $\Gamma$ 可滿足（如果 $\Gamma$ 不可滿足則 $\Delta$ 不可滿足）。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X \subseteq Y$ 當且僅當 $X$ 的所有元素都是 $Y$ 的元素，$X \subset Y$ 當且僅當 $X \subseteq Y$ 並且 $Y \nsubseteq X$（並非 $Y \subseteq X$）。當 $X \subseteq Y$，我們稱 $X$ 是 $Y$ 的<strong>子集（subset）</strong>，也稱 $Y$ 是 $X$ 的<strong>擴集（superset）<strong>或</strong>擴充（extension）</strong>。當 $X \subset Y$，我們稱 $X$ 是 $Y$ 的<strong>眞子集（proper subset）</strong>，也稱 $Y$ 是 $X$ 的眞擴集或眞擴充。注意：「$X \subseteq Y$」表達的是個命題，說的是 $X$ 和 $Y$ 之間的某種關係；而「$X \cap Y$」「$X \cup Y$」和下面的「$X - Y$」不表達命題，只表示 $X$ 和 $Y$ 在某些運算下的值——集合。）</li>
 <li>$\Gamma \cup \lbrace \neg \varphi\rbrace $不可滿足當且僅當 $\Gamma$ 重言蘊涵 $\varphi$。</li>
-<li>對任意 $i \leqslant n$，$\Gamma$ 不可滿足當且僅當 $\Gamma - \lbrace \psi_i\rbrace $ 重言蘊涵 $\neg \psi_i$。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X - Y = \lbrace  x: x \in X ~\text{且}~ x \notin Y \rbrace $，它是包含 $X$ 的所有元素但不包含 $Y$ 的任何元素的集合，稱爲 $X$ 和 $Y$ 的<strong>差（difference）</strong>，也稱爲 $Y$ 在 $X$ 中的<strong>相對補（relative complement of  $Y$ in $X$）</strong>。）</li>
+<li>對任意 $i \leqslant n$，$\Gamma$ 不可滿足當且僅當 $\Gamma - \lbrace \psi_i\rbrace $ 重言蘊涵 $\neg \psi_i$。（<bb>注：</bb>對所有集合 $X$ 和 $Y$，$X - Y = \lbrace  x: x \in X <del>\text{且}</del> x \notin Y \rbrace $，它是包含 $X$ 的所有元素但不包含 $Y$ 的任何元素的集合，稱爲 $X$ 和 $Y$ 的<strong>差（difference）</strong>，也稱爲 $Y$ 在 $X$ 中的<strong>相對補（relative complement of  $Y$ in $X$）</strong>。）</li>
 <li>如果 $\Gamma$ 不可滿足，那麼 $\Gamma$ 重言蘊涵 $\varphi$。</li>
 <li>如果 $\neg \varphi$ 不可滿足，那麼 $\Gamma$ 重言蘊涵 $\varphi$。</li>
 <li>如果 $\Gamma$ 重言蘊涵 $\varphi$，並且 $\Gamma$ 可滿足，那麼 $\varphi$ 也可滿足。</li>

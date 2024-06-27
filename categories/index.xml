@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>備忘</title>
         <link>https://duoyu.ren/categories/%E5%82%99%E5%BF%98/</link>
@@ -39,7 +37,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>站點</title>
         <link>https://duoyu.ren/categories/%E7%AB%99%E9%BB%9E/</link>
@@ -57,7 +55,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>閱讀</title>
         <link>https://duoyu.ren/categories/%E9%96%B1%E8%AE%80/</link>
@@ -75,7 +73,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>隨想</title>
         <link>https://duoyu.ren/categories/%E9%9A%A8%E6%83%B3/</link>
@@ -93,7 +91,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>妄議</title>
         <link>https://duoyu.ren/categories/%E5%A6%84%E8%AD%B0/</link>
@@ -111,9 +109,9 @@
         
         
       </item>
-      
+    
       <item>
-        <title>logic-slides</title>
+        <title>Logic-Slides</title>
         <link>https://duoyu.ren/categories/logic-slides/</link>
         <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
@@ -129,9 +127,9 @@
         
         
       </item>
-      
+    
       <item>
-        <title>logic</title>
+        <title>Logic</title>
         <link>https://duoyu.ren/categories/logic/</link>
         <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
@@ -147,7 +145,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>書版</title>
         <link>https://duoyu.ren/categories/%E6%9B%B8%E7%89%88/</link>
@@ -165,7 +163,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>譯文</title>
         <link>https://duoyu.ren/categories/%E8%AD%AF%E6%96%87/</link>
@@ -183,8 +181,6 @@
         
         
       </item>
-      
-
     
   </channel>
 </rss>

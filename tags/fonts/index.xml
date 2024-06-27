@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>fonts on Duōyú Rén</title>
+    <title>Fonts on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/fonts/</link>
-    <description>Recent content in fonts on Duōyú Rén</description>
+    <description>Recent content in Fonts on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>廿七種希臘文排版字體</title>
         <link>https://duoyu.ren/essay/20230115-greek-fonts/</link>
@@ -59,8 +57,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

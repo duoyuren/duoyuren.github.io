@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>translation on Duōyú Rén</title>
+    <title>Translation on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/translation/</link>
-    <description>Recent content in translation on Duōyú Rén</description>
+    <description>Recent content in Translation on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>《法學拉丁文教程》序言</title>
         <link>https://duoyu.ren/essay/20160505-fa-xue-la-ding-yu/</link>
@@ -59,7 +57,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>《題破山寺後禪院》英譯六種</title>
         <link>https://duoyu.ren/essay/20160417-chang-jian/</link>
@@ -97,8 +95,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

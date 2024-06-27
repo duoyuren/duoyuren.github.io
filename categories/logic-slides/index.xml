@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>logic-slides on Duōyú Rén</title>
+    <title>Logic-Slides on Duōyú Rén</title>
     <link>https://duoyu.ren/categories/logic-slides/</link>
-    <description>Recent content in logic-slides on Duōyú Rén</description>
+    <description>Recent content in Logic-Slides on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>Logic 01 Slides</title>
         <link>https://duoyu.ren/presentation/logic-slides/ch00-slides/</link>
@@ -61,8 +59,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

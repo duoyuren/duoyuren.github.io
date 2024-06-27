@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>poem on Duōyú Rén</title>
+    <title>Poem on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/poem/</link>
-    <description>Recent content in poem on Duōyú Rén</description>
+    <description>Recent content in Poem on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>過天寧觀</title>
         <link>https://duoyu.ren/essay/20210719-zhuda/</link>
@@ -55,7 +53,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>過寶林寺</title>
         <link>https://duoyu.ren/essay/20210716-nanhua-temple/</link>
@@ -89,7 +87,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>赴粵務工道中謁靖節先生墓</title>
         <link>https://duoyu.ren/essay/20200816-visit-tym-poem/</link>
@@ -123,7 +121,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>應當銘記的兩個月</title>
         <link>https://duoyu.ren/essay/20200323-letter-to-fang/</link>
@@ -157,7 +155,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>憶焚書</title>
         <link>https://duoyu.ren/essay/20191216-ti-zhen-yuan-fen-shu-tu/</link>
@@ -191,7 +189,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>秋登旗峯山</title>
         <link>https://duoyu.ren/essay/20171031-qiu-deng-qi-feng-shan/</link>
@@ -225,7 +223,7 @@
           
         
       </item>
-      
+    
       <item>
         <title>《題破山寺後禪院》英譯六種</title>
         <link>https://duoyu.ren/essay/20160417-chang-jian/</link>
@@ -263,8 +261,6 @@
           
         
       </item>
-      
-
     
   </channel>
 </rss>

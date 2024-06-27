@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>index on Duōyú Rén</title>
+    <title>Index on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/index/</link>
-    <description>Recent content in index on Duōyú Rén</description>
+    <description>Recent content in Index on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
@@ -19,8 +19,6 @@
     
     
     
-
-      
       <item>
         <title>往事與隨想</title>
         <link>https://duoyu.ren/essay/</link>
@@ -44,7 +42,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>打工與行騙</title>
         <link>https://duoyu.ren/teaching/</link>
@@ -68,7 +66,7 @@
         
         
       </item>
-      
+    
       <item>
         <title>閱讀與書評</title>
         <link>https://duoyu.ren/reading/</link>
@@ -92,8 +90,6 @@
         
         
       </item>
-      
-
     
   </channel>
 </rss>
