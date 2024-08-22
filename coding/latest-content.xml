@@ -16,13 +16,14 @@
 <height>129</height>
 <width>144</width>
 </image>
-<generator>quarto-1.3.290</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Tue, 14 Mar 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>OpenAI’s text classifier won’t calm fears about AI-written homework</title>
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -69,7 +70,7 @@ The proportion of patients without the condition being screened for that are cor
 <p>We know from OpenAI’s own evaluations that out of 100 pieces of AI-written text, only around 26 would be correctly classified as “likely AI-written”, so the classifier’s sensitivity is 26%. And out of 100 pieces of human-written text, around 9 would be incorrectly classified as AI written, meaning 91 would be correctly classified as not AI written, so specificity is 91%. But the big piece of information we don’t have is prevalence: What proportion of homework assignments are written by AI?</p>
 <p>This prevalence figure is likely to vary based on where students live, what age they are, their level of interest in AI tools and technologies, and many other factors. <a href="https://stanforddaily.com/2023/01/22/scores-of-stanford-students-used-chatgpt-on-final-exams-survey-suggests/">A poll of Stanford University students by The Stanford Daily</a>, for example, found that 17% of respondents used ChatGPT for final assignments or exams in the fall quarter – though it reports that “only about 5% reported having submitted written material directly from ChatGPT with little to no edits”.</p>
 <p>So, let’s assume for the moment that 5% of homework assignments are AI-generated. If you were screening 1,000 pieces of homework with the OpenAI classifier, you’d see something close to the following results:</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 12%">
 <col style="width: 21%">
@@ -99,7 +100,7 @@ The proportion of patients without the condition being screened for that are cor
 <p>The figures below show the results graphically as proportions of (a) all tests and (b) all positive tests. (All plots are produced using Python and the <code>matplotlib</code> package; code and functions are available from <a href="https://github.com/fatso-jetson/screening-tests">this GitHub repository</a>.)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig1a.png" class="quarto-discovered-preview-image img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 5% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig1a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 5% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -107,7 +108,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 1a:</strong> Classifier test results as a percentage of all tests, assuming 5% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig1b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests, assuming 5% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig1b.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests, assuming 5% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -115,7 +116,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 1b:</strong> Classifier test results as a percentage of all positive tests, assuming 5% prevalence of AI-written homework.</p>
 </div></div><p>From Figure 1b, we see that if the classifier delivers a “likely AI-written” result, the chance that the text is AI-written is only about 13%. This is the classifier’s <a href="https://uk.cochrane.org/news/sensitivity-and-specificity-explained-cochrane-uk-trainees-blog">positive predictive value</a> at the assumed 5% prevalence.</p>
 <p>If we reproduce our figures using a prevalence rate of 17%, also from the Stanford survey, the chance that a positive result is a true positive is now about 37%.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 12%">
 <col style="width: 21%">
@@ -144,7 +145,7 @@ The proportion of patients without the condition being screened for that are cor
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig2a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 17% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig2a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 17% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -152,14 +153,14 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 2a:</strong> Classifier test results as a percentage of all tests, assuming 17% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig2b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 17% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig2b.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 17% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><strong>Figure 2b:</strong> Classifier test results as a percentage of all positive tests, assuming 17% prevalence of AI-written homework.</p>
 </div></div><p>Yet another survey, <a href="https://www.prweb.com/releases/intelligent_com_survey_finds_30_percent_of_college_students_use_artificial_intelligence_chatbot_chatgpt_for_written_homework/prweb19141759.htm">this one from Intelligent.com</a>, claims that 30% of college students have used ChatGPT for written homework. Plugging this number into our calculations, the chance that a positive test result is a true positive is now slightly better than 50/50.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 12%">
 <col style="width: 21%">
@@ -188,7 +189,7 @@ The proportion of patients without the condition being screened for that are cor
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig3a.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 30% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig3a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all tests, assuming 30% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -196,7 +197,7 @@ The proportion of patients without the condition being screened for that are cor
 <p><strong>Figure 3a:</strong> Classifier test results as a percentage of all tests, assuming 30% prevalence of AI-written homework.</p>
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig3b.png" class="img-fluid figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 30% prevalence of AI-written homework"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/images/fig3b.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Horizontal stacked bar chart showing test results as a percentage of all positive tests,  assuming 30% prevalence of AI-written homework"></p>
 </figure>
 </div>
 
@@ -226,7 +227,7 @@ Solan, Lawrence M. 1999. <span>“Refocusing the Burden of Proof in Criminal Cas
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/03/15/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -257,6 +258,7 @@ Tarran, Brian. 2023. “OpenAI’s text classifier won’t calm fears about AI-w
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/interviews/posts/03/06/data-science-act.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -409,7 +411,7 @@ Very good point. Thank you very much, Anna, Steve, Zarek, and Chris, for joining
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/03/06/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -442,6 +444,7 @@ Tarran, Brian. 2023. “US legislators get their data science act together.” R
 
 
 
+
 <p>Anyone who has ever worked in a retail store will be familiar with the concept of cross-selling. A customer wants a can of paint? Try to sell them some paintbrushes. That new cellphone they’ve just decided to buy? They’ll probably need a case to protect it. Online retailers (and digital services of all sorts) have taken this idea and run with it, to great success. Sophisticated algorithms sort through data on a customer’s past transactions, and those of similar-looking customers, to identify and recommend other products a customer might be interested in.</p>
 <p>A large amount of cross-selling, whether attempted in store by a sales assistant or online by an algorithm, relies on the concept of <em>complementarity</em>: that certain products are often bought and/or used together. Relationships between products might be obvious – paint and paintbrushes, for example – or they may be obscure and only revealed through the analysis of large datasets. In a 2021 paper that highlights complementarity’s relevance to association analysis, Puka and Jedrusik put forward “<a href="https://www.mdpi.com/0718-1876/16/4/39">a new measure of complementarity in market basket data</a>”, which sheds light on how product recommendations can be derived.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -464,11 +467,7 @@ About the paper
 </div>
 <p>Inspired by complementarity-based ideas prevalent in microeconomics, Puka and Jedrusik begin by collecting some established ideas from traditional market basket analysis, the key one being “confidence”. In this case, we’re talking about the confidence that item A leads (in a way) to item B (which we can express in notation as <em>conf</em>({A} → {B})). Take a look at Table 1 (below), which presents a numbered list of 18 shopping trips, with details of what was purchased on each trip. Notice how two of the trips (1 and 3) resulted in sales of both milk (B) and cornflakes (A), while five trips (1, 3, 7, 17, and 18) had cornflakes. Under the assumption that someone already has cornflakes in their trolley, the probability that they will buy milk is 2/5 = 0.4. So, <em>conf</em>({cornflakes} → {milk}) = 0.4. The closer this number gets to one, the more automatic the cornflakes–milk connection becomes. This number can therefore be used to recommend an item that is related in some way to another already bought.</p>
 <div class="column-body-outset">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/tab1-fig1.png"><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/images/tab1-fig1.png" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="images/tab1-fig1.png"><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/images/tab1-fig1.png" class="img-fluid"></a></p>
 </div>
 <div class="figure-caption">
 <div class="grid">
@@ -517,7 +516,7 @@ About the paper
 © 2023 Moinak Bhaduri
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -550,6 +549,7 @@ Bhaduri, Moinak. 2023. “Using ‘basket complementarity’ to make product rec
 
 
 
+
 <p>Digital skills. We all need them. Employers say they want them, but there aren’t enough to go around. Supply can’t meet demand, so we’re left with a gap – a digital skills gap. But what are <em>digital skills</em> exactly?</p>
 <p>This is a question that was asked repeatedly, in various different constructions, by <a href="https://members.parliament.uk/member/4092/career">Stephen Metcalfe MP</a>, chairing a meeting of the <a href="https://www.scienceinparliament.org.uk/information/about/">Parliamentary and Scientific Committee</a> on Tuesday, February 7. I went along to the meeting as an observer, hoping to hear an answer to that very question.</p>
 <p>What I got was several different answers – no single solid definition, but a reasonable sense that boosting data science skills would go a long way towards closing the digital skills gap.</p>
@@ -560,8 +560,8 @@ Bhaduri, Moinak. 2023. “Using ‘basket complementarity’ to make product rec
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="quarto-discovered-preview-image img-fluid figure-img" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash." width="500"></p>
-<p></p><figcaption class="figure-caption">Digital skills, including AI skills, are not only required of engineers, says the IET’s Graham Herries. Generative AI tools like Stable Diffusion threaten to shake-up the creative industries. (Photo by <a href="https://unsplash.com/@billetto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billetto Editorial</a> on <a href="https://unsplash.com/photos/YvLd3xbo0ac?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>)</figcaption><p></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="img-fluid figure-img" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash." width="500"></p>
+<figcaption>Digital skills, including AI skills, are not only required of engineers, says the IET’s Graham Herries. Generative AI tools like Stable Diffusion threaten to shake-up the creative industries. (Photo by <a href="https://unsplash.com/@billetto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billetto Editorial</a> on <a href="https://unsplash.com/photos/YvLd3xbo0ac?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>)</figcaption>
 </figure>
 </div>
 </div></div><p>Kicking off the discussion was Graham Herries, an engineering director and chair of the IET’s Innovation and Skills Panel, who drew attention to the harms that the digital skills gap is reportedly having. Of those respondents who identified skills gaps in their own organisations, 49% pointed to a reduction in productivity, while 35% said skills shortages were restricting company growth.</p>
@@ -606,7 +606,7 @@ Have you got news for us?
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/02/14/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -637,6 +637,7 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/interviews/posts/02/03/heidi-seibold.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -747,7 +748,7 @@ Excellent. Excellent. Well, thank you again. And thank you to those of you who a
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/02/03/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -775,6 +776,7 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -883,7 +885,7 @@ Have you got news for us?
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/27/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -918,6 +920,7 @@ Tarran, Brian. 2023. “ChatGPT can hold a conversation, but lacks knowledge rep
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/interviews/posts/01/25/erica-thompson.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1034,7 +1037,7 @@ Thank you very much. Thanks for having me.</p>
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/interviews/posts/01/25/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1066,6 +1069,7 @@ Tarran, Brian. 2023. “How to ‘Escape from Model Land’: an interview with E
 
 
 
+
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1093,7 +1097,7 @@ About the paper and this post
 <p>The key insight of Baron and Ménard was to relate trends in data to an object from graph theory called a <a href="https://en.wikipedia.org/wiki/Minimum_spanning_tree">minimum spanning tree</a>. Given a measure of distance between two data points, for example the usual (Euclidean) distance between two points, we can visualize a dataset as a graph. This graph consists of a node (a dot) for each data point. These nodes are then connected by an edge (a line), labeled by the distance between the two data points. The minimum spanning tree is a reduction of this graph to include only enough of the smallest distance edges so that no node is isolated.</p>
 <p>What Baron and Ménard realized is that datasets that are “trendy” have elongated and narrow minimum spanning trees. As shown in Figure 1, a totally random dataset results in a graph with many branches while a perfect sequence results in a perfect linear graph. Then, they use connectivity of the nodes in the minimum spanning tree to return an ordering of the data that follows the main trend in the dataset. However, a sequence is all you get. It is up to us to understand and interpret what this trend represents.</p>
 <div class="column-page">
-<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/01/24/images/fig1.png" class="quarto-discovered-preview-image img-fluid" alt="Three examples - labelled 'random data', 'noisy sequence', and 'perfect sequence' - demonstrating that data with stronger trends ('noisy' and 'perfect sequence') have more narrow and elongated minimum spanning trees (adapted from Baron and Ménard, Figure 1)."></p>
+<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/01/24/images/fig1.png" class="img-fluid" alt="Three examples - labelled 'random data', 'noisy sequence', and 'perfect sequence' - demonstrating that data with stronger trends ('noisy' and 'perfect sequence') have more narrow and elongated minimum spanning trees (adapted from Baron and Ménard, Figure 1)."></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -1152,6 +1156,7 @@ About the paper and this post
 
 
 
+
 <p>Real World Data Science has booked its first conference appearance! This September, we’ll be part of the data science stream of the <a href="https://rss.org.uk/training-events/conference-2023/">RSS International Conference</a>.</p>
 <p>Our session, “Real World Data Science Live”, will feature talks and discussions based on content published on this site. In particular, we’re looking to share compelling examples of how data science is being used to solve real-world problems.</p>
 <p>If you’re thinking about <a href="https://realworlddatascience.net/contributor-docs/call-for-contributions.html">contributing to Real World Data Science</a>, or have already made a submission, do let us know whether you’d be interested in taking part in this in-person event. There are only a handful of speaker slots available, so please get in touch ASAP!</p>
@@ -1175,7 +1180,7 @@ About the paper and this post
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/18/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1206,6 +1211,7 @@ Tarran, Brian. 2023. “We’re taking Real World Data Science on the road.” R
 
 
 
+
 <p>Happy New Year from all of us at Real World Data Science. We hope you had a relaxing break over the holidays and are now refreshed and excited to see what 2023 has in store. We’re starting the year with a new addition to the site: a page dedicated to the excellent <a href="https://realworlddatascience.net/news-and-views/newsletter/">RSS Data Science &amp; AI Section newsletter</a>.</p>
 <p>This monthly newsletter has been running since February 2020 and is well worth subscribing to as it features roundups of news, new developments, big picture ideas and practical tips.</p>
 <p>You’ll find the full list of past newsletters in our <a href="https://realworlddatascience.net/news-and-views/"><strong>News and views</strong></a> section (click the “Newsletter” heading in the section menu). If you want to subscribe to the newsletter, head over to <a href="https://datasciencesection.org/about/">datasciencesection.org</a>. The Data Science &amp; AI Section also has a page on the <a href="https://rss.org.uk/membership/rss-groups-and-committees/sections/data-science-section/">RSS website</a>.</p>
@@ -1221,7 +1227,7 @@ Tarran, Brian. 2023. “We’re taking Real World Data Science on the road.” R
 © 2023 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2023/01/05/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1252,6 +1258,7 @@ Tarran, Brian. 2023. “Explore the RSS Data Science &amp; AI Section newsletter
 
 
 
+
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1275,7 +1282,7 @@ About the paper and this post
 <p>One such situation is that of ridesharing companies (Uber, Lyft, etc.) and how they determine which drivers are sent to which riders (the dispatch problem). Simply put, when a driver is assigned to a rider, this decision impacts the spatial distribution of drivers in the future. Hence the dispatch strategy (our treatment) at the present time will influence riders and drivers in the future, which violates SUTVA and hence invalidates many traditional methods for A/B testing. To tackle this problem, a group of researchers have recently employed a reinforcement learning (RL) framework which can accurately measure the treatment effect in such a scenario. Furthermore, their proposed approach allows for companies to terminate A/B tests earlier if the proposed version B is found to be clearly better. This early stopping can save time and money.</p>
 <p>To better understand RL and how it can contribute to tackling the issue at hand, it’s first helpful to set some context. In typical RL problems, including the one in this paper, the scenario is modeled with something known as a Markov Decision Process (MDP). A MDP links three sets of variables across time: the state or environment, the treatment or action (the reaction to the environment), and the outcome (the response produced by the environment due to the action). These outcomes can be thought of as rewards which depend on the action taken and the state observed. Over time, the machine learns which actions produce more positive rewards and which bring about worse outcomes. Hence, the actions leading to higher rewards are positively reinforced, thus the name reinforcement learning. A causal diagram of an MDP is shown in Figure 1, where <em>S</em><sub><em>t</em></sub>, <em>A</em><sub><em>t</em></sub>, and <em>Y</em><sub><em>t</em></sub> are the <strong>state</strong>, <strong>action</strong>, and <strong>outcome</strong> at time <em>t</em>. As one can see, past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates SUTVA).</p>
 <div class="column-page">
-<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2022/12/13/images/ridesharing-fig1.png" class="quarto-discovered-preview-image img-fluid" alt="A causal diagram of a Markov Decision Process is shown in this figure. Green circles represent states, with arrows leading to red diamonds and blue squares representing, respectively, actions and outcomes. Actions are linked to new states by arrows, and prior states are linked to new states by curved arrows. This illustration conveys how past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates the stable unit treatment value assumption)."></p>
+<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2022/12/13/images/ridesharing-fig1.png" class="img-fluid" alt="A causal diagram of a Markov Decision Process is shown in this figure. Green circles represent states, with arrows leading to red diamonds and blue squares representing, respectively, actions and outcomes. Actions are linked to new states by arrows, and prior states are linked to new states by curved arrows. This illustration conveys how past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates the stable unit treatment value assumption)."></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -1325,6 +1332,7 @@ About the paper and this post
 
 
 
+
 <p>I’m absolutely thrilled today to announce the launch of our new blog, <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>. The blog is not only a new addition to Real World Data Science, but also the latest proud member of the ScienceBites family of sites.</p>
 <p><a href="https://sciencebites.org/sciencebites-sites-galaxy/">ScienceBites sites</a> all share the same <a href="https://sciencebites.org/about/">concept</a>: we publish “short digestible <em>bites posts</em> about individual research papers” in an effort to make cutting-edge science accessible to a wide audience, and our posts are written by graduate students and early career researchers.</p>
 <p>For <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>, our focus will of course be on new publications in the data science space. Contributors are invited to write about papers that are of particular interest to them and to pitch their summaries at an undergraduate level. For an example of what we’re looking for, see our first post on <a href="../../../../../../news-and-views/datasciencebites/posts/2022/12/13/ridesharing.html">“Determining the best way to route drivers for ridesharing via reinforcement learning”</a>.</p>
@@ -1333,7 +1341,7 @@ About the paper and this post
 <p>To everyone else, we do hope you enjoy sinking your teeth into the data science literature with <a href="../../../../../../ideas/datasciencebites/index.html">DataScienceBites</a>. Happy reading!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" class="quarto-discovered-preview-image img-fluid figure-img" alt="DataScienceBites logo. A dark grey circle with bite marks cut out. Overlaid text says, Import grad_students as writers, import new_research_papers as nrp, print(writers + nrp) and the title DataScienceBites." width="500"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="DataScienceBites logo. A dark grey circle with bite marks cut out. Overlaid text says, Import grad_students as writers, import new_research_papers as nrp, print(writers + nrp) and the title DataScienceBites." width="500"></p>
 </figure>
 </div>
 <div class="article-btn">
@@ -1348,7 +1356,7 @@ About the paper and this post
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/13/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/13/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1372,97 +1380,6 @@ Tarran, Brian. 2022. “Sink your teeth into some data science papers with our b
   <media:content url="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
-  <title>LLMs in the news: hype, tripe, and everything in between</title>
-  <dc:creator>Brian Tarran</dc:creator>
-  <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Two weeks ago, I posted a <a href="../../../../../../news-and-views/editors-blog/posts/2022-11-23-LLMs-content-warning/LLM-content-warning.html">Q&amp;A with our editorial board member Detlef Nauck about large language models</a> (LLMs), their drawbacks and risks. And since then we’ve had several big new announcements in this space. First came news from Meta (the company that owns Facebook) about <a href="https://galactica.org/mission/">Galactica, an LLM trained on scientific papers</a>. This was followed by another Meta announcement, about <a href="https://ai.facebook.com/research/cicero/">Cicero</a>, an AI agent that is apparently very good at playing the game Diplomacy. And then came perhaps the biggest launch of them all: <a href="https://openai.com/blog/chatgpt/">ChatGPT from OpenAI</a>, an LLM-based chatbot that millions of people have already started talking to.</p>
-<p>Following these stories and the surrounding commentaries has been something of a rollercoaster ride. ChatGPT, for example, has been greeted in some quarters as if artificial general intelligence has finally arrived, while others point out that – impressive though it is – the technology is as prone to spout nonsense as all LLMs before it (including Galactica, <a href="https://thenextweb.com/news/meta-takes-new-ai-system-offline-because-twitter-users-mean">the demo of which was quickly taken offline</a> for this reason). Cicero, meanwhile, has impressed with its ability to play a game that is (a) very difficult and (b) relies on dialogue, cooperation, and negotiation between players. It blends a language model with planning and reinforcement learning algorithms, meaning that it is trained not only on the rules of the game and how to win, but how to communicate with other players to achieve victory.</p>
-<p>To help me make sense of all these new developments, and the myriad implications, I reached out to <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Harvey Lewis</a>, another of our editorial board members and a partner in EY’s tax and law practice.</p>
-<section id="qa" class="level2 page-columns page-full" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="qa"><span class="header-section-number">1</span> Q&amp;A</h2>
-<p><strong>Harvey, when I spoke with Detlef, he mentioned that one of the reasons we’re seeing investment in LLMs is because there’s this belief that they are somehow the route to artificial general intelligence (AGI). And there were headlines in some places that would perhaps convince a casual reader that AGI had been achieved following the release of ChatGPT. For example, the Telegraph described it as a <a href="https://www.telegraph.co.uk/business/2022/12/05/meet-scarily-intelligent-robot-who-can-do-job-better/">“scarily intelligent robot who can do your job better than you”</a>. What do you make of all that?</strong></p>
-<p><strong>Harvey Lewis (HL):</strong> My personal view is that you won’t get to artificial general intelligence using just one technique like deep learning, because of the problematic nature of these models and the limitations of the data used in their training. I’m convinced that more general intelligence will come from a combination of different systems.</p>
-<p>The challenge with many LLMs, as we’ve seen repeatedly, is that they’ve no real understanding of language or concepts represented within language. They’re good at finding patterns in semantics and grammatical rules that people use in writing, and then they use those patterns to create new expressions given a prompt. But they’ve no idea whether these outputs are factual, inaccurate or completely fabricated. As a consequence, they can produce outputs that are unreliable, but which sound authoritative, because they’re just repeating a style that we expect to see.</p>
-<p><strong>Over the past couple of weeks, Twitter has been full of people either showing off astoundingly impressive outputs from LLMs, or examples of truly worrying nonsense. One example of the latter is when ChatGPT was asked to <a href="https://twitter.com/GaryMarcus/status/1599584310633594881">“describe how crushed porcelain added to breast milk can support the infant digestive system”</a>. This made me think of a recent headline from <a href="https://venturebeat.com/ai/is-ai-moving-too-fast-for-ethics-the-ai-beat/">VentureBeat</a>, which asked whether AI is moving too fast for ethics to catch up. Do you think that it is?</strong></p>
-<p><strong>HL:</strong> I find that to be an interesting philosophical question, because ethics does move very slowly, for good reason. When you think of issues of bias and discrimination and prejudice, or misinformation and other problems that we might have with AI systems, it shouldn’t be a surprise that these can occur. We’re aware of them. We’re aware of the ethical issues. So, why do they always seem to catch us by surprise? Is it because we have teams of people who simply aren’t aware of ethical issues or don’t have any appreciation of them? This points – for me, at least – in the direction of needing to have philosophers, ethicists, theologians, lawyers working <em>in</em> the technical teams that are developing and working on these systems, rather than having them on the periphery and talking about these issues but not directly involved themselves. I think it’s hugely important to ensure that you’ve got trust, responsibility, and ethics embedded in technical teams, because that’s the only way it seems that you can avoid some of these “surprises”.</p>
-<p><strong>When situations like these occur, I’m always reminded of Dr.&nbsp;Ian Malcolm’s line from Jurassic Park: “…your scientists were so preoccupied with whether or not they could that they didn’t stop to think if they should.” The mindset seems to be, let’s push the boundaries and see what we can do, rather than stop and think deeply about what the implications might be.</strong></p>
-<p><strong>HL:</strong> There’s a balance to be struck between these things, though, right? Firstly, show consideration for some of the issues at the outset, and secondly, have checks and balances and safeguards built into the process by which you design, develop and implement these systems. That’s the only way to create the proper safeguards around the systems. I don’t think that there’s any lack of appreciation of what needs to be done; people have been talking about this now for quite a long time. But it’s about making sure organisationally that it is done, and that you’ve got an operating model which bakes these things into it; that the kinds of principles and governance that you want to have around these systems are written, publicised, and properly policed. There should be no fear of making advances in that kind of a context.</p>
-<p>Also, I think open sourcing these models provides a way forward. A lot of large language models are open for use and for research, but aren’t themselves open sourced, so it’s very difficult to get underneath the surface and figure out exactly how they work. But with open source, you have opportunities for researchers, whether they’re technical or in the field of ethics, to go and investigate and find out exactly what’s going on. I think that would be a fantastic step forward. It doesn’t take you all the way, of course, because a large amount of the data that these systems use is never open sourced, so while you might get an understanding of the mechanics, you have no idea of what exactly went into them in the first place. But open sourcing is a very good way of getting some external scrutiny. It’s about being transparent, which is a core principle of AI ethics and responsible AI.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="quarto-discovered-preview-image img-fluid figure-img" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, 'Text from an old book cut up like a jigsaw puzzle with pieces missing'." width="500"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p>An image created by the <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Diffusion 2.1 Demo</a>. The model was asked to produce an image with the prompt, “Text from an old book cut up like a jigsaw puzzle with pieces missing”.</p>
-</div></div><p><strong>Thinking about LLMs and their questionable outputs, should there not be ways for users to help the models produce better, more accurate outputs?</strong></p>
-<p><strong>HL:</strong> There are, but there are also problems here too. I’ve been having an interesting dialogue with ChatGPT this morning, asking it about quantum computing.<sup>1</sup> For each response to a prompt, users are encouraged to provide feedback on whether or not an output is good. But you’re only provided with the usual thumbs-up/thumbs-down ratings; there’s nothing nuanced about it. So, for example, I asked ChatGPT to provide me with good analogies that help to explain quantum computing in simple terms. The first analogy was a combination lock, which is not a good analogy. The chatbot suggested that quantum computing is like a combination lock in which you can test all of the combinations at the same time, but I don’t know any combination locks where you can do this – being able to check only one combination at a time is the principal security mechanism of a combination lock! I asked it again for another analogy, and it suggested a coin toss where, when the coin is spinning in the air, you can see both heads and tails simultaneously but it isn’t until you catch the coin and then show its face that one of the states of the coin is resolved. That is a good analogy – it’s one I’ve also used myself. Now, the challenge I can see with a lot of these feedback approaches is that unless I know enough about quantum computing to understand that a combination lock is not a good analogy whereas a coin toss is, how am I to provide that kind of feedback? They’re relying to an extent on the user being able to make a distinction between what is correct and what is potentially incorrect or flawed, and I think that’s not a good way of approaching the problem.</p>
-<p><strong>Final question for you, Harvey. There’s a lot of excitement around GPT-4, which is apparently coming soon. The rumour mill says it will bring <a href="https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley">a leap forward in performance</a>. But what do you expect we’ll see – particularly with regards to the issues we’ve talked about today?</strong></p>
-<p><strong>HL:</strong> I’ve likened some of the large language models and their approach of “bigger is better” to the story of the Tower of Babel – trying to reach heaven by building a bigger and bigger tower, basically. That is not going to achieve the objective of artificial general intelligence, no matter how sophisticated an LLM might appear. That said, language is a fascinating area. I’m not a linguist, but I spend a lot of my time on natural language processing using AI systems. Language responds very well to AI because it is pattern-based. We speak using patterns, we write using patterns, and these can be inferred by machines from many examples. The addition of more parameters in the models allows them to understand patterns that extend further into the text, and I suspect that outputs from these kinds of models are going to be largely indistinguishable from the sorts of things that you or I might write.</p>
-<p>But, I also think that increasing the number of parameters runs a real risk – and we’re starting to see this in other generative models – where prompts become so specific that the models aren’t actually picking up on patterns, they are picking up on specific instances of training data and text they’ve seen before. So, buried amongst these fantastically written articles on all kinds of subjects are going to be more examples of plagiarism, which is a problem; more examples of spelling mistakes and other kinds of issues, because these are also patterns which are going to possibly be observed.</p>
-<p>This introduces potentially a whole new breed of problems that the community has to deal with – as long as they don’t get fixated upon the height of the tower and the quality of some of the examples that are shown, and realise that there are some genuine underlying difficulties and challenges that need to be solved.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Have you got news for us?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Is there a recent data science story you’d like our team to discuss? Do you have your own thoughts to share on a hot topic, or a burning question to put to the community? If so, either comment below or <a href="../../../../../../contact.html">contact us</a>.</p>
-</div>
-</div>
-<div class="article-btn">
-<p><a href="../../../../../../viewpoints/editors-blog/index.html">Back to Editors’ blog</a></p>
-</div>
-<div class="further-info">
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>Copyright and licence</dt>
-<dd>
-© 2022 Royal Statistical Society
-</dd>
-</dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
-</div>
-<div class="g-col-12 g-col-md-6">
-<dl>
-<dt>How to cite</dt>
-<dd>
-Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between.” Real World Data Science, December, 9 2022. <a href="https://realworlddatascience.net/news-and-views/editors-blog/posts/2022-12-09-LLM-news/LLM-news.html">URL</a>
-</dd>
-</dl>
-</div>
-</div>
-</div>
-
-
-</section>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>I also had a conversation with ChatGPT. <a href="../../../../../../news-and-views/editors-blog/posts/2022-12-09-LLM-news/A-chat-with-ChatGPT.html">Read the transcript</a>.↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>Machine learning</category>
-  <category>Large language models</category>
-  <category>AI</category>
-  <guid>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</guid>
-  <pubDate>Thu, 08 Dec 2022 16:00:00 GMT</pubDate>
-  <media:content url="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>A chat with ChatGPT</title>
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html</link>
@@ -1472,30 +1389,31 @@ Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between
 
 
 
+
 <div class="no-row-height column-margin column-container"><section id="screenshots" class="level5">
 <h5 class="anchored" data-anchor-id="screenshots">Screenshots</h5>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/chatgpt1.png"><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="quarto-discovered-preview-image img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
-<p></p><figcaption class="figure-caption">Part 1</figcaption><p></p>
+<p><a href="images/chatgpt1.png"><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
+<figcaption>Part 1</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/chatgpt2.png"><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt2.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
-<p></p><figcaption class="figure-caption">Part 2</figcaption><p></p>
+<figcaption>Part 2</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/chatgpt3.png"><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt3.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
-<p></p><figcaption class="figure-caption">Part 3</figcaption><p></p>
+<figcaption>Part 3</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/chatgpt4.png"><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt4.png" class="img-fluid figure-img" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></a></p>
-<p></p><figcaption class="figure-caption">Part 4</figcaption><p></p>
+<figcaption>Part 4</figcaption>
 </figure>
 </div>
 </section></div><p><strong>Good day, ChatGPT. How are you?</strong></p>
@@ -1539,7 +1457,7 @@ Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1563,10 +1481,103 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
   <media:content url="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" medium="image" type="image/png" height="156" width="144"/>
 </item>
 <item>
+  <title>LLMs in the news: hype, tripe, and everything in between</title>
+  <dc:creator>Brian Tarran</dc:creator>
+  <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Two weeks ago, I posted a <a href="../../../../../../news-and-views/editors-blog/posts/2022-11-23-LLMs-content-warning/LLM-content-warning.html">Q&amp;A with our editorial board member Detlef Nauck about large language models</a> (LLMs), their drawbacks and risks. And since then we’ve had several big new announcements in this space. First came news from Meta (the company that owns Facebook) about <a href="https://galactica.org/mission/">Galactica, an LLM trained on scientific papers</a>. This was followed by another Meta announcement, about <a href="https://ai.facebook.com/research/cicero/">Cicero</a>, an AI agent that is apparently very good at playing the game Diplomacy. And then came perhaps the biggest launch of them all: <a href="https://openai.com/blog/chatgpt/">ChatGPT from OpenAI</a>, an LLM-based chatbot that millions of people have already started talking to.</p>
+<p>Following these stories and the surrounding commentaries has been something of a rollercoaster ride. ChatGPT, for example, has been greeted in some quarters as if artificial general intelligence has finally arrived, while others point out that – impressive though it is – the technology is as prone to spout nonsense as all LLMs before it (including Galactica, <a href="https://thenextweb.com/news/meta-takes-new-ai-system-offline-because-twitter-users-mean">the demo of which was quickly taken offline</a> for this reason). Cicero, meanwhile, has impressed with its ability to play a game that is (a) very difficult and (b) relies on dialogue, cooperation, and negotiation between players. It blends a language model with planning and reinforcement learning algorithms, meaning that it is trained not only on the rules of the game and how to win, but how to communicate with other players to achieve victory.</p>
+<p>To help me make sense of all these new developments, and the myriad implications, I reached out to <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Harvey Lewis</a>, another of our editorial board members and a partner in EY’s tax and law practice.</p>
+<section id="qa" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="qa"><span class="header-section-number">1</span> Q&amp;A</h2>
+<p><strong>Harvey, when I spoke with Detlef, he mentioned that one of the reasons we’re seeing investment in LLMs is because there’s this belief that they are somehow the route to artificial general intelligence (AGI). And there were headlines in some places that would perhaps convince a casual reader that AGI had been achieved following the release of ChatGPT. For example, the Telegraph described it as a <a href="https://www.telegraph.co.uk/business/2022/12/05/meet-scarily-intelligent-robot-who-can-do-job-better/">“scarily intelligent robot who can do your job better than you”</a>. What do you make of all that?</strong></p>
+<p><strong>Harvey Lewis (HL):</strong> My personal view is that you won’t get to artificial general intelligence using just one technique like deep learning, because of the problematic nature of these models and the limitations of the data used in their training. I’m convinced that more general intelligence will come from a combination of different systems.</p>
+<p>The challenge with many LLMs, as we’ve seen repeatedly, is that they’ve no real understanding of language or concepts represented within language. They’re good at finding patterns in semantics and grammatical rules that people use in writing, and then they use those patterns to create new expressions given a prompt. But they’ve no idea whether these outputs are factual, inaccurate or completely fabricated. As a consequence, they can produce outputs that are unreliable, but which sound authoritative, because they’re just repeating a style that we expect to see.</p>
+<p><strong>Over the past couple of weeks, Twitter has been full of people either showing off astoundingly impressive outputs from LLMs, or examples of truly worrying nonsense. One example of the latter is when ChatGPT was asked to <a href="https://twitter.com/GaryMarcus/status/1599584310633594881">“describe how crushed porcelain added to breast milk can support the infant digestive system”</a>. This made me think of a recent headline from <a href="https://venturebeat.com/ai/is-ai-moving-too-fast-for-ethics-the-ai-beat/">VentureBeat</a>, which asked whether AI is moving too fast for ethics to catch up. Do you think that it is?</strong></p>
+<p><strong>HL:</strong> I find that to be an interesting philosophical question, because ethics does move very slowly, for good reason. When you think of issues of bias and discrimination and prejudice, or misinformation and other problems that we might have with AI systems, it shouldn’t be a surprise that these can occur. We’re aware of them. We’re aware of the ethical issues. So, why do they always seem to catch us by surprise? Is it because we have teams of people who simply aren’t aware of ethical issues or don’t have any appreciation of them? This points – for me, at least – in the direction of needing to have philosophers, ethicists, theologians, lawyers working <em>in</em> the technical teams that are developing and working on these systems, rather than having them on the periphery and talking about these issues but not directly involved themselves. I think it’s hugely important to ensure that you’ve got trust, responsibility, and ethics embedded in technical teams, because that’s the only way it seems that you can avoid some of these “surprises”.</p>
+<p><strong>When situations like these occur, I’m always reminded of Dr.&nbsp;Ian Malcolm’s line from Jurassic Park: “…your scientists were so preoccupied with whether or not they could that they didn’t stop to think if they should.” The mindset seems to be, let’s push the boundaries and see what we can do, rather than stop and think deeply about what the implications might be.</strong></p>
+<p><strong>HL:</strong> There’s a balance to be struck between these things, though, right? Firstly, show consideration for some of the issues at the outset, and secondly, have checks and balances and safeguards built into the process by which you design, develop and implement these systems. That’s the only way to create the proper safeguards around the systems. I don’t think that there’s any lack of appreciation of what needs to be done; people have been talking about this now for quite a long time. But it’s about making sure organisationally that it is done, and that you’ve got an operating model which bakes these things into it; that the kinds of principles and governance that you want to have around these systems are written, publicised, and properly policed. There should be no fear of making advances in that kind of a context.</p>
+<p>Also, I think open sourcing these models provides a way forward. A lot of large language models are open for use and for research, but aren’t themselves open sourced, so it’s very difficult to get underneath the surface and figure out exactly how they work. But with open source, you have opportunities for researchers, whether they’re technical or in the field of ethics, to go and investigate and find out exactly what’s going on. I think that would be a fantastic step forward. It doesn’t take you all the way, of course, because a large amount of the data that these systems use is never open sourced, so while you might get an understanding of the mechanics, you have no idea of what exactly went into them in the first place. But open sourcing is a very good way of getting some external scrutiny. It’s about being transparent, which is a core principle of AI ethics and responsible AI.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, 'Text from an old book cut up like a jigsaw puzzle with pieces missing'." width="500"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>An image created by the <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Diffusion 2.1 Demo</a>. The model was asked to produce an image with the prompt, “Text from an old book cut up like a jigsaw puzzle with pieces missing”.</p>
+</div></div><p><strong>Thinking about LLMs and their questionable outputs, should there not be ways for users to help the models produce better, more accurate outputs?</strong></p>
+<p><strong>HL:</strong> There are, but there are also problems here too. I’ve been having an interesting dialogue with ChatGPT this morning, asking it about quantum computing.<sup>1</sup> For each response to a prompt, users are encouraged to provide feedback on whether or not an output is good. But you’re only provided with the usual thumbs-up/thumbs-down ratings; there’s nothing nuanced about it. So, for example, I asked ChatGPT to provide me with good analogies that help to explain quantum computing in simple terms. The first analogy was a combination lock, which is not a good analogy. The chatbot suggested that quantum computing is like a combination lock in which you can test all of the combinations at the same time, but I don’t know any combination locks where you can do this – being able to check only one combination at a time is the principal security mechanism of a combination lock! I asked it again for another analogy, and it suggested a coin toss where, when the coin is spinning in the air, you can see both heads and tails simultaneously but it isn’t until you catch the coin and then show its face that one of the states of the coin is resolved. That is a good analogy – it’s one I’ve also used myself. Now, the challenge I can see with a lot of these feedback approaches is that unless I know enough about quantum computing to understand that a combination lock is not a good analogy whereas a coin toss is, how am I to provide that kind of feedback? They’re relying to an extent on the user being able to make a distinction between what is correct and what is potentially incorrect or flawed, and I think that’s not a good way of approaching the problem.</p>
+<p><strong>Final question for you, Harvey. There’s a lot of excitement around GPT-4, which is apparently coming soon. The rumour mill says it will bring <a href="https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley">a leap forward in performance</a>. But what do you expect we’ll see – particularly with regards to the issues we’ve talked about today?</strong></p>
+<p><strong>HL:</strong> I’ve likened some of the large language models and their approach of “bigger is better” to the story of the Tower of Babel – trying to reach heaven by building a bigger and bigger tower, basically. That is not going to achieve the objective of artificial general intelligence, no matter how sophisticated an LLM might appear. That said, language is a fascinating area. I’m not a linguist, but I spend a lot of my time on natural language processing using AI systems. Language responds very well to AI because it is pattern-based. We speak using patterns, we write using patterns, and these can be inferred by machines from many examples. The addition of more parameters in the models allows them to understand patterns that extend further into the text, and I suspect that outputs from these kinds of models are going to be largely indistinguishable from the sorts of things that you or I might write.</p>
+<p>But, I also think that increasing the number of parameters runs a real risk – and we’re starting to see this in other generative models – where prompts become so specific that the models aren’t actually picking up on patterns, they are picking up on specific instances of training data and text they’ve seen before. So, buried amongst these fantastically written articles on all kinds of subjects are going to be more examples of plagiarism, which is a problem; more examples of spelling mistakes and other kinds of issues, because these are also patterns which are going to possibly be observed.</p>
+<p>This introduces potentially a whole new breed of problems that the community has to deal with – as long as they don’t get fixated upon the height of the tower and the quality of some of the examples that are shown, and realise that there are some genuine underlying difficulties and challenges that need to be solved.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Have you got news for us?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Is there a recent data science story you’d like our team to discuss? Do you have your own thoughts to share on a hot topic, or a burning question to put to the community? If so, either comment below or <a href="../../../../../../contact.html">contact us</a>.</p>
+</div>
+</div>
+<div class="article-btn">
+<p><a href="../../../../../../viewpoints/editors-blog/index.html">Back to Editors’ blog</a></p>
+</div>
+<div class="further-info">
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>Copyright and licence</dt>
+<dd>
+© 2022 Royal Statistical Society
+</dd>
+</dl>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+</div>
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>How to cite</dt>
+<dd>
+Tarran, Brian. 2022. “LLMs in the news: hype, tripe, and everything in between.” Real World Data Science, December, 9 2022. <a href="https://realworlddatascience.net/news-and-views/editors-blog/posts/2022-12-09-LLM-news/LLM-news.html">URL</a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I also had a conversation with ChatGPT. <a href="../../../../../../news-and-views/editors-blog/posts/2022-12-09-LLM-news/A-chat-with-ChatGPT.html">Read the transcript</a>.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Machine learning</category>
+  <category>Large language models</category>
+  <category>AI</category>
+  <guid>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html</guid>
+  <pubDate>Thu, 08 Dec 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Four themes for potential contributors to think about</title>
   <dc:creator>Brian Tarran</dc:creator>
   <link>https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/01/themes.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1616,7 +1627,7 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/01/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/12/01/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1649,6 +1660,7 @@ Tarran, Brian. 2022. “Four themes for potential contributors to think about.�
 
 
 
+
 <p>Anyone who has ever been set a writing task will probably have wished at some point that somebody else could write it for them. As a journalist of 20-plus years, the thought has certainly crossed my mind more than a few times. Which probably explains why a recent headline in Nature caught my attention: <a href="https://www.nature.com/articles/d41586-022-03479-w">“Could AI help you to write your next paper?”</a></p>
 <p>The article, by Matthew Hutson, looks at how researchers are using artificial intelligence (AI) tools built on large language models (LLMs) as “assistants”. Starting with a prompt, such as “Write a headline for a blog post about large language models being used by academic researchers as research assistants”, an LLM will produce a text output. For example, using the same prompt with <a href="https://openai.com/api/">OpenAI’s GPT-3</a>, I got:</p>
 <blockquote class="blockquote">
@@ -1672,7 +1684,7 @@ Tarran, Brian. 2022. “Four themes for potential contributors to think about.�
 <p>Also, LLMs are quite expensive to use. If you wanted to use one of these large language models in a contact centre, for example, then you would have to run maybe a few hundred of them in parallel because you get that many requests from customers. But to provide this capacity, the amount of memory needed would be massive, so it is probably still cheaper to use humans – with the added benefit that humans actually understand questions and know what they are talking about.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="quarto-discovered-preview-image img-fluid figure-img" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style." width="500"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style." width="500"></p>
 </figure>
 </div>
 
@@ -1712,7 +1724,7 @@ Have you got news for us?
 © 2022 Royal Statistical Society
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/11/23/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -1745,12 +1757,13 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 
 
 
+
 <section id="editor" class="level2 page-columns page-full" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="editor"><span class="header-section-number">1</span> Editor</h2>
 <p><strong>Brian Tarran</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/10/18/images/Brian.png" class="quarto-discovered-preview-image img-fluid"></p>
+<p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/10/18/images/Brian.png" class="img-fluid"></p>
 </div></div><p>I am a writer and editor with 20 years of experience covering the research and data space. I have worked for the Royal Statistical Society (RSS) for the past 8 years, and was editor of <a href="https://www.significancemagazine.com/">Significance Magazine</a> (a joint publication of the RSS, the American Statistical Association and the Statistical Society of Australia) prior to the launch of Real World Data Science. I am a former editor of Research-Live.com and was launch editor of Impact magazine, both published by the Market Research Society.</p>
 </section>
 <section id="editorial-board" class="level2 page-columns page-full" data-number="2">

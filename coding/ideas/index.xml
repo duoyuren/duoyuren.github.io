@@ -6,23 +6,24 @@
       version="2.0">
 <channel>
 <title>Coding Duōyú Rén</title>
-<link>https://duoyu.ren/coding/ideas/index.html</link>
+<link>https://duoyu.ren/coding/ideas/</link>
 <atom:link href="https://duoyu.ren/coding/ideas/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://duoyu.ren/coding/images/logo-150px.png</url>
 <title>Coding Duōyú Rén</title>
-<link>https://duoyu.ren/coding/ideas/index.html</link>
+<link>https://duoyu.ren/coding/ideas/</link>
 <height>129</height>
 <width>144</width>
 </image>
-<generator>quarto-1.3.290</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Wed, 01 Mar 2023 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Using ‘basket complementarity’ to make product recommendations</title>
   <dc:creator>Moinak Bhaduri</dc:creator>
   <link>https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/basket-complementarity.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -49,11 +50,7 @@ About the paper
 </div>
 <p>Inspired by complementarity-based ideas prevalent in microeconomics, Puka and Jedrusik begin by collecting some established ideas from traditional market basket analysis, the key one being “confidence”. In this case, we’re talking about the confidence that item A leads (in a way) to item B (which we can express in notation as <em>conf</em>({A} → {B})). Take a look at Table 1 (below), which presents a numbered list of 18 shopping trips, with details of what was purchased on each trip. Notice how two of the trips (1 and 3) resulted in sales of both milk (B) and cornflakes (A), while five trips (1, 3, 7, 17, and 18) had cornflakes. Under the assumption that someone already has cornflakes in their trolley, the probability that they will buy milk is 2/5 = 0.4. So, <em>conf</em>({cornflakes} → {milk}) = 0.4. The closer this number gets to one, the more automatic the cornflakes–milk connection becomes. This number can therefore be used to recommend an item that is related in some way to another already bought.</p>
 <div class="column-body-outset">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/tab1-fig1.png"><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/images/tab1-fig1.png" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="images/tab1-fig1.png"><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/images/tab1-fig1.png" class="img-fluid"></a></p>
 </div>
 <div class="figure-caption">
 <div class="grid">
@@ -102,7 +99,7 @@ About the paper
 © 2023 Moinak Bhaduri
 </dd>
 </dl>
-<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/https:/mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/03/02/https:/mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
+<p><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> <img style="height:22px!important;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a> This work is licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> International licence</a>, except where otherwise noted.</p>
 </div>
 <div class="g-col-12 g-col-md-6">
 <dl>
@@ -135,6 +132,7 @@ Bhaduri, Moinak. 2023. “Using ‘basket complementarity’ to make product rec
 
 
 
+
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -162,7 +160,7 @@ About the paper and this post
 <p>The key insight of Baron and Ménard was to relate trends in data to an object from graph theory called a <a href="https://en.wikipedia.org/wiki/Minimum_spanning_tree">minimum spanning tree</a>. Given a measure of distance between two data points, for example the usual (Euclidean) distance between two points, we can visualize a dataset as a graph. This graph consists of a node (a dot) for each data point. These nodes are then connected by an edge (a line), labeled by the distance between the two data points. The minimum spanning tree is a reduction of this graph to include only enough of the smallest distance edges so that no node is isolated.</p>
 <p>What Baron and Ménard realized is that datasets that are “trendy” have elongated and narrow minimum spanning trees. As shown in Figure 1, a totally random dataset results in a graph with many branches while a perfect sequence results in a perfect linear graph. Then, they use connectivity of the nodes in the minimum spanning tree to return an ordering of the data that follows the main trend in the dataset. However, a sequence is all you get. It is up to us to understand and interpret what this trend represents.</p>
 <div class="column-page">
-<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/01/24/images/fig1.png" class="quarto-discovered-preview-image img-fluid" alt="Three examples - labelled 'random data', 'noisy sequence', and 'perfect sequence' - demonstrating that data with stronger trends ('noisy' and 'perfect sequence') have more narrow and elongated minimum spanning trees (adapted from Baron and Ménard, Figure 1)."></p>
+<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2023/01/24/images/fig1.png" class="img-fluid" alt="Three examples - labelled 'random data', 'noisy sequence', and 'perfect sequence' - demonstrating that data with stronger trends ('noisy' and 'perfect sequence') have more narrow and elongated minimum spanning trees (adapted from Baron and Ménard, Figure 1)."></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -221,6 +219,7 @@ About the paper and this post
 
 
 
+
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -244,7 +243,7 @@ About the paper and this post
 <p>One such situation is that of ridesharing companies (Uber, Lyft, etc.) and how they determine which drivers are sent to which riders (the dispatch problem). Simply put, when a driver is assigned to a rider, this decision impacts the spatial distribution of drivers in the future. Hence the dispatch strategy (our treatment) at the present time will influence riders and drivers in the future, which violates SUTVA and hence invalidates many traditional methods for A/B testing. To tackle this problem, a group of researchers have recently employed a reinforcement learning (RL) framework which can accurately measure the treatment effect in such a scenario. Furthermore, their proposed approach allows for companies to terminate A/B tests earlier if the proposed version B is found to be clearly better. This early stopping can save time and money.</p>
 <p>To better understand RL and how it can contribute to tackling the issue at hand, it’s first helpful to set some context. In typical RL problems, including the one in this paper, the scenario is modeled with something known as a Markov Decision Process (MDP). A MDP links three sets of variables across time: the state or environment, the treatment or action (the reaction to the environment), and the outcome (the response produced by the environment due to the action). These outcomes can be thought of as rewards which depend on the action taken and the state observed. Over time, the machine learns which actions produce more positive rewards and which bring about worse outcomes. Hence, the actions leading to higher rewards are positively reinforced, thus the name reinforcement learning. A causal diagram of an MDP is shown in Figure 1, where <em>S</em><sub><em>t</em></sub>, <em>A</em><sub><em>t</em></sub>, and <em>Y</em><sub><em>t</em></sub> are the <strong>state</strong>, <strong>action</strong>, and <strong>outcome</strong> at time <em>t</em>. As one can see, past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates SUTVA).</p>
 <div class="column-page">
-<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2022/12/13/images/ridesharing-fig1.png" class="quarto-discovered-preview-image img-fluid" alt="A causal diagram of a Markov Decision Process is shown in this figure. Green circles represent states, with arrows leading to red diamonds and blue squares representing, respectively, actions and outcomes. Actions are linked to new states by arrows, and prior states are linked to new states by curved arrows. This illustration conveys how past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates the stable unit treatment value assumption)."></p>
+<p><img src="https://duoyu.ren/coding/ideas/datasciencebites/posts/2022/12/13/images/ridesharing-fig1.png" class="img-fluid" alt="A causal diagram of a Markov Decision Process is shown in this figure. Green circles represent states, with arrows leading to red diamonds and blue squares representing, respectively, actions and outcomes. Actions are linked to new states by arrows, and prior states are linked to new states by curved arrows. This illustration conveys how past treatments influence future outcomes by altering the state variables at the present (the so-called “carryover effect” which violates the stable unit treatment value assumption)."></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">

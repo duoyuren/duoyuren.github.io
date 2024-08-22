@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Editors’ Blog | Viewpoints | Real World Data Science</title>
+<title>Editors’ Blog | Viewpoints | Real World Data Science – Coding Duōyú Rén</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -59,8 +65,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -114,71 +122,99 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 }
 </style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../style/rwds.css">
 <meta property="og:title" content="Editors’ Blog | Viewpoints | Real World Data Science">
 <meta property="og:description" content="News, updates, and discussions from the Editorial Board">
-<meta property="og:site-name" content="Coding Duōyú Rén">
+<meta property="og:image" content="https://duoyu.ren/coding/viewpoints/editors-blog/images/logo-150px.png">
+<meta property="og:site_name" content="Coding Duōyú Rén">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images/logo-150px.png" alt="Source Code" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="false"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../case-studies/index.html" rel="" target="">
- <span class="menu-text">Case studies</span></a>
+    <a class="nav-link" href="../../case-studies/index.html"> 
+<span class="menu-text">Case studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ideas/index.html" rel="" target="">
- <span class="menu-text">Ideas</span></a>
+    <a class="nav-link" href="../../ideas/index.html"> 
+<span class="menu-text">Ideas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../careers/index.html" rel="" target="">
- <span class="menu-text">Careers</span></a>
+    <a class="nav-link" href="../../careers/index.html"> 
+<span class="menu-text">Careers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../viewpoints/index.html" rel="" target="">
- <span class="menu-text">Viewpoints</span></a>
+    <a class="nav-link" href="../../viewpoints/index.html"> 
+<span class="menu-text">Viewpoints</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about-rwds.html" rel="" target="">
+    <a class="dropdown-item" href="../../about-rwds.html">
  <span class="dropdown-text">Who we are</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../contributor-docs/call-for-contributions.html" rel="" target="">
+    <a class="dropdown-item" href="../../contributor-docs/call-for-contributions.html">
  <span class="dropdown-text">How to contribute</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../contact.html" rel="" target="">
+    <a class="dropdown-item" href="../../contact.html">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -216,21 +252,22 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="AI,Large language models,Classifiers,Screening tests" data-listing-date-sort="1678809600000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="0" data-categories="AI,Large language models,Classifiers,Screening tests" data-listing-date-sort="1678809600000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2091">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html"> <img src="../../viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" class="thumbnail-image" alt="A teacher is marking homework and trying to decide whether a written piece of text has been created by a student or by a large language model, digital art. Created by DALL·E, prompt by Real World Data Science."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2023/03/15/images/teacher-marking-homework.png" class="thumbnail-image" alt="A teacher is marking homework and trying to decide whether a written piece of text has been created by a student or by a large language model, digital art. Created by DALL·E, prompt by Real World Data Science."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html">
 <h3 class="no-anchor listing-title">
-OpenAI’s text classifier won’t calm fears about AI-written homework
+<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external">OpenAI’s text classifier won’t calm fears about AI-written homework</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
 AI
@@ -245,14 +282,12 @@ Classifiers
 Screening tests
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html">
 <div class="listing-description">
-<p>Educators are worried about ChatGPT being using by students for homework assignments, so OpenAI has released a tool to classify whether text is human- or AI-written. But relying on the classifier’s results is ill-advised, as some basic statistics shows.</p>
+<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external">Educators are worried about ChatGPT being using by students for homework assignments, so OpenAI has released a tool to classify whether text is human- or AI-written. But relying on the classifier’s results is ill-advised, as some basic statistics shows. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html">
+<a href="../../viewpoints/editors-blog/posts/2023/03/15/AI-screening.html" class="no-external">
 <div class="listing-date">
 Mar 15, 2023
 </div>
@@ -262,19 +297,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Skills,Training,AI,Machine learning,Data analytics" data-listing-date-sort="1676304000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="1" data-categories="Skills,Training,AI,Machine learning,Data analytics" data-listing-date-sort="1676304000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="976">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html"> <img src="../../viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="thumbnail-image" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2023/02/14/images/billetto-editorial-YvLd3xbo0ac-unsplash.jpg" class="thumbnail-image" alt="Woman painting while wearing virtual reality headset. Photo by Billetto Editorial on Unsplash."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html">
 <h3 class="no-anchor listing-title">
-Data science can help close the ‘digital skills’ gap, or so it seems
+<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external">Data science can help close the ‘digital skills’ gap, or so it seems</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Skills'); return false;">
 Skills
@@ -292,14 +327,12 @@ Machine learning
 Data analytics
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html">
 <div class="listing-description">
-<p>A ‘digital skills’ gap is harming employer productivity and growth, according to a survey by engineering body IET. But the ‘digital skills’ that are needed sound a lot like data science skills: statistical understanding, data analytics, AI and machine learning.</p>
+<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external">A ‘digital skills’ gap is harming employer productivity and growth, according to a survey by engineering body IET. But the ‘digital skills’ that are needed sound a lot like data science skills: statistical understanding, data analytics, AI and machine learning. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html">
+<a href="../../viewpoints/editors-blog/posts/2023/02/14/digital-skills.html" class="no-external">
 <div class="listing-date">
 Feb 14, 2023
 </div>
@@ -309,19 +342,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1674748800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+<div class="quarto-post image-right" data-index="2" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1674748800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3463">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html"> <img src="../../viewpoints/editors-blog/posts/2023/01/27/images/Detlef.png" class="thumbnail-image" alt="Photo of Detlef Nauck"> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2023/01/27/images/Detlef.png" class="thumbnail-image" alt="Photo of Detlef Nauck"></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html">
 <h3 class="no-anchor listing-title">
-ChatGPT can hold a conversation, but lacks knowledge representation and original sources for verification
+<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external">ChatGPT can hold a conversation, but lacks knowledge representation and original sources for verification</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine learning'); return false;">
 Machine learning
@@ -333,14 +366,12 @@ Large language models
 AI
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html">
 <div class="listing-description">
-<p>ChatGPT represents a next step in the evolution of large language models, says Detlef Nauck. However, there are still major challenges - and concerns - to overcome.</p>
+<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external">ChatGPT represents a next step in the evolution of large language models, says Detlef Nauck. However, there are still major challenges - and concerns - to overcome. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html">
+<a href="../../viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html" class="no-external">
 <div class="listing-date">
 Jan 27, 2023
 </div>
@@ -350,19 +381,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Updates,Events" data-listing-date-sort="1673971200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="Updates,Events" data-listing-date-sort="1673971200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html"> <img src="../../viewpoints/editors-blog/posts/2023/01/18/images/rss-conf23.png" class="thumbnail-image" alt="Flyer for RSS International Conference 2023, for all statisticians and data scientists. Taking place in Harrogate, 4-7 September 2023."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2023/01/18/images/rss-conf23.png" class="thumbnail-image" alt="Flyer for RSS International Conference 2023, for all statisticians and data scientists. Taking place in Harrogate, 4-7 September 2023."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html">
 <h3 class="no-anchor listing-title">
-We’re taking Real World Data Science on the road
+<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external">We’re taking Real World Data Science on the road</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Updates'); return false;">
 Updates
@@ -371,14 +402,12 @@ Updates
 Events
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html">
 <div class="listing-description">
-<p>Join us at the RSS International Conference 2023 in Harrogate, 4-7 September.</p>
+<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external">Join us at the RSS International Conference 2023 in Harrogate, 4-7 September. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html">
+<a href="../../viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html" class="no-external">
 <div class="listing-date">
 Jan 18, 2023
 </div>
@@ -388,19 +417,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Updates,Newsletters" data-listing-date-sort="1672848000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="4" data-categories="Updates,Newsletters" data-listing-date-sort="1672848000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html"> <img src="../../viewpoints/editors-blog/posts/2023/01/05/images/brett-jordan-LPZy4da9aRo-unsplash.jpg" class="thumbnail-image" alt="Photo of an email app on a mobile device screen, showing 2 unread notifications. Photo by Brett Jordan on Unsplash."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2023/01/05/images/brett-jordan-LPZy4da9aRo-unsplash.jpg" class="thumbnail-image" alt="Photo of an email app on a mobile device screen, showing 2 unread notifications. Photo by Brett Jordan on Unsplash."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html">
 <h3 class="no-anchor listing-title">
-Explore the RSS Data Science &amp; AI Section newsletter, right here!
+<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external">Explore the RSS Data Science &amp; AI Section newsletter, right here!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Updates'); return false;">
 Updates
@@ -409,14 +438,12 @@ Updates
 Newsletters
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html">
 <div class="listing-description">
-<p>We’re starting the year with a new addition to the site: a page dedicated to the excellent RSS Data Science &amp; AI Section newsletter.</p>
+<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external">We’re starting the year with a new addition to the site: a page dedicated to the excellent RSS Data Science &amp; AI Section newsletter. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html">
+<a href="../../viewpoints/editors-blog/posts/2023/01/05/newsletter.html" class="no-external">
 <div class="listing-date">
 Jan 5, 2023
 </div>
@@ -426,19 +453,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Updates,Content ideas,Call for contributions" data-listing-date-sort="1670860800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="5" data-categories="Updates,Content ideas,Call for contributions" data-listing-date-sort="1670860800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="400">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html"> <img src="../../viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" class="thumbnail-image" alt="DataScienceBites logo. A dark grey circle with bite marks cut out. Overlaid text says, Import grad_students as writers, import new_research_papers as nrp, print(writers + nrp) and the title DataScienceBites."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/12/13/images/datasciencebites-logo.png" class="thumbnail-image" alt="DataScienceBites logo. A dark grey circle with bite marks cut out. Overlaid text says, Import grad_students as writers, import new_research_papers as nrp, print(writers + nrp) and the title DataScienceBites."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html">
 <h3 class="no-anchor listing-title">
-Sink your teeth into some data science papers with our brand new blog
+<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external">Sink your teeth into some data science papers with our brand new blog</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Updates'); return false;">
 Updates
@@ -450,14 +477,12 @@ Content ideas
 Call for contributions
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html">
 <div class="listing-description">
-<p>Today we’re launching DataScienceBites – a new member of the ScienceBites family – offering bite-sized summaries of data science papers.</p>
+<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external">Today we’re launching DataScienceBites – a new member of the ScienceBites family – offering bite-sized summaries of data science papers. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html">
+<a href="../../viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html" class="no-external">
 <div class="listing-date">
 Dec 13, 2022
 </div>
@@ -467,19 +492,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1670515200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="6" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1670515200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1582">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html"> <img src="../../viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="thumbnail-image" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, &amp;#039;Text from an old book cut up like a jigsaw puzzle with pieces missing'."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="thumbnail-image" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html">
 <h3 class="no-anchor listing-title">
-LLMs in the news: hype, tripe, and everything in between
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external">A chat with ChatGPT</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine learning'); return false;">
 Machine learning
@@ -491,14 +516,12 @@ Large language models
 AI
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html">
 <div class="listing-description">
-<p>We’re back discussing large language models after two weeks of ‘breakthrough’ announcements, excitable headlines, and some all-too-familiar ethical concerns.</p>
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external">‘Hello there! I’m a large language model trained by OpenAI, so I don’t have the ability to experience emotions or have a physical presence. I’m here to provide information and answer questions to the best of my ability. Is there something specific you would like to know?’ </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html">
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html" class="no-external">
 <div class="listing-date">
 Dec 9, 2022
 </div>
@@ -508,19 +531,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1670515200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="7" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1670515200000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2002">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html"> <img src="../../viewpoints/editors-blog/posts/2022/12/09/images/chatgpt1.png" class="thumbnail-image" alt="A screenshot of an exchange between Real World Data Science editor Brian Tarran and ChatGPT."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/12/09/images/jigsaw-words.jpg" class="thumbnail-image" alt="An image created by the Stable Diffusion 2.1 Demo. The model was asked to produce an image with the prompt, &amp;#039;Text from an old book cut up like a jigsaw puzzle with pieces missing'."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html">
 <h3 class="no-anchor listing-title">
-A chat with ChatGPT
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external">LLMs in the news: hype, tripe, and everything in between</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine learning'); return false;">
 Machine learning
@@ -532,14 +555,12 @@ Large language models
 AI
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html">
 <div class="listing-description">
-<p>‘Hello there! I’m a large language model trained by OpenAI, so I don’t have the ability to experience emotions or have a physical presence. I’m here to provide information and answer questions to the best of my ability. Is there something specific you would like to know?’</p>
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external">We’re back discussing large language models after two weeks of ‘breakthrough’ announcements, excitable headlines, and some all-too-familiar ethical concerns. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html">
+<a href="../../viewpoints/editors-blog/posts/2022/12/09/LLM-news.html" class="no-external">
 <div class="listing-date">
 Dec 9, 2022
 </div>
@@ -549,19 +570,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Updates,Key themes,Content ideas" data-listing-date-sort="1669824000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="8" data-categories="Updates,Key themes,Content ideas" data-listing-date-sort="1669824000000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="755">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html"> <img src="../../viewpoints/editors-blog/posts/2022/12/01/images/kelly-sikkema-vSNy_bWa5AE-unsplash-crop.jpg" class="thumbnail-image" alt="A photo of a black stencilled number 4 on a white brick wall. Photo by Kelly Sikkema on Unsplash."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/12/01/images/kelly-sikkema-vSNy_bWa5AE-unsplash-crop.jpg" class="thumbnail-image" alt="A photo of a black stencilled number 4 on a white brick wall. Photo by Kelly Sikkema on Unsplash."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html">
 <h3 class="no-anchor listing-title">
-Four themes for potential contributors to think about
+<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external">Four themes for potential contributors to think about</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Updates'); return false;">
 Updates
@@ -573,14 +594,12 @@ Key themes
 Content ideas
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html">
 <div class="listing-description">
-<p>Can data science save the world? What is a data scientist? What statistical ideas do data scientists need to know? And, what’s happening in the world of data science?</p>
+<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external">Can data science save the world? What is a data scientist? What statistical ideas do data scientists need to know? And, what’s happening in the world of data science? </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html">
+<a href="../../viewpoints/editors-blog/posts/2022/12/01/themes.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2022
 </div>
@@ -590,19 +609,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1669132800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="9" data-categories="Machine learning,Large language models,AI" data-listing-date-sort="1669132800000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1617">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html"> <img src="../../viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="thumbnail-image" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style."> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/11/23/images/TeresaBerndtsson-LetterWord-Text-Taxonomy-1000x1333.jpg" class="thumbnail-image" alt="A black keyboard at the bottom of the picture has an open book on it, with red words in labels floating on top, with a letter A balanced on top of them. The perspective makes the composition form a kind of triangle from the keyboard to the capital A. The AI filter makes it look like a messy, with a kind of cartoon style."></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html">
 <h3 class="no-anchor listing-title">
-Why large language models should come with a content warning
+<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external">Why large language models should come with a content warning</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine learning'); return false;">
 Machine learning
@@ -614,14 +633,12 @@ Large language models
 AI
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html">
 <div class="listing-description">
-<p>The outputs of LLMs seem impressive, but users need to be wary of possible bias, plagiarism and model ‘hallucinations’.</p>
+<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external">The outputs of LLMs seem impressive, but users need to be wary of possible bias, plagiarism and model ‘hallucinations’. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html">
+<a href="../../viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html" class="no-external">
 <div class="listing-date">
 Nov 23, 2022
 </div>
@@ -631,19 +648,19 @@ Brian Tarran
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="People,Biographies" data-listing-date-sort="1666022400000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="quarto-post image-right" data-index="10" data-categories="People,Biographies" data-listing-date-sort="1666022400000" data-listing-file-modified-sort="1679679338000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2208">
 <div class="thumbnail">
-<p><a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html"> <img src="../../viewpoints/editors-blog/posts/2022/10/18/images/team.png" class="thumbnail-image" alt="Portrait photos of 12 members of the Real World Data Science Editorial team"> </a></p>
+<p><a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external"></a></p><a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external">
+<p><img loading="lazy" src="../../viewpoints/editors-blog/posts/2022/10/18/images/team.png" class="thumbnail-image" alt="Portrait photos of 12 members of the Real World Data Science Editorial team"></p>
+</a><p><a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html">
 <h3 class="no-anchor listing-title">
-Meet the team
+<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external">Meet the team</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('People'); return false;">
 People
@@ -652,14 +669,12 @@ People
 Biographies
 </div>
 </div>
-<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html">
 <div class="listing-description">
-<p>Introducing the editors of Real World Data Science.</p>
+<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external">Introducing the editors of Real World Data Science. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html">
+<a href="../../viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html" class="no-external">
 <div class="listing-date">
 Oct 18, 2022
 </div>
@@ -674,7 +689,6 @@ Editorial Board
 No matching items
 </div>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-
 <style>
 .styled-table {
     border-collapse: collapse;
@@ -713,7 +727,7 @@ No matching items
 <script defer="" src="https://busuanzi.9420.ltd/js"></script>
 
 
-<table class="styled-table table" data-quarto-postprocess="true">
+<table class="styled-table caption-top table" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
 <th style="text-align: left;" data-quarto-table-cell-role="th"><span class="fa-solid fa-handshake"></span></th>
@@ -729,8 +743,8 @@ No matching items
 </tr>
 <tr class="even">
 <td style="text-align: left;">The Site</td>
-<td><span id="busuanzi_site_uv">...</span></td>
-<td><span id="busuanzi_site_pv">...</span></td>
+<td><a href="https://duoyu.ren"><span id="busuanzi_site_uv">...</span></a></td>
+<td><a href="https://info.flagcounter.com/SonU"><span id="busuanzi_site_pv">...</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -777,18 +791,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -820,11 +823,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/duoyu\.ren\/coding");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -834,8 +876,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -847,7 +898,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -891,6 +1065,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -916,6 +1091,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -977,12 +1178,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../viewpoints/index.html" class="pagination-link">
+      <a href="../../viewpoints/index.html" class="pagination-link" aria-label="Viewpoints">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Viewpoints</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../viewpoints/interviews/index.html" class="pagination-link">
+      <a href="../../viewpoints/interviews/index.html" class="pagination-link" aria-label="Interviews">
         <span class="nav-page-text">Interviews</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -990,7 +1191,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright © 2020-Now <a href="https://duoyu.ren/">Duōyú Rén</a></div>   
+    <div class="nav-footer-left">
+<p>Copyright © 2020-Now <a href="https://duoyu.ren/">Duōyú Rén</a></p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1025,9 +1228,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>
-    <div class="nav-footer-right"><a href="../../ts-and-cs.html">Terms &amp; Conditions</a></div>
+    <div class="nav-footer-right">
+<p><a href="../../ts-and-cs.html">Terms &amp; Conditions</a></p>
+</div>
   </div>
 </footer>
+
 
 
 
