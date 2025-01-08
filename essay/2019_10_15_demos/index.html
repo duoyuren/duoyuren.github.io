@@ -1303,7 +1303,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。">
 
-<meta name="generator" content="Hugo 0.132.2">
+<meta name="generator" content="Hugo 0.140.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -3042,45 +3042,45 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 <h2 id="父子目錄樣式">父子目錄樣式</h2>
 <p>本站圖書採父子列表樣式羅列章節目錄。在每本書文件夾內的 <code>_index.md</code> 中使用，<a href="https://learn.netlify.com/en/shortcodes/children/" title="用法" class="icon_external" rel="noopener external" target="_blank">用法</a>如下，效果見相應頁面的目錄樣式。</p>
 <table>
-<thead>
-<tr>
-<th align="left">Parameter</th>
-<th align="left">Default</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">page</td>
-<td align="left"><em>current</em></td>
-<td align="left">Specify the page name (section name) to display children for</td>
-</tr>
-<tr>
-<td align="left">style</td>
-<td align="left">&ldquo;li&rdquo;</td>
-<td align="left">Choose the style used to display descendants. It could be any HTML tag name</td>
-</tr>
-<tr>
-<td align="left">showhidden</td>
-<td align="left">&ldquo;false&rdquo;</td>
-<td align="left">When true, child pages hidden from the menu will be displayed</td>
-</tr>
-<tr>
-<td align="left">description</td>
-<td align="left">&ldquo;false&rdquo;</td>
-<td align="left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/" title="read more info about summaries on gohugo.io" class="icon_external" rel="noopener external" target="_blank">read more info about summaries on gohugo.io</a></td>
-</tr>
-<tr>
-<td align="left">depth</td>
-<td align="left">1</td>
-<td align="left">Enter a number to specify the depth of descendants to display. For example, if the value is 2, the shortcode will display 2 levels of child pages. <br/> <strong>Tips:</strong> set 999 to get all descendants</td>
-</tr>
-<tr>
-<td align="left">sort</td>
-<td align="left">none</td>
-<td align="left">Sort Children By<br><li><strong>Weight</strong> - to sort on menu order</li><li><strong>Name</strong> - to sort alphabetically on menu label</li><li><strong>Identifier</strong> - to sort alphabetically on identifier set in frontmatter</li><li><strong>URL</strong> - URL</li></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Parameter</th>
+          <th style="text-align: left">Default</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">page</td>
+          <td style="text-align: left"><em>current</em></td>
+          <td style="text-align: left">Specify the page name (section name) to display children for</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">style</td>
+          <td style="text-align: left">&ldquo;li&rdquo;</td>
+          <td style="text-align: left">Choose the style used to display descendants. It could be any HTML tag name</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">showhidden</td>
+          <td style="text-align: left">&ldquo;false&rdquo;</td>
+          <td style="text-align: left">When true, child pages hidden from the menu will be displayed</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">description</td>
+          <td style="text-align: left">&ldquo;false&rdquo;</td>
+          <td style="text-align: left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/" title="read more info about summaries on gohugo.io" class="icon_external" rel="noopener external" target="_blank">read more info about summaries on gohugo.io</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">depth</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Enter a number to specify the depth of descendants to display. For example, if the value is 2, the shortcode will display 2 levels of child pages. <br/> <strong>Tips:</strong> set 999 to get all descendants</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">sort</td>
+          <td style="text-align: left">none</td>
+          <td style="text-align: left">Sort Children By<br><li><strong>Weight</strong> - to sort on menu order</li><li><strong>Name</strong> - to sort alphabetically on menu label</li><li><strong>Identifier</strong> - to sort alphabetically on identifier set in frontmatter</li><li><strong>URL</strong> - URL</li></td>
+      </tr>
+  </tbody>
 </table>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -3103,30 +3103,30 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </div><h2 id="附錄文件">附錄文件</h2>
 <p>通過此 shortcode 可在特定頁面添加附錄文檔，文檔樣式可以是 pdf、mp3、mp4 等。如本文文檔 <code>20191015DEMOS.md</code> 則對應名爲 <code>20191015DEMOS.files</code> 的文件夾：即附件文件夾名稱與文章文件名一致，否則將報錯無法渲染。四色樣式中，個人偏好灰色塊。具體效果如下：</p>
 <table>
-<thead>
-<tr>
-<th align="left">Parameter</th>
-<th align="left">Default</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">title</td>
-<td align="left">&ldquo;Attachments&rdquo;</td>
-<td align="left">List&rsquo;s title</td>
-</tr>
-<tr>
-<td align="left">style</td>
-<td align="left">&quot;&quot;</td>
-<td align="left">Choose between &ldquo;orange&rdquo;, &ldquo;grey&rdquo;, &ldquo;blue&rdquo; and &ldquo;green&rdquo; for nice style</td>
-</tr>
-<tr>
-<td align="left">pattern</td>
-<td align="left">&ldquo;.*&rdquo;</td>
-<td align="left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression" title="regular expressions" class="icon_external" rel="noopener external" target="_blank">regular expressions</a>.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Parameter</th>
+          <th style="text-align: left">Default</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">title</td>
+          <td style="text-align: left">&ldquo;Attachments&rdquo;</td>
+          <td style="text-align: left">List&rsquo;s title</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">style</td>
+          <td style="text-align: left">&quot;&quot;</td>
+          <td style="text-align: left">Choose between &ldquo;orange&rdquo;, &ldquo;grey&rdquo;, &ldquo;blue&rdquo; and &ldquo;green&rdquo; for nice style</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">pattern</td>
+          <td style="text-align: left">&ldquo;.*&rdquo;</td>
+          <td style="text-align: left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression" title="regular expressions" class="icon_external" rel="noopener external" target="_blank">regular expressions</a>.</td>
+      </tr>
+  </tbody>
 </table>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -4831,7 +4831,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2024, All Rights Reserved
+                    ©2013-2025, All Rights Reserved
                 
             </p>
         

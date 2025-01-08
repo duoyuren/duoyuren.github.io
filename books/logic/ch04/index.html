@@ -1276,7 +1276,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="The material in this chapter is an introduction to basic naive set theory. Sets, Relations, Functions, The Size of Sets.">
   
 
-<meta name="generator" content="Hugo 0.132.2">
+<meta name="generator" content="Hugo 0.140.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1883,7 +1883,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
   </div>
   <div class="freebox">
   <ol>
-<li><a href="https://builds.openlogicproject.org/" title="&lt;bb&gt;Zach, Richard.&lt;/bb&gt; &lt;em&gt;Open Logic Project.&lt;/em&gt;" class="icon_external" rel="noopener external" target="_blank"><bb>Zach, Richard.</bb> <em>Open Logic Project.</em></a><br />
+<li><a href="https://builds.openlogicproject.org/" title="Zach, Richard. Open Logic Project." class="icon_external" rel="noopener external" target="_blank"><bb>Zach, Richard.</bb> <em>Open Logic Project.</em></a><br />
 （本章內容卽基於其 $\TeX$ 源碼整理而成）</li>
 <li><bb>刘壮虎, 1993. 逻辑演算[M].北京: 中国社会科学出版社</bb><br />
 （這本書第二章簡單説明了命題演算的常識）</li>
@@ -1910,14 +1910,14 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <p>$$\varphi_1, \cdots, \varphi_m \Rightarrow \psi_1, \cdots, \psi_m,$$</p>
 <p>that is a pair of sequences of <bb>sentence</bb>s, separated by the sequent symbol $\Rightarrow$. Either sequence may be empty.  a <bb>derivation</bb> in the sequent calculus is a tree of sequents, where the topmost sequents are of a special form (they are called &ldquo;initial sequents&rsquo;&rsquo; or &ldquo;axioms&rsquo;&rsquo;) and every other sequent follows from the sequents immediately above it by one of the rules of inference. The rules of inference either manipulate the <bb>sentence</bb>s in the sequents (adding, removing, or rearranging them on either the left or the right), or they introduce a complex <bb>formula</bb> in the conclusion of the rule. For instance, the $\color{red}\land\text{L}$ rule allows the inference from $\varphi, \Gamma \Rightarrow \Delta$ to $\varphi \land \psi, \Gamma \Rightarrow \Delta$, and the $\color{red}\rightarrow\text{R}$ allows the inference from $\varphi, \Gamma \Rightarrow \Delta, \psi$ to $\Gamma \Rightarrow \Delta, \varphi \rightarrow \psi$, for any $\Gamma$, $\Delta$, $\varphi$, and $\psi$. (In particular, $\Gamma$ and $\Delta$ may be empty.)</p>
 <p>The $\vdash$ relation based on the sequent calculus is defined as follows: $\Gamma \vdash \varphi$ iff there is some sequence $\Gamma_0$ such that every $\varphi$ in $\Gamma_0$ is in $\Gamma$ and there is a <bb>derivation</bb> with the sequent $\Gamma_0 \Rightarrow \varphi$ at its root. $\varphi$ is a theorem in the sequent calculus if the sequent $\Rightarrow \varphi$ has a <bb>derivation</bb>. For instance, here is a <bb>derivation</bb> that shows that $\vdash (\varphi \land \psi) \rightarrow \varphi$:</p>
-<p><img alt="prooftree" src="https://i.loli.net/2020/09/07/Xgw143CPY6HhbO7.png"></p>
+<p><img src="https://i.loli.net/2020/09/07/Xgw143CPY6HhbO7.png" alt="prooftree"></p>
 <p>A set $\Gamma$ is inconsistent in the sequent calculus if there is a <bb>derivation</bb> of $\Gamma_0 \Rightarrow$ (where every $\varphi \in \Gamma_0$ is in $\Gamma$ and the right side of the sequent is empty).  Using the rule WR, any <bb>sentence</bb> can be <bb>derive</bb>d from an inconsistent set.</p>
 <p>The sequent calculus was invented in the 1930s by Gerhard Gentzen. Because of its systematic and symmetric design, it is a very useful formalism for developing a theory of <bb>derivation</bb>s. It is relatively easy to find <bb>derivation</bb>s in the sequent calculus, but these <bb>derivation</bb>s are often hard to read and their connection to proofs are sometimes not easy to see. It has proved to be a very elegant approach to <bb>derivation</bb> systems, however, and many logics have sequent calculus systems.</p>
 <h1 id="natural-deduction">Natural Deduction</h1>
 <p>Natural deduction is a <bb>derivation</bb> system intended to mirror actual reasoning (especially the kind of regimented reasoning employed by mathematicians).  Actual reasoning proceeds by a number of &ldquo;natural&rsquo;&rsquo; patterns. For instance, proof by cases allows us to establish a conclusion on the basis of a disjunctive premise, by establishing that the conclusion follows from either of the disjuncts. Indirect proof allows us to establish a conclusion by showing that its negation leads to a contradiction. Conditional proof establishes a conditional claim &ldquo;if \cdots then \cdots&rsquo;&rsquo; by showing that the consequent follows from the antecedent.  Natural deduction is a formalization of some of these natural inferences.  Each of the logical connectives and quantifiers comes with two rules, an introduction and an elimination rule, and they each correspond to one such natural inference pattern. For instance, $\color{red}\rightarrow\text{Intro}$ corresponds to conditional proof, and $\color{red}\lor\text{Elim}$ to proof by cases.  A particularly simple rule is $\color{red}\land\text{Elim}$ which allows the inference from $\varphi \land \psi$ to $\varphi$ (or $\psi$).</p>
 <p>One feature that distinguishes natural deduction from other <bb>derivation</bb> systems is its use of assumptions. a <bb>derivation</bb> in natural deduction is a tree of <bb>formula</bb>s.  A single <bb>formula</bb> stands at the root of the tree of <bb>formula</bb>s, and the &ldquo;leaves&rsquo;&rsquo; of the tree are <bb>formula</bb>s from which the conclusion is derived.  In natural deduction, some leaf <bb>formula</bb>s play a role inside the <bb>derivation</bb> but are &ldquo;used up&rsquo;&rsquo; by the time the <bb>derivation</bb> reaches the conclusion. This corresponds to the practice, in actual reasoning, of introducing hypotheses which only remain in effect for a short while.  For instance, in a proof by cases, we assume the truth of each of the disjuncts; in conditional proof, we assume the truth of the antecedent; in indirect proof, we assume the truth of the negation of the conclusion.  This way of introducing hypothetical assumptions and then doing away with them in the service of establishing an intermediate step is a hallmark of natural deduction. The formulas at the leaves of a natural deduction <bb>derivation</bb> are called assumptions, and some of the rules of inference may &ldquo;<bb>discharge</bb>&rsquo;&rsquo; them.  For instance, if we have a <bb>derivation</bb> of $\psi$ from some assumptions which include $\varphi$, then the $\color{red}\rightarrow\text{Intro}$ rule allows us to infer $\varphi \rightarrow \psi$ and discharge any assumption of the form $\varphi$. (To keep track of which assumptions are discharged at which inferences, we label the inference and the assumptions it discharges with a number.)  The assumptions that remain <bb>undischarged</bb> at the end of the <bb>derivation</bb> are together sufficient for the truth of the conclusion, and so a <bb>derivation</bb> establishes that its <bb>undischarged</bb> assumptions entail its conclusion.</p>
 <p>The relation $\Gamma \vdash \varphi$ based on natural deduction holds iff there is a <bb>derivation</bb> in which $\varphi$ is the last <bb>sentence</bb> in the tree, and every leaf which is <bb>undischarged</bb> is in $\Gamma$. $\varphi$ is a theorem in natural deduction iff there is a <bb>derivation</bb> in which $\varphi$ is the last <bb>sentence</bb> and all assumptions are <bb>discharged</bb>. For instance, here is a <bb>derivation</bb> that shows that $\vdash (\varphi \land \psi) \rightarrow \varphi$:</p>
-<p><img alt="877.png" src="https://i.loli.net/2020/09/07/QATqCnlOG5hx7Xp.png"></p>
+<p><img src="https://i.loli.net/2020/09/07/QATqCnlOG5hx7Xp.png" alt="877.png"></p>
 <p>The label $1$ indicates that the assumption $\varphi \land \psi$ is <bb>discharged</bb> at the $\color{red}\rightarrow\text{Intro}$ inference.</p>
 <p>A set $\Gamma$ is inconsistent iff $\Gamma \vdash \bot$ in natural deduction.  The rule $\bot_{I}$ makes it so that from an inconsistent set, any <bb>sentence</bb> can be <bb>derive</bb>d.</p>
 <p>Natural deduction systems were developed by Gerhard Gentzen and Stanislaw Jaskowski in the 1930s, and later developed by Dag Prawitz and Frederic Fitch. Because its inferences mirror natural methods of proof, it is favored by philosophers. The versions developed by Fitch are often used in introductory logic textbooks. In the philosophy of logic, the rules of natural deduction have sometimes been taken to give the meanings of the logical operators (&ldquo;proof-theoretic semantics&rsquo;&rsquo;).</p>
@@ -1929,7 +1929,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <p>The $\vdash$ relation based on <bb>tableau</bb>s is defined as follows: $\Gamma \vdash \varphi$ iff there is some finite set $\Gamma_0 = \lbrace \psi_1, \cdots, \psi_n\rbrace \subseteq \Gamma$ such that there is a closed <bb>tableau</bb> for the assumptions</p>
 <p>$$\lbrace {\mathbb{F}}{\varphi}, {\mathbb{T}}{\psi_1}, \cdots, {\mathbb{T}}{\psi_n}\rbrace $$</p>
 <p>For instance, here is a closed <bb>tableau</bb> that shows that $\vdash (\varphi \land \psi) \rightarrow \varphi$:</p>
-<p><img alt="667.png" src="https://i.loli.net/2020/09/07/GzeV3QrIOCacTM1.png"></p>
+<p><img src="https://i.loli.net/2020/09/07/GzeV3QrIOCacTM1.png" alt="667.png"></p>
 <p>A set $\Gamma$ is inconsistent in the <bb>tableau</bb> calculus if there is a closed <bb>tableau</bb> for assumptions</p>
 <p>$$\lbrace {\mathbb{T}}{\psi_1}, \cdots, {\mathbb{T}}{\psi_n}\rbrace$$</p>
 <p>for some $\psi_i \in \Gamma$.</p>
@@ -3255,7 +3255,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2024, All Rights Reserved
+                    ©2013-2025, All Rights Reserved
                 
             </p>
         

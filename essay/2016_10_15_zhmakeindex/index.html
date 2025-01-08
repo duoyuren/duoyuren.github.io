@@ -1266,7 +1266,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="TeX 中的中文索引製作方案，以 zhmakeindex 爲工具。">
 
-<meta name="generator" content="Hugo 0.132.2">
+<meta name="generator" content="Hugo 0.140.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1866,10 +1866,10 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </div>
 
       
-      <p>In some big documents, for example <a href="https://superfluous-man.github.io/essay/20160430-tex-han-yu-zi-dian/" title="&lt;em&gt;The Cangjie Chinese-English Dictionary&lt;/em&gt;" class="icon_external" rel="noopener external" target="_blank"><em>The Cangjie Chinese-English Dictionary</em></a>, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external" target="_blank">zhmakeindex</a> program that aims to sort Chinese index entries.</p>
+      <p>In some big documents, for example <a href="https://superfluous-man.github.io/essay/20160430-tex-han-yu-zi-dian/" title="The Cangjie Chinese-English Dictionary" class="icon_external" rel="noopener external" target="_blank"><em>The Cangjie Chinese-English Dictionary</em></a>, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external" target="_blank">zhmakeindex</a> program that aims to sort Chinese index entries.</p>
 <h1 id="generating-latex-indices-separately">Gen­er­a­ting LaTeX Indices Separately</h1>
 <p>With the LaTeX in­dex gen­er­a­tor <a href="https://www.ctan.org/pkg/makeindex?lang=en" title="makeindex" class="icon_external" rel="noopener external" target="_blank">makeindex</a>, an index can be produced. If you want to create multiple indices in a book, you should use the <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external" target="_blank">imakeidx</a> package.</p>
-<p>In <a href="https://duoyuren.github.io/essay/20160430-tex-han-yu-zi-dian/" title="&lt;em&gt;The Cangjie Chinese-English Dictionary&lt;/em&gt;" class="icon_external" rel="noopener external" target="_blank"><em>The Cangjie Chinese-English Dictionary</em></a>, there are six or seven indices in appendices, and the LaTeX package <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external" target="_blank">imakeidx</a> was used. &ldquo;The pack­age en­ables the user to pro­duce and type­set one or more in­dexes si­mul­ta­ne­ously with a doc­u­ment.&rdquo;</p>
+<p>In <a href="https://duoyuren.github.io/essay/20160430-tex-han-yu-zi-dian/" title="The Cangjie Chinese-English Dictionary" class="icon_external" rel="noopener external" target="_blank"><em>The Cangjie Chinese-English Dictionary</em></a>, there are six or seven indices in appendices, and the LaTeX package <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external" target="_blank">imakeidx</a> was used. &ldquo;The pack­age en­ables the user to pro­duce and type­set one or more in­dexes si­mul­ta­ne­ously with a doc­u­ment.&rdquo;</p>
 <p>This package is invoked as usual by means of a <code>\usepackage</code> command in preamble.tex:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2165,7 +2165,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The output file will be like below:</p>
-<p><img alt="xdy style output" src="https://github.com/duoyuren/picx-img/raw/master/blog/2016/20161015-01.2irxsb4gdd6o.webp"></p>
+<p><img src="https://github.com/duoyuren/picx-img/raw/master/blog/2016/20161015-01.2irxsb4gdd6o.webp" alt="xdy style output"></p>
 <h2 id="editing-and-using-ist-style-files">Editing and Using .ist style files</h2>
 <p>For sorting Chinese characters in .idx file, we can run command zhmakeindex in terminal and in some cases we should edit personal .ist files. Below is an example of a .ist file. <a href="http://www.latexstudio.net/archives/6363" title="Here" class="icon_external" rel="noopener external" target="_blank">Here</a> can find more detailed information about the usage of zhmkeindex.</p>
 <div class="highlight"><div class="chroma">
@@ -2198,7 +2198,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The output file will be like below:</p>
-<p><img alt="ist style output" src="https://ooo.0o0.ooo/2016/10/15/580225f78baf4.png"></p>
+<p><img src="https://ooo.0o0.ooo/2016/10/15/580225f78baf4.png" alt="ist style output"></p>
 <h1 id="another-example-on-index-page-layout">Another Example on Index Page Layout</h1>
 <p>With LaTaX package <a href="https://www.ctan.org/pkg/titleps?lang=en" title="titleps" class="icon_external" rel="noopener external" target="_blank">titleps</a> we can set \sectionmark to the index entry. Below is an example that index entries are marked to page header.</p>
 <div class="highlight"><div class="chroma">
@@ -2232,7 +2232,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then add \indexmark to .ist file or .xdy file as above .ist or .xdy example. Finally the output file will be like below:</p>
-<p><img alt="indexmark style output" src="https://ooo.0o0.ooo/2016/10/15/58022a9ca574f.jpg"></p>
+<p><img src="https://ooo.0o0.ooo/2016/10/15/58022a9ca574f.jpg" alt="indexmark style output"></p>
 
 <p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Monday, October 23, 2023, 13:40:01 by <a href="https://duoyu.ren/cycling/">👩 高松年</a>.</p>
     </article>
@@ -3537,7 +3537,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2024, All Rights Reserved
+                    ©2013-2025, All Rights Reserved
                 
             </p>
         
