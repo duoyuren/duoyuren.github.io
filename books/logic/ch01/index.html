@@ -1276,7 +1276,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="The material in this chapter is an introduction to basic naïve set theory. Sets, Relations, Functions, The Size of Sets.">
   
 
-<meta name="generator" content="Hugo 0.140.2">
+<meta name="generator" content="Hugo 0.148.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1974,8 +1974,7 @@ $$\lbrace 6 \rbrace = \lbrace x:  \text{is perfect and } 0 \leqslant x \leqslant
 <p>Extensionality gives us a way for showing that sets are identical: to show that $A = B$, show that whenever $x \in A$ then also $x \in B$, and whenever $y \in B$ then also $y \in A$.</p>
 <blockquote>
 <p><bb>Problem 1.0</bb><br />
-Prove that there is at most one empty set, i.e., show that if $A$ and $B$ are sets without <bb>element</bb>s, then $A = B$.</p>
-</blockquote>
+Prove that there is at most one empty set, i.e., show that if $A$ and $B$ are sets without <bb>element</bb>s, then $A = B$.</p></blockquote>
 <h2 id="subsets-and-power-sets">Subsets and Power Sets</h2>
 <p>We will often want to compare sets. And one obvious kind of comparison one might make is as follows: <bb>everything in one set is in the other too</bb>. This situation is sufficiently important for us to introduce some new notation.</p>
   <div>
@@ -2040,11 +2039,9 @@ $$\mathscr{P}(\lbrace a, b, c \rbrace) = \lbrace\varnothing, \lbrace a \rbrace, 
   </div>
   </div>
 <blockquote>
-<p><bb>Problem 1.1</bb> List all subsets of $\lbrace a, b, c, d\rbrace$.</p>
-</blockquote>
+<p><bb>Problem 1.1</bb> List all subsets of $\lbrace a, b, c, d\rbrace$.</p></blockquote>
 <blockquote>
-<p><bb>Problem 1.2</bb> Show that if $A$ has $n$ <bb>element</bb>s, then $\mathscr{P}(A)$ has $2^n$ <bb>element</bb>s.</p>
-</blockquote>
+<p><bb>Problem 1.2</bb> Show that if $A$ has $n$ <bb>element</bb>s, then $\mathscr{P}(A)$ has $2^n$ <bb>element</bb>s.</p></blockquote>
 <h2 id="some-important-sets">Some Important Sets</h2>
   <div>
   <div class="dtpcexboxtitle">
@@ -2059,8 +2056,7 @@ $$\mathscr{P}(\lbrace a, b, c \rbrace) = \lbrace\varnothing, \lbrace a \rbrace, 
 <li>$\mathbb{Q} = \lbrace \frac{m}{n}: m, n \in \mathbb{Z} \text{ and }n \neq 0\rbrace$ ➠  the set of rationals</li>
 <li>$\mathbb{R} = \lbrace (-\infty, \infty)\rbrace$ ➠  the set of real numbers (the continuum)<br />
 These are all <bb>infinite</bb> sets, that is, they each have infinitely many <bb>element</bb>s.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>As we move through these sets, we are adding <bb>more</bb> numbers to our stock. Indeed, it should be clear that $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R}$: after all, every natural number is an integer; every integer is a rational; and every rational is a real. Equally, it should be clear that $\mathbb{N} \subsetneq \mathbb{Z} \subsetneq \mathbb{Q}$, since $-1$ is an integer but not a natural number, and $\frac{1}{2}$ is rational but not integer. It is less obvious that $\mathbb{Q} \subsetneq \mathbb{R}$, i.e., that there are some real numbers which are not rational.</p>
 <p>We&rsquo;ll sometimes also use the set of positive integers $\mathbb{Z}^{+} = \lbrace 1, 2, 3, \cdots\rbrace $ and the set containing just the first two natural numbers $\mathbb{B} = \lbrace 0, 1\rbrace $.</p>
 </span>
@@ -2108,8 +2104,7 @@ $$A \cup B = \lbrace x: x \in A \lor x \in B\rbrace $$</span>
   </div>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Prove that if $A \subseteq B$, then $A \cup B = B$.</p>
-</blockquote>
+Prove that if $A \subseteq B$, then $A \cup B = B$.</p></blockquote>
 <p>We can also consider a &ldquo;dual&rsquo;&rsquo; operation to union. This is the operation that forms the set of all <bb>element</bb>s that are <bb>element</bb>s of $A$ and are also <bb>element</bb>s of $B$. This operation is called <bb>intersection</bb>, and can be depicted as in Figure 1.1.</p>
 <p><img src="https://i.loli.net/2020/09/03/Fi7BoED2vNAHXkz.png" alt="intersectionofsets"></p>
   <div>
@@ -2131,8 +2126,7 @@ $$A \cap B = \lbrace x: x \in A \land x \in B\rbrace $$ Two sets are called <bb>
   </div>
 <blockquote>
 <p><bb>Problem 1.4</bb><br />
-Prove rigorously that if $A \subseteq B$, then $A \cap B = A$.</p>
-</blockquote>
+Prove rigorously that if $A \subseteq B$, then $A \cap B = A$.</p></blockquote>
 <p>We can also form the union or intersection of more than two sets. An elegant way of dealing with this in general is the following: suppose you collect all the sets you want to form the union (or intersection) of into a single set. Then we can define the union of all our original sets as the set of all objects which belong to at least one <bb>element</bb> of the set, and the intersection as the set of all objects which belong to every <bb>element</bb> of the set.</p>
   <div>
   <div class="dtpcboxtitle">
@@ -2181,8 +2175,7 @@ $$
   </div>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Show that if $A$ is a set and $A \in B$, then $A \subseteq \bigcup B$.</p>
-</blockquote>
+Show that if $A$ is a set and $A \in B$, then $A \subseteq \bigcup B$.</p></blockquote>
 <p>We could also do the same for a sequence of sets $A_1$, $A_2, \cdots$,</p>
 <p>
 $$
@@ -2215,8 +2208,7 @@ $$
   </div>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Prove that if $A \subsetneq B$, then $B \setminus A \neq \varnothing$.</p>
-</blockquote>
+Prove that if $A \subsetneq B$, then $B \setminus A \neq \varnothing$.</p></blockquote>
 <h2 id="pairs-tuples-cartesian-products">Pairs, Tuples, Cartesian Products</h2>
 <p>It follows from extensionality that sets have no order to their elements. So if we want to represent order, we use <bb>ordered pairs</bb> $⟨x, y⟩$. In an unordered pair $\lbrace x, y\rbrace $, the order does not matter: $\lbrace x, y\rbrace  = \lbrace y, x\rbrace $. In an ordered pair, it does: if $x \neq y$, then $⟨x, y⟩ \neq ⟨y, x⟩$.</p>
 <p>How should we think about ordered pairs in set theory? Crucially, we want to preserve the idea that ordered pairs are identical iff they share the same first element and share the same second element, i.e.: $$⟨a, b⟩= ⟨c, d⟩\text{ iff both }a = c \text{ and }b=d.$$ We can define ordered pairs in set theory using the Wiener-Kuratowski definition.</p>
@@ -2230,8 +2222,7 @@ Prove that if $A \subsetneq B$, then $B \setminus A \neq \varnothing$.</p>
   </div>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Using Definition 1.9, prove that $⟨a, b⟩= ⟨c, d⟩$ iff both $a = c$ and $b=d$.</p>
-</blockquote>
+Using Definition 1.9, prove that $⟨a, b⟩= ⟨c, d⟩$ iff both $a = c$ and $b=d$.</p></blockquote>
 <p>Having fixed a definition of an ordered pair, we can use it to define further sets. For example, sometimes we also want ordered sequences of more than two objects, e.g., <bb>triples</bb> $⟨x, y, z⟩$, <bb>quadruples</bb> $⟨x, y, z, u⟩$, and so on.  We can think of triples as special ordered pairs, where the first element is itself an ordered pair: $⟨x, y, z⟩$ is $⟨⟨x, y⟩,z⟩$. The same is true for quadruples: $⟨x,y,z,u⟩$ is $⟨⟨⟨x,y⟩,z⟩,u⟩$, and so on. In general, we talk of <bb>ordered $n$-tuples</bb> $⟨x_1, \cdots, x_n⟩$.</p>
 <p>Certain sets of ordered pairs, or other ordered $n$-tuples, will be useful.</p>
   <div>
@@ -2269,8 +2260,7 @@ $$A \times B = \lbrace  ⟨0, 1⟩, ⟨0, a⟩, ⟨0, b⟩, ⟨1, 1⟩, ⟨1, a�
   </div>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-List all <bb>element</bb>s of $\lbrace 1, 2, 3\rbrace ^3$.</p>
-</blockquote>
+List all <bb>element</bb>s of $\lbrace 1, 2, 3\rbrace ^3$.</p></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">☯命題 1.1</span>
@@ -2282,8 +2272,7 @@ List all <bb>element</bb>s of $\lbrace 1, 2, 3\rbrace ^3$.</p>
 <blockquote>
 <p><bb>命題 1.1 之證明</bb><br />
 For every <bb>element</bb> $x$ in $A$, there are $m$ <bb>element</bb>s of the form $⟨x, y⟩ \in A \times B$. Let $B_x = \lbrace ⟨x, y⟩: y \in B\rbrace $. Since whenever $x_1 \neq x_2$, $⟨x_1, y⟩ \neq ⟨x_2, y⟩$, $B_{x_1} \cap B_{x_2} = \varnothing$. But if $A = \lbrace x_1, \cdots, x_n\rbrace $, then $A \times B = B_{x_1} \cup \cdots \cup B_{x_n}$, and so has $n\cdot m$ <bb>element</bb>s.<br />
-To visualize this, arrange the <bb>element</bb>s of $A \times B$ in a grid:</p>
-</blockquote>
+To visualize this, arrange the <bb>element</bb>s of $A \times B$ in a grid:</p></blockquote>
 <p>
 	\[
 	\begin{array}{rcccc}
@@ -2295,12 +2284,10 @@ To visualize this, arrange the <bb>element</bb>s of $A \times B$ in a grid:</p>
 	\]
 </p>
 <blockquote>
-<p>Since the $x_i$ are all different, and the $y_j$ are all different, no two of the pairs in this grid are the same, and there are $n\cdot m$ of them.</p>
-</blockquote>
+<p>Since the $x_i$ are all different, and the $y_j$ are all different, no two of the pairs in this grid are the same, and there are $n\cdot m$ of them.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Show, by induction on $k$, that for all $k \ge 1$, if $A$ has $n$ <bb>element</bb>s, then $A^k$ has $n^k$ <bb>element</bb>s.</p>
-</blockquote>
+Show, by induction on $k$, that for all $k \ge 1$, if $A$ has $n$ <bb>element</bb>s, then $A^k$ has $n^k$ <bb>element</bb>s.</p></blockquote>
   <div>
   <div class="dtpcexboxtitle">
   	<span style="font-family:Sarasa-Heavy, SYHei Heavy;">☯例 1.14</span>
@@ -2325,8 +2312,7 @@ $$A^* = \lbrace \varnothing\rbrace  \cup A \cup A^2 \cup A^3 \cup \cdots$$</span
   </div>
 <blockquote>
 <p><bb>Theorem 1.0 之證明</bb><br />
-For reductio, suppose that $R = \lbrace x: x \notin x\rbrace $ exists. Then $R \in R$ iff $R \notin R$, since sets are extensional. But this is a contradicion.</p>
-</blockquote>
+For reductio, suppose that $R = \lbrace x: x \notin x\rbrace $ exists. Then $R \in R$ iff $R \notin R$, since sets are extensional. But this is a contradicion.</p></blockquote>
 <p>Let&rsquo;s run through the proof that no set $R$ of non-self-membered sets can exist more slowly. If $R$ exists, it makes sense to ask if $R \in R$ or not&mdash;it must be either $\in R$ or $\notin R$. Suppose the former is true, i.e., $R \in R$. $R$ was defined as the set of all sets that are not <bb>element</bb>s of themselves, and so if $R \in R$, then $R$ does not have this defining property of $R$. But only sets that have this property are in $R$, hence, $R$ cannot be an <bb>element</bb> of $R$, i.e., $R \notin R$. But $R$ can&rsquo;t both be and not be an <bb>element</bb> of $R$, so we have a contradiction.</p>
 <p>Since the assumption that $R \in R$ leads to a contradiction, we have $R \notin R$. But this also leads to a contradiction! For if $R \notin R$, it does have the defining property of $R$, and so would be an <bb>element</bb> of $R$ just like all the other non-self-membered sets. And again, it can&rsquo;t both not be and be an <bb>element</bb> of $R$.</p>
 <p>How do we set up a set theory which avoids falling into Russell&rsquo;s Paradox, i.e., which avoids making the <bb>inconsistent</bb> claim that $R = \lbrace x: x \notin x\rbrace $ exists? Well, we would need to lay down axioms which give us very precise conditions for stating when sets exist (and when they don&rsquo;t).</p>
@@ -2374,8 +2360,7 @@ For reductio, suppose that $R = \lbrace x: x \notin x\rbrace $ exists. Then $R \
 <p>Although orders and identity are important and natural relations, it should be emphasized that according to our definition <bb>any</bb> subset of $A^{2}$ is a relation on $A$, regardless of how unnatural or contrived it seems. In particular, $\varnothing$ is a relation on any set (the <bb>empty relation</bb>, which no pair of elements bears), and $A^{2}$ itself is a relation on $A$ as well (one which every pair bears), called the <bb>universal relation</bb>. But also something like $E=\lbrace ⟨n, m⟩: n&gt;5 \text{ or } m \times n \ge 34\rbrace $ counts as a relation.</p>
 <blockquote>
 <p><bb>Problem 1.10</bb><br />
-List the <bb>element</bb>s of the relation $\subseteq$ on the set $\mathscr{P}({\lbrace a, b, c\rbrace })$.</p>
-</blockquote>
+List the <bb>element</bb>s of the relation $\subseteq$ on the set $\mathscr{P}({\lbrace a, b, c\rbrace })$.</p></blockquote>
 <h2 id="philosophical-reflections">Philosophical Reflections</h2>
 <p>In §1.1.0（P.26）, we defined relations as certain sets. We should pause and ask a quick philosophical question: what is such a definition <bb>doing</bb>? It is extremely doubtful that we should want to say that we have <bb>discovered</bb> some metaphysical identity facts; that, for example, the order relation on $\mathbb{N}$ <strong>turned out</strong> to be the set $R=  \lbrace ⟨n,m⟩: n, m \in \mathbb{N}\text{ and } n &lt; m\rbrace $ we defined in §1.1.0（P.26）. Here are three reasons why.</p>
 <p>First: in Definition 1.9, we defined $⟨a, b⟩ = \lbrace \lbrace a\rbrace , \lbrace a, b\rbrace \rbrace $. Consider instead the definition $\lVert a, b\rVert = \lbrace \lbrace b\rbrace , \lbrace a, b\rbrace \rbrace  = ⟨b,a⟩$. When $a \neq b$, we have that $⟨a, b⟩ \neq \lVert a,b\rVert$. But we could equally have regarded $\lVert a,b\rVert$ as our definition of an ordered pair, rather than $⟨a,b⟩$. Both definitions would have worked equally well. So now we have two equally good candidates to &ldquo;be&rsquo;&rsquo; the order relation on the natural numbers, namely:</p>
@@ -2436,8 +2421,7 @@ $$
   </div>
 <blockquote>
 <p><bb>Problem 1.11</bb><br />
-Give examples of relations that are (a) reflexive and symmetric but not transitive, (b) reflexive and anti-symmetric, (c) anti-symmetric, transitive, but not reflexive, and (d) reflexive, symmetric, and transitive.  Do not use relations on numbers or sets.</p>
-</blockquote>
+Give examples of relations that are (a) reflexive and symmetric but not transitive, (b) reflexive and anti-symmetric, (c) anti-symmetric, transitive, but not reflexive, and (d) reflexive, symmetric, and transitive.  Do not use relations on numbers or sets.</p></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">☯定義 1.17【Irreflexivity】</span>
@@ -2488,8 +2472,7 @@ common.</p>
 <blockquote>
 <p><bb>命題 1.2 之證明</bb><br />
 For the left-to-right direction, suppose $Rxy$, and let $z \in [x]_R$. By definition, then, $Rxz$. Since $R$ is an equivalence relation, $Ryz$. (Spelling this out: as $Rxy$ and $R$ is symmetric we have $Ryx$, and as $Rxz$ and $R$ is transitive we have $Ryz$.) So $z \in [y]_R$. Generalising, $[x]_R \subseteq [y]_R$. But exactly similarly, $[y]_R \subseteq [x]_R$. So $[x]_R = [y]_R$, by extensionality.<br />
-For the right-to-left direction, suppose $[x]_R = [y]_R$. Since $R$ is reflexive, $Ryy$, so $y \in [y]_R$. Thus also $y \in [x]_R$ by the assumption that $[x]_R = [y]_R$. So $Rxy$.</p>
-</blockquote>
+For the right-to-left direction, suppose $[x]_R = [y]_R$. Since $R$ is reflexive, $Ryy$, so $y \in [y]_R$. Thus also $y \in [x]_R$ by the assumption that $[x]_R = [y]_R$. So $Rxy$.</p></blockquote>
   <div>
   <div class="dtpcexboxtitle">
   	<span style="font-family:Sarasa-Heavy, SYHei Heavy;">☯例 1.16</span>
@@ -2512,8 +2495,7 @@ For the right-to-left direction, suppose $[x]_R = [y]_R$. Since $R$ is reflexive
   </div>
 <blockquote>
 <p><bb>Problem 1.12</bb><br />
-Show that $\equiv_n$ is an equivalence relation, for any $n \in \mathbb{N}$, and that ${\mathbb{N}/}_{{\equiv}_n}$ has exactly $n$ members.</p>
-</blockquote>
+Show that $\equiv_n$ is an equivalence relation, for any $n \in \mathbb{N}$, and that ${\mathbb{N}/}_{{\equiv}_n}$ has exactly $n$ members.</p></blockquote>
 <h2 id="orders">Orders</h2>
 <p>Many of our comparisons involve describing some objects as being &ldquo;less than&rsquo;&rsquo;, &ldquo;equal to&rsquo;&rsquo;, or &ldquo;greater than&rsquo;&rsquo; other objects, in a certain respect. These involve <bb>order</bb> relations. But there are different kinds of order relations. For instance, some require that any two objects be comparable, others don&rsquo;t. Some include identity (like $\leqslant$) and some exclude it (like $&lt;$). It will help us to have a taxonomy here.</p>
   <div>
@@ -2622,8 +2604,7 @@ Show that $\equiv_n$ is an equivalence relation, for any $n \in \mathbb{N}$, and
 <li>To show $R^+$ is antisymmetric, suppose for reductio that $R^+xy$ and $R^+yx$ but $x \neq y$. Since $⟨x,y⟩ \in R \cup Id_X$, but $⟨x, y⟩ \notin  Id_X$, we must have $⟨x, y⟩ \in R$, i.e., $Rxy$. Similarly, $Ryx$. But this contradicts the assumption that $R$ is asymmetric.</li>
 <li>To establish transitivity, suppose that $R^+xy$ and $R^+yz$. If both $⟨x, y⟩ \in R$ and $⟨y,z⟩ \in R$, then $⟨x, z⟩ \in R$ since $R$ is transitive. Otherwise, either $⟨x, y⟩ \in Id_X$, i.e., $x = y$, or $⟨y, z⟩ \in Id_X$, i.e., $y = z$. In the first case, we have that $R^+yz$ by assumption, $x = y$, hence $R^+xz$. Similarly in the second case. In either case, $R^+xz$, thus, $R^+$ is also transitive.</li>
 <li>Concerning the &ldquo;moreover&rsquo;&rsquo; clause, suppose $R$ is a total order, i.e., that $R$ is connected. So for all $x \neq y$, either $Rxy$ or $Ryx$, i.e., either $⟨x, y⟩ \in R$ or $⟨y, x⟩ \in R$. Since $R \subseteq R^+$, this remains true of $R^+$, so $R^+$ is connected as well.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">☯命題 1.4</span>
@@ -2634,12 +2615,10 @@ Show that $\equiv_n$ is an equivalence relation, for any $n \in \mathbb{N}$, and
   </div>
 <blockquote>
 <p><bb>命題 1.4 之證明</bb><br />
-This is left as an exercise.</p>
-</blockquote>
+This is left as an exercise.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.4</bb><br />
-Give a proof of Proposition 1.4.</p>
-</blockquote>
+Give a proof of Proposition 1.4.</p></blockquote>
   <div>
   <div class="dtpcexboxtitle">
   	<span style="font-family:Sarasa-Heavy, SYHei Heavy;">☯例 1.22</span>
@@ -2659,8 +2638,7 @@ Give a proof of Proposition 1.4.</p>
   </div>
 <blockquote>
 <p><bb>命題 1.5 之證明</bb><br />
-Suppose $(\forall x \in A)(x &lt; a \leftrightarrow x &lt; b)$. If $a &lt; b$, then $a &lt; a$, contradicting the fact that $&lt;$ is irreflexive; so $a \nless b$. Exactly similarly, $b \nless a$. So $a = b$, as $&lt;$ is connected.</p>
-</blockquote>
+Suppose $(\forall x \in A)(x &lt; a \leftrightarrow x &lt; b)$. If $a &lt; b$, then $a &lt; a$, contradicting the fact that $&lt;$ is irreflexive; so $a \nless b$. Exactly similarly, $b \nless a$. So $a = b$, as $&lt;$ is connected.</p></blockquote>
 <h2 id="graphs">Graphs</h2>
 <p>A <bb>graph</bb> is a diagram in which points&mdash;called &ldquo;nodes&rsquo;&rsquo; or &ldquo;vertices&rsquo;&rsquo; (plural of &ldquo;vertex&rsquo;&rsquo;)&mdash;are connected by edges.  Graphs are a ubiquitous tool in discrete mathematics and in computer science. They are incredibly useful for representing, and visualizing, relationships and structures, from concrete things like networks of various kinds to abstract structures such as the possible outcomes of decisions.  There are many different kinds of graphs in the literature which differ, e.g., according to whether the edges are directed or not, have labels or not, whether there can be edges from a node to the same node, multiple edges between the same nodes, etc. <strong>Directed graphs</strong> have a special connection to relations.</p>
   <div>
@@ -2687,8 +2665,7 @@ Suppose $(\forall x \in A)(x &lt; a \leftrightarrow x &lt; b)$. If $a &lt; b$, t
   </div>
 <blockquote>
 <p><bb>Problem 1.14</bb><br />
-Consider the less-than-or-equal-to relation $\leqslant$ on the set $\lbrace 1, 2, 3, 4\rbrace $ as a graph and draw the corresponding diagram.</p>
-</blockquote>
+Consider the less-than-or-equal-to relation $\leqslant$ on the set $\lbrace 1, 2, 3, 4\rbrace $ as a graph and draw the corresponding diagram.</p></blockquote>
 <h2 id="operations-on-relations">Operations on Relations</h2>
 <p>It is often useful to modify or combine relations. In<br />
 Proposition1.3（P.32）, we considered the <bb>union</bb><br />
@@ -2747,8 +2724,7 @@ other operations we can perform on relations.</p>
   </div>
 <blockquote>
 <p><bb>Problem 1.15</bb><br />
-Show that the transitive closure of $R$ is in fact transitive.</p>
-</blockquote>
+Show that the transitive closure of $R$ is in fact transitive.</p></blockquote>
 <h1 id="函数关系之特例">函数：关系之特例</h1>
 <h2 id="basics">Basics</h2>
 <p>A <bb>function</bb> is a map which sends each <bb>element</bb> of a given set to a specific <bb>element</bb> in some (other) given set. For instance, the operation of adding $1$ defines a function: each number $n$ is mapped to a unique number $n+1$.</p>
@@ -2903,16 +2879,14 @@ The function $f \colon \mathbb{N} \to \mathbb{N}$ defined by:</p>
 <ol>
 <li>If $Rxy$ and $Rxz$ then $y = z$; and</li>
 <li>for every $x \in A$ there is some $y \in B$ such that $⟨x,y⟩ \in R$.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>Then $R$ is the graph of the function $f\colon A \to B$ defined by $f(x) = y$ iff $Rxy$.</p>
 </span>
   </div>
   </div>
 <blockquote>
 <p><bb>命題 1.6 之證明</bb><br />
-Suppose there is a $y$ such that $Rxy$.  If there were another $z \neq y$ such that $Rxz$, the condition on $R$ would be violated. Hence, if there is a $y$ such that $Rxy$, this $y$ is unique, and so $f$ is well-defined.  Obviously, $R_f = R$.</p>
-</blockquote>
+Suppose there is a $y$ such that $Rxy$.  If there were another $z \neq y$ such that $Rxz$, the condition on $R$ would be violated. Hence, if there is a $y$ such that $Rxy$, this $y$ is unique, and so $f$ is well-defined.  Obviously, $R_f = R$.</p></blockquote>
 <p>Every function $f\colon A \to B$ has a graph, i.e., a relation on $A \times B$ defined by $f(x) = y$. On the other hand, every relation $R \subseteq A \times B$ with the properties given in Proposition 1.6 is the graph of a function $f \colon A \to B$. Because of this close connection between functions and their graphs, we can think of a function simply as its graph. In other words, functions can be identified with certain relations, i.e., with certain sets of tuples. Note, though, that the spirit of this &ldquo;identification&rsquo;&rsquo; is as in §1.1.1（P.28）: it is not a claim about the metaphysics of functions, but an observation that it is convenient to <bb>treat</bb> functions as certain sets. One reason that this is so convenient, is that We can now consider performing similar operations on functions as we performed on relations (see §1.1.6（P.34）). In particular:</p>
   <div>
   <div class="dtpcboxtitle">
@@ -2951,17 +2925,14 @@ Suppose there is a $y$ such that $Rxy$.  If there were another $z \neq y$ such t
   </div>
 <blockquote>
 <p><bb>命題 1.7 之證明</bb><br />
-Exercise.</p>
-</blockquote>
+Exercise.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.16</bb><br />
-Prove Proposition 1.7. That is, show that if $f\colon A \to B$ is <bb>bijective</bb>, an inverse $g$ of $f$ exists. You have to define such a $g$, show that it is a function, and show that it is an inverse of $f$, i.e., $f(g(y)) = y$ and $g(f(x)) = x$ for all $x \in A$ and $y \in B$.</p>
-</blockquote>
+Prove Proposition 1.7. That is, show that if $f\colon A \to B$ is <bb>bijective</bb>, an inverse $g$ of $f$ exists. You have to define such a $g$, show that it is a function, and show that it is an inverse of $f$, i.e., $f(g(y)) = y$ and $g(f(x)) = x$ for all $x \in A$ and $y \in B$.</p></blockquote>
 <p>However, there is a slightly more general way to extract inverses. We saw in §1.2.1（P.37）that every function $f$ induces a <bb>surjection</bb> $f&rsquo; \colon A \to \text{ran}(f)$ by letting $f&rsquo;(x) = f(x)$ for all $x \in A$. Clearly, if $f$ is an <bb>injection</bb>, then $f&rsquo;$ is a <bb>bijection</bb>, so that it has a unique inverse by Proposition 1.7. By a very minor abuse of notation, we sometimes call the inverse of $f&rsquo;$ simply &ldquo;the inverse of $f$.''</p>
 <blockquote>
 <p><bb>Problem 1.17</bb><br />
-Show that if $f\colon A \to B$ has an inverse $g$, then $f$ is <bb>bijective</bb>.</p>
-</blockquote>
+Show that if $f\colon A \to B$ has an inverse $g$, then $f$ is <bb>bijective</bb>.</p></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">☯命題 1.8</span>
@@ -2972,12 +2943,10 @@ Show that if $f\colon A \to B$ has an inverse $g$, then $f$ is <bb>bijective</bb
   </div>
 <blockquote>
 <p><bb>命題 1.8 之證明</bb><br />
-Exercise.</p>
-</blockquote>
+Exercise.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.18</bb><br />
-Prove Proposition 1.8. That is, show that if $g\colon B \to A$ and $g&rsquo;\colon B \to A$ are inverses of $f\colon A \to B$, then $g = g&rsquo;$, i.e., for all $y \in B$, $g(y) = g&rsquo;(y)$.</p>
-</blockquote>
+Prove Proposition 1.8. That is, show that if $g\colon B \to A$ and $g&rsquo;\colon B \to A$ are inverses of $f\colon A \to B$, then $g = g&rsquo;$, i.e., for all $y \in B$, $g(y) = g&rsquo;(y)$.</p></blockquote>
 <h2 id="composition-of-functions">Composition of Functions</h2>
 <p>We saw in§1.2.3（P.41）that the inverse $f^{-1}$ of a <bb>bijection</bb> $f$ is itself a function. Another operation on functions is composition: We can define a new function by composing two functions, $f$ and $g$, i.e., by first applying $f$ and then $g$. Of course, this is only possible if the ranges and domains match, i.e., the range of $f$ must be a subset of the domain of $g$. This operation on functions is the analogue of the operation of relative product on relations from§1.1.6（P.34）.</p>
 <p>A diagram might help to explain the idea of composition. In Figure 1.7, we depict two functions $f \colon A \to B$ and $g \colon B \to C$ and their composition $(g\circ f)$. The function $(g\circ f) \colon A \to C$ pairs each <bb>element</bb> of $A$ with a <bb>element</bb> of $C$. We specify which <bb>element</bb> of $C$ a <bb>element</bb> of $A$ is paired with as follows: given an input $x \in A$, first apply the function $f$ to $x$, which will output some $f(x) = y \in B$, then apply the function $g$ to $y$, which will output some $g(f(x)) = g(y) = z \in C$.</p>
@@ -3000,16 +2969,13 @@ Prove Proposition 1.8. That is, show that if $g\colon B \to A$ and $g&rsquo;\col
   </div>
 <blockquote>
 <p><bb>Problem 1.19</bb><br />
-Show that if $f \colon A \to B$ and $g \colon B \to C$ are both <bb>injective</bb>, then $g\circ f\colon A \to C$ is <bb>injective</bb>.</p>
-</blockquote>
+Show that if $f \colon A \to B$ and $g \colon B \to C$ are both <bb>injective</bb>, then $g\circ f\colon A \to C$ is <bb>injective</bb>.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.20</bb><br />
-Show that if $f \colon A \to B$ and $g \colon B \to C$ are both <bb>surjective</bb>, then $g\circ f\colon A \to C$ is <bb>surjective</bb>.</p>
-</blockquote>
+Show that if $f \colon A \to B$ and $g \colon B \to C$ are both <bb>surjective</bb>, then $g\circ f\colon A \to C$ is <bb>surjective</bb>.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.21</bb><br />
-Suppose $f \colon A \to B$ and $g \colon B \to C$. Show that the graph of $g\circ f$ is $R_f \mid R_g$.</p>
-</blockquote>
+Suppose $f \colon A \to B$ and $g \colon B \to C$. Show that the graph of $g\circ f$ is $R_f \mid R_g$.</p></blockquote>
 <h2 id="partial-functions">Partial Functions</h2>
 <p>It is sometimes useful to relax the definition of function so that it is not required that the output of the function is defined for all possible inputs. Such mappings are called <bb>partial functions</bb>.</p>
   <div>
@@ -3038,8 +3004,7 @@ Suppose $f \colon A \to B$ and $g \colon B \to C$. Show that the graph of $g\cir
   </div>
 <blockquote>
 <p><bb>Problem 1.22</bb><br />
-Given $f\colon A \nrightarrow B$, define the partial function $g\colon B \nrightarrow A$ by: for any $y \in B$, if there is a unique $x \in A$ such that $f(x) = y$, then $g(y) = x$; otherwise $g(y) \uparrow$.  Show that if $f$ is injective, then $g(f(x)) = x$ for all $x \in \text{dom}(f)$, and $f(g(y)) = y$ for all $y \in \text{ran}(f)$.</p>
-</blockquote>
+Given $f\colon A \nrightarrow B$, define the partial function $g\colon B \nrightarrow A$ by: for any $y \in B$, if there is a unique $x \in A$ such that $f(x) = y$, then $g(y) = x$; otherwise $g(y) \uparrow$.  Show that if $f$ is injective, then $g(f(x)) = x$ for all $x \in \text{dom}(f)$, and $f(g(y)) = y$ for all $y \in \text{ran}(f)$.</p></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">☯定義 1.39【Graph of a partial function】</span>
@@ -3058,8 +3023,7 @@ Given $f\colon A \nrightarrow B$, define the partial function $g\colon B \nright
   </div>
 <blockquote>
 <p><bb>命題 1.9 之證明</bb><br />
-Suppose there is a $y$ such that $Rxy$.  If there were another $y&rsquo; \neq y$ such that $Rxy&rsquo;$, the condition on $R$ would be violated. Hence, if there is a $y$ such that $Rxy$, that $y$ is unique, and so $f$ is well-defined.  Obviously, $R_f = R$ and $f$ is total if $R$ is serial.</p>
-</blockquote>
+Suppose there is a $y$ such that $Rxy$.  If there were another $y&rsquo; \neq y$ such that $Rxy&rsquo;$, the condition on $R$ would be violated. Hence, if there is a $y$ such that $Rxy$, that $y$ is unique, and so $f$ is well-defined.  Obviously, $R_f = R$ and $f$ is total if $R$ is serial.</p></blockquote>
 <h1 id="基数集合大小的度量">基数：集合大小的度量</h1>
 <p>This section discusses enumerations, countability and uncountability. Several sections come in two versions:  a more elementary one, that takes enumerations to be lists, or surjections from $\mathbb{Z}^{+}$; and a more abstract onethat defines enumerations as bijections with $\mathbb{N}$.</p>
 <h2 id="introduction">Introduction</h2>
@@ -3096,8 +3060,7 @@ Suppose there is a $y$ such that $Rxy$.  If there were another $y&rsquo; \neq y$
   </div>
 <blockquote>
 <p><bb>命題 1.10 之證明</bb><br />
-Suppose $A$ has an enumeration $x_1$, $x_2, \cdots$, in which each $x_i$ is an <bb>element</bb> of $A$.  We can remove repetitions from an enumeration by removing repeated <bb>element</bb>s. For instance, we can turn the enumeration into a new one in which we list $x_i$ if it is an <bb>element</bb> of $A$ that is not among $x_1, \cdots, x_{i-1}$ or remove $x_i$ from the list if it already appears among $x_1, \cdots, x_{i-1}$.</p>
-</blockquote>
+Suppose $A$ has an enumeration $x_1$, $x_2, \cdots$, in which each $x_i$ is an <bb>element</bb> of $A$.  We can remove repetitions from an enumeration by removing repeated <bb>element</bb>s. For instance, we can turn the enumeration into a new one in which we list $x_i$ if it is an <bb>element</bb> of $A$ that is not among $x_1, \cdots, x_{i-1}$ or remove $x_i$ from the list if it already appears among $x_1, \cdots, x_{i-1}$.</p></blockquote>
 <p>The last argument shows that in order to get a good handle on enumerations and <bb>enumerable</bb> sets and to prove things about them, we need a more precise definition.  The following provides it.</p>
   <div>
   <div class="dtpcboxtitle">
@@ -3141,8 +3104,7 @@ Suppose $A$ has an enumeration $x_1$, $x_2, \cdots$, in which each $x_i$ is an <
   </div>
 <blockquote>
 <p><bb>Problem 1.23</bb><br />
-Define an enumeration of the positive squares $1$, $4$, $9$, $16, \cdots$</p>
-</blockquote>
+Define an enumeration of the positive squares $1$, $4$, $9$, $16, \cdots$</p></blockquote>
   <div>
   <div class="dtpcexboxtitle">
   	<span style="font-family:Sarasa-Heavy, SYHei Heavy;">☯例 1.38</span>
@@ -3170,16 +3132,13 @@ $$</p>
   </div>
 <blockquote>
 <p><bb>Problem 1.24</bb><br />
-Show that if $A$ and $B$ are <bb>enumerable</bb>, so is $A \cup B$. To do this, suppose there are <bb>surjective</bb> functions $f\colon \mathbb{Z}^{+} \to A$ and $g\colon \mathbb{Z}^{+} \to B$, and define a <bb>surjective</bb> function $h\colon \mathbb{Z}^{+} \to A \cup B$ and prove that it is <bb>surjective</bb>. Also consider the cases where $A$ or $B = \varnothing$.</p>
-</blockquote>
+Show that if $A$ and $B$ are <bb>enumerable</bb>, so is $A \cup B$. To do this, suppose there are <bb>surjective</bb> functions $f\colon \mathbb{Z}^{+} \to A$ and $g\colon \mathbb{Z}^{+} \to B$, and define a <bb>surjective</bb> function $h\colon \mathbb{Z}^{+} \to A \cup B$ and prove that it is <bb>surjective</bb>. Also consider the cases where $A$ or $B = \varnothing$.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.25</bb><br />
-Show that if $B \subseteq A$ and $A$ is <bb>enumerable</bb>, so is $B$. To do this, suppose there is a <bb>surjective</bb> function $f\colon \mathbb{Z}^{+} \to A$. Define a <bb>surjective</bb> function $g\colon \mathbb{Z}^{+} \to B$ and prove that it is <bb>surjective</bb>. What happens if $B = \varnothing$?</p>
-</blockquote>
+Show that if $B \subseteq A$ and $A$ is <bb>enumerable</bb>, so is $B$. To do this, suppose there is a <bb>surjective</bb> function $f\colon \mathbb{Z}^{+} \to A$. Define a <bb>surjective</bb> function $g\colon \mathbb{Z}^{+} \to B$ and prove that it is <bb>surjective</bb>. What happens if $B = \varnothing$?</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.26</bb><br />
-Show by induction on $n$ that if $A_1$, $A_2, \cdots, A_n$ are all <bb>enumerable</bb>, so is $A_1 \cup \cdots \cup A_n$. You may assume the fact that if two sets $A$ and $B$ are <bb>enumerable</bb>, so is $A \cup B$.</p>
-</blockquote>
+Show by induction on $n$ that if $A_1$, $A_2, \cdots, A_n$ are all <bb>enumerable</bb>, so is $A_1 \cup \cdots \cup A_n$. You may assume the fact that if two sets $A$ and $B$ are <bb>enumerable</bb>, so is $A \cup B$.</p></blockquote>
 <p>Although it is perhaps more natural when listing the <bb>element</bb>s of a set to start counting from the $1$st <bb>element</bb>, mathematicians like to use the natural numbers $\mathbb{N}$ for counting things. They talk about the $0$th, $1$st, $2$nd, and so on, <bb>element</bb>s of a list. Correspondingly, we can define an enumeration as a <bb>surjective</bb> function from $\mathbb{N}$ to $A$. Of course, the two definitions are equivalent.</p>
   <div>
   <div class="dtpcboxtitle">
@@ -3191,8 +3150,7 @@ Show by induction on $n$ that if $A_1$, $A_2, \cdots, A_n$ are all <bb>enumerabl
   </div>
 <blockquote>
 <p><bb>命題 1.11 之證明</bb><br />
-Given a <bb>surjection</bb> $f\colon \mathbb{Z}^{+} \to A$, we can define $g(n) = f(n+1)$ for all $n \in \mathbb{N}$. It is easy to see that $g\colon \mathbb{N} \to A$ is <bb>surjective</bb>. Conversely, given a <bb>surjection</bb> $g\colon \mathbb{N} \to A$, define $f(n) = g(n+1)$.</p>
-</blockquote>
+Given a <bb>surjection</bb> $f\colon \mathbb{Z}^{+} \to A$, we can define $g(n) = f(n+1)$ for all $n \in \mathbb{N}$. It is easy to see that $g\colon \mathbb{N} \to A$ is <bb>surjective</bb>. Conversely, given a <bb>surjection</bb> $g\colon \mathbb{N} \to A$, define $f(n) = g(n+1)$.</p></blockquote>
 <p>This gives us the following result:</p>
   <div>
   <div class="dtpcboxtitle">
@@ -3214,8 +3172,7 @@ Given a <bb>surjection</bb> $f\colon \mathbb{Z}^{+} \to A$, we can define $g(n) 
 <blockquote>
 <p><bb>命題 1.12 之證明</bb><br />
 We define the function $g$ recursively: Let $g(1) = f(1)$. If $g(i)$ has already been defined, let $g(i+1)$ be the first value of $f(1), f(2),\cdots$, not already among $g(1), \cdots, g(i)$, if there is one. If $A$ has just $n$ <bb>element</bb>s, then $g(1), \cdots, g(n)$ are all defined, and so we have defined a function $g\colon \lbrace 1, \cdots, n\rbrace \to A$. If $A$ has infinitely many <bb>element</bb>s, then for any $i$ there must be an <bb>element</bb> of $A$ in the enumeration $f(1)$, $f(2), \cdots$, which is not already among $g(1), \cdots, g(i)$. In this case we have defined a funtion $g\colon \mathbb{Z}^{+} \to A$.<br />
-The function $g$ is <bb>surjective</bb>, since any element of $A$ is among $f(1)$, $f(2)$, \cdots{} (since $f$ is <bb>surjective</bb>) and so will eventually be a value of $g(i)$ for some $i$. It is also <bb>injective</bb>, since if there were $j &lt; i$ such that $g(j) = g(i)$, then $g(i)$ would already be among $g(1), \cdots, g(i-1)$, contrary to how we defined $g$.</p>
-</blockquote>
+The function $g$ is <bb>surjective</bb>, since any element of $A$ is among $f(1)$, $f(2)$, \cdots{} (since $f$ is <bb>surjective</bb>) and so will eventually be a value of $g(i)$ for some $i$. It is also <bb>injective</bb>, since if there were $j &lt; i$ such that $g(j) = g(i)$, then $g(i)$ would already be among $g(1), \cdots, g(i-1)$, contrary to how we defined $g$.</p></blockquote>
   <div>
   <div class="dtpcboxtitle">
   	<span style="font-family:Sarasa-Heavy,SYHei Heavy;">〶推論 1.1</span>
@@ -3226,12 +3183,10 @@ The function $g$ is <bb>surjective</bb>, since any element of $A$ is among $f(1)
   </div>
 <blockquote>
 <p><bb>推論 1.1 之證明</bb><br />
-$A$ is <bb>enumerable</bb> iff $A$ is empty or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$. By Proposition 1.12, the latter holds iff there is a <bb>bijective</bb> function $f\colon Z \to A$ where $Z = \mathbb{Z}^{+}$ or $Z = \lbrace 1, \cdots, n\rbrace $ for some $n \in \mathbb{Z}^{+}$. By the same argument as in the proof of Proposition 1.11, that in turn is the case iff there is a <bb>bijection</bb> $g\colon N \to A$ where either $N = \mathbb{N}$ or $N = \lbrace 0, \cdots, n-1\rbrace $.</p>
-</blockquote>
+$A$ is <bb>enumerable</bb> iff $A$ is empty or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$. By Proposition 1.12, the latter holds iff there is a <bb>bijective</bb> function $f\colon Z \to A$ where $Z = \mathbb{Z}^{+}$ or $Z = \lbrace 1, \cdots, n\rbrace $ for some $n \in \mathbb{Z}^{+}$. By the same argument as in the proof of Proposition 1.11, that in turn is the case iff there is a <bb>bijection</bb> $g\colon N \to A$ where either $N = \mathbb{N}$ or $N = \lbrace 0, \cdots, n-1\rbrace $.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-According to Definition1.48（P.63）, a set $A$ is enumerable iff $A = \varnothing$ or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$.  It is also possible to define &ldquo;<bb>enumerable</bb> set&rdquo; precisely by: a set is enumerable iff there is a <bb>injective</bb> function $g\colon A \to \mathbb{Z}^{+}$.  Show that the definitions are equivalent, i.e., show that there is a <bb>injective</bb> function $g\colon A \to \mathbb{Z}^{+}$ iff either $A = \varnothing$ or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$.</p>
-</blockquote>
+According to Definition1.48（P.63）, a set $A$ is enumerable iff $A = \varnothing$ or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$.  It is also possible to define &ldquo;<bb>enumerable</bb> set&rdquo; precisely by: a set is enumerable iff there is a <bb>injective</bb> function $g\colon A \to \mathbb{Z}^{+}$.  Show that the definitions are equivalent, i.e., show that there is a <bb>injective</bb> function $g\colon A \to \mathbb{Z}^{+}$ iff either $A = \varnothing$ or there is a <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to A$.</p></blockquote>
 <h2 id="cantors-zig-zag-method">Cantor&rsquo;s Zig-Zag Method</h2>
 <p>We&rsquo;ve already considered some &ldquo;easy&rsquo;&rsquo; enumerations. Now we will consider something a bit harder. Consider the set of pairs of natural numbers, which we defined in§1.0.4（P.22）defined by: $$\mathbb{N} \times \mathbb{N} = \lbrace ⟨n,m⟩: n,m \in \mathbb{N}\rbrace$$ We can organize these ordered pairs into an <bb>array</bb>, like so:</p>
 <p>
@@ -3283,8 +3238,7 @@ $$
   </div>
 <blockquote>
 <p><bb>命題 1.13 之證明</bb><br />
-Let $f \colon \mathbb{N} \to \mathbb{N}\times\mathbb{N}$ take each $k \in \mathbb{N}$ to the tuple $⟨n,m⟩ \in \mathbb{N} \times \mathbb{N}$ such that $k$ is the value of the $n$th row and $m$th column in Cantor&rsquo;s zig-zag array.</p>
-</blockquote>
+Let $f \colon \mathbb{N} \to \mathbb{N}\times\mathbb{N}$ take each $k \in \mathbb{N}$ to the tuple $⟨n,m⟩ \in \mathbb{N} \times \mathbb{N}$ such that $k$ is the value of the $n$th row and $m$th column in Cantor&rsquo;s zig-zag array.</p></blockquote>
 <p>This technique also generalises rather nicely. For example, we can use it to enumerate the set of ordered triples of natural numbers, i.e.: $$\mathbb{N} \times \mathbb{N} \times \mathbb{N} = \Setabs{⟨n,m,k⟩}{n,m,k \in \mathbb{N}}$$ We think of $\mathbb{N} \times \mathbb{N} \times \mathbb{N}$ as the Cartesian product of $\mathbb{N} \times \mathbb{N}$ with $\mathbb{N}$, that is, $$\mathbb{N}^3 = (\mathbb{N} \times \mathbb{N}) \times \mathbb{N} =\lbrace ⟨⟨n,m⟩,k⟩: n, m, k<br />
 \in \mathbb{N}\rbrace $$ and thus we can enumerate $\mathbb{N}^3$ with an array by labelling one axis with the enumeration of $\mathbb{N}$, and the other axis with the enumeration of $\mathbb{N}^2$:</p>
 <p>
@@ -3335,40 +3289,31 @@ $$
 <p>We can use pairing functions encode, e.g., pairs of natural numbers; or, in other words, we can represent each <bb>pair</bb> of elements using a <bb>single</bb> number. Using the inverse of the pairing function, we can <bb>decode</bb> the number, i.e., find out which pair it represents.</p>
 <blockquote>
 <p><bb>Problem 1.28</bb><br />
-Give an enumeration of the set of all non-negative rational numbers.</p>
-</blockquote>
+Give an enumeration of the set of all non-negative rational numbers.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.29</bb><br />
-Show that $\mathbb{Q}$ is <bb>enumerable</bb>. Recall that any rational number can be written as a fraction $z/m$ with $z \in \mathbb{Z}$, $m \in \mathbb{N}^+$.</p>
-</blockquote>
+Show that $\mathbb{Q}$ is <bb>enumerable</bb>. Recall that any rational number can be written as a fraction $z/m$ with $z \in \mathbb{Z}$, $m \in \mathbb{N}^+$.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.30</bb><br />
-Define an enumeration of $\mathbb{B}^*$.</p>
-</blockquote>
+Define an enumeration of $\mathbb{B}^*$.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.31</bb><br />
-Recall from your introductory logic course that each possible truth table expresses a truth function. In other words, the truth functions are all functions from $\mathbb{B}^k \to \mathbb{B}$ for some $k$. Prove that the set of all truth functions is enumerable.</p>
-</blockquote>
+Recall from your introductory logic course that each possible truth table expresses a truth function. In other words, the truth functions are all functions from $\mathbb{B}^k \to \mathbb{B}$ for some $k$. Prove that the set of all truth functions is enumerable.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.32</bb><br />
-Show that the set of all finite subsets of an arbitrary infinite <bb>enumerable</bb> set is <bb>enumerable</bb>.</p>
-</blockquote>
+Show that the set of all finite subsets of an arbitrary infinite <bb>enumerable</bb> set is <bb>enumerable</bb>.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.33</bb><br />
-A subset of $\mathbb{N}$ is said to be <bb>cofinite</bb> iff it is the complement of a finite set $\mathbb{N}$; that is, $A \subseteq \mathbb{N}$ is cofinite iff $\mathbb{N}\setminus A$ is finite. Let $I$ be the set whose <bb>element</bb>s are exactly the finite and cofinite subsets of $\mathbb{N}$. Show that $I$ is <bb>enumerable</bb>.</p>
-</blockquote>
+A subset of $\mathbb{N}$ is said to be <bb>cofinite</bb> iff it is the complement of a finite set $\mathbb{N}$; that is, $A \subseteq \mathbb{N}$ is cofinite iff $\mathbb{N}\setminus A$ is finite. Let $I$ be the set whose <bb>element</bb>s are exactly the finite and cofinite subsets of $\mathbb{N}$. Show that $I$ is <bb>enumerable</bb>.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.34</bb><br />
-Show that the <bb>enumerable</bb> union of <bb>enumerable</bb> sets is <bb>enumerable</bb>. That is, whenever $A_1$, $A_2$, \cdots{} are sets, and each $A_i$ is <bb>enumerable</bb>, then the union $\bigcup_{i=1}^\infty A_i$ of all of them is also <bb>enumerable</bb>. [NB: this is hard!]</p>
-</blockquote>
+Show that the <bb>enumerable</bb> union of <bb>enumerable</bb> sets is <bb>enumerable</bb>. That is, whenever $A_1$, $A_2$, \cdots{} are sets, and each $A_i$ is <bb>enumerable</bb>, then the union $\bigcup_{i=1}^\infty A_i$ of all of them is also <bb>enumerable</bb>. [NB: this is hard!]</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.35</bb><br />
-Let $f \colon A \times B \to \mathbb{N}$ be an arbitrary pairing function. Show that the inverse of $f$ is an enumeration of $A \times B$.</p>
-</blockquote>
+Let $f \colon A \times B \to \mathbb{N}$ be an arbitrary pairing function. Show that the inverse of $f$ is an enumeration of $A \times B$.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.36</bb><br />
-Specify a function that encodes $\mathbb{N}^3$.</p>
-</blockquote>
+Specify a function that encodes $\mathbb{N}^3$.</p></blockquote>
 <h2 id="an-alternative-pairing-function">An Alternative Pairing Function</h2>
 <p>There are other enumerations of $\mathbb{N}^2$ that make it easier to figure out what their inverses are. Here is one. Instead of visualizing the enumeration in an array, start with the list of positive integers associated with (initially) empty spaces. Imagine filling these spaces successively with pairs $⟨n,m⟩$ as follow. Starting with the pairs that have $0$ in  the first place (i.e., pairs $⟨0,m⟩$), put the first (i.e., $⟨0,0⟩$) in the first empty place, then skip an empty space, put the second (i.e., $⟨0,2⟩$) in the next empty place, skip one again, and so forth. The (incomplete) beginning of our enumeration now looks like this</p>
 <p>
@@ -3511,20 +3456,17 @@ $$
 <p>Then $\overline{Z}$ is the set obtained by going down the diagonal, leaving out any numbers that appear along the diagonal and include those $j$ where the array has a gap in the $j$-th row/column. In the above case, we would leave out $1$ and $2$, include $3$, leave out $4$, etc.</p>
 <blockquote>
 <p><bb>Problem 1.37</bb><br />
-Show that $\mathscr{P}({\mathbb{N})}$ is <bb>nonenumerable</bb> by a diagonal argument.</p>
-</blockquote>
+Show that $\mathscr{P}({\mathbb{N})}$ is <bb>nonenumerable</bb> by a diagonal argument.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.38</bb><br />
-Show that the set of functions $f \colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$ is <bb>nonenumerable</bb> by an explicit diagonal argument. That is, show that if $f_1$, $f_2$, \cdots, is a list of functions and each $f_i\colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$, then there is some $\overline{f}\colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$ not on this list.</p>
-</blockquote>
+Show that the set of functions $f \colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$ is <bb>nonenumerable</bb> by an explicit diagonal argument. That is, show that if $f_1$, $f_2$, \cdots, is a list of functions and each $f_i\colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$, then there is some $\overline{f}\colon \mathbb{Z}^{+} \to \mathbb{Z}^{+}$ not on this list.</p></blockquote>
 <h2 id="reduction">Reduction</h2>
 <p>This section proves non-enumerability by reduction, matching the results in §1.3.5（P.53）. An alternative, slightly more condensed version matching the results in §1.3.11（P.64）is provided in§1.3.12（P.66）.</p>
 <p>We showed $\mathscr{P}({\mathbb{Z})^{+}}$ to be <bb>nonenumerable</bb> by a diagonalization argument. We already had a proof that $\mathbb{B}^\omega$, the set of all infinite sequences of $0$s and $1$s, is <bb>nonenumerable</bb>.  Here&rsquo;s another way we can prove that $\mathscr{P}({\mathbb{Z})^{+}}$ is <bb>nonenumerable</bb>: Show that if $\mathscr{P}({\mathbb{Z})^{+}}$ is <bb>enumerable</bb> then $\mathbb{B}^\omega$ is also <bb>enumerable</bb>.  Since we know $\mathbb{B}^\omega$ is not <bb>enumerable</bb>, $\mathscr{P}({\mathbb{Z})^{+}}$ can&rsquo;t be either.  This is called <bb>reducing</bb> one problem to another&mdash;in this case, we reduce the problem of enumerating $\mathbb{B}^\omega$ to the problem of enumerating $\mathscr{P}({\mathbb{Z})^{+}}$.  A solution to the latter&mdash;an enumeration of $\mathscr{P}({\mathbb{Z})^{+}}$&mdash;would yield a solution to the former&mdash;an enumeration of $\mathbb{B}^\omega$.</p>
 <p>How do we reduce the problem of enumerating a set $B$ to that of enumerating a set $A$?  We provide a way of turning an enumeration of $A$ into an enumeration of $B$.  The easiest way to do that is to define a <bb>surjective</bb> function $f\colon A \to B$.  If $x_1$, $x_2, \cdots$, enumerates $A$, then $f(x_1)$, $f(x_2), \cdots$, would enumerate $B$.  In our case, we are looking for a surjective function $f\colon \mathscr{P}({\mathbb{Z})^{+}} \to \mathbb{B}^\omega$.</p>
 <blockquote>
 <p><bb>Problem 1.3</bb><br />
-Show that if there is an <bb>injective</bb> function $g\colon B \to A$, and $B$ is <bb>nonenumerable</bb>, then so is $A$. Do this by showing how you can use $g$ to turn an enumeration of $A$ into one of $B$.</p>
-</blockquote>
+Show that if there is an <bb>injective</bb> function $g\colon B \to A$, and $B$ is <bb>nonenumerable</bb>, then so is $A$. Do this by showing how you can use $g$ to turn an enumeration of $A$ into one of $B$.</p></blockquote>
 <p><bb>Proof of Theorem 1.6（P.65）by reduction</bb><br />
 Suppose that $\mathscr{P}({\mathbb{Z})^{+}}$ were <bb>enumerable</bb>, and thus that there is an enumeration of it, $Z_{1}$, $Z_{2}$, $Z_{3}, \cdots$</p>
 <p>Define the function $f \colon \mathscr{P}({\mathbb{Z})^{+}} \to \mathbb{B}^\omega$ by letting $f(Z)$ be the sequence $s_{k}$ such that $s_{k}(n) = 1$ iff $n \in Z$, and $s_k(n) = 0$ otherwise.  This clearly defines a function, since whenever $Z \subseteq \mathbb{Z}^{+}$, any $n \in \mathbb{Z}^{+}$ either is an <bb>element</bb> of $Z$ or isn&rsquo;t.  For instance, the set $2\mathbb{Z}^{+} = \lbrace 2, 4, 6, \cdots\rbrace $ of positive even numbers gets mapped to the sequence $010101\cdots$, the empty set gets mapped to $0000\cdots$ and the set $\mathbb{Z}^{+}$ itself to $1111\cdots$.</p>
@@ -3534,24 +3476,19 @@ Suppose that $\mathscr{P}({\mathbb{Z})^{+}}$ were <bb>enumerable</bb>, and thus 
 <p>It is easy to be confused about the direction the reduction goes in. For instance, a <bb>surjective</bb> function $g \colon \mathbb{B}^\omega \to B$ does <bb>not</bb> establish that $B$ is <bb>nonenumerable</bb>.  (Consider $g \colon \mathbb{B}^\omega \to \mathbb{B}$ defined by $g(s) = s(1)$, the function that maps a sequence of $0$&rsquo;s and $1$&rsquo;s to its first <bb>element</bb>.  It is <bb>surjective</bb>, because some sequences start with $0$ and some start with $1$. But $\mathbb{B}$ is finite.)  Note also that the function $f$ must be <bb>surjective</bb>, or otherwise the argument does not go through: $f(x_1)$, $f(x_2), \cdots$, would then not be guaranteed to include all the <bb>element</bb>s of $B$. For instance,  $$ h(n) = \underbrace{000\cdots0}_{\text{$n$ $0$&rsquo;s}} $$ defines a function $h\colon \mathbb{Z}^{+} \to \mathbb{B}^\omega$, but $\mathbb{Z}^{+}$ is <bb>enumerable</bb>.</p>
 <blockquote>
 <p><bb>Problem 1.40</bb><br />
-Show that the set of all <bb>sets of</bb> pairs of positive integers is <bb>nonenumerable</bb> by a reduction argument.</p>
-</blockquote>
+Show that the set of all <bb>sets of</bb> pairs of positive integers is <bb>nonenumerable</bb> by a reduction argument.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.41</bb><br />
-Show that $\mathbb{N}^\omega$, the set of infinite sequences of natural numbers, is <bb>nonenumerable</bb> by a reduction argument.</p>
-</blockquote>
+Show that $\mathbb{N}^\omega$, the set of infinite sequences of natural numbers, is <bb>nonenumerable</bb> by a reduction argument.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.42</bb><br />
-Let $P$ be the set of functions from the set of positive integers to the set $\lbrace 0\rbrace $, and let $Q$ be the set of <bb>partial</bb> functions from the set of positive integers to the set $\lbrace 0\rbrace $. Show that $P$ is <bb>enumerable</bb> and $Q$ is not. (Hint: reduce the problem of enumerating $\mathbb{B}^\omega$ to enumerating $Q$).</p>
-</blockquote>
+Let $P$ be the set of functions from the set of positive integers to the set $\lbrace 0\rbrace $, and let $Q$ be the set of <bb>partial</bb> functions from the set of positive integers to the set $\lbrace 0\rbrace $. Show that $P$ is <bb>enumerable</bb> and $Q$ is not. (Hint: reduce the problem of enumerating $\mathbb{B}^\omega$ to enumerating $Q$).</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.43</bb><br />
-Let $S$ be the set of all <bb>surjective</bb> functions from the set of positive integers to the set $\lbrace 0,1\rbrace$, i.e., $S$ consists of all <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to \mathbb{B}$.  Show that $S$ is <bb>nonenumerable</bb>.</p>
-</blockquote>
+Let $S$ be the set of all <bb>surjective</bb> functions from the set of positive integers to the set $\lbrace 0,1\rbrace$, i.e., $S$ consists of all <bb>surjective</bb> $f\colon \mathbb{Z}^{+} \to \mathbb{B}$.  Show that $S$ is <bb>nonenumerable</bb>.</p></blockquote>
 <blockquote>
 <p><bb>Problem 1.44</bb><br />
-Show that the set $\mathbb{R}$ of all real numbers is <bb>nonenumerable</bb>.</p>
-</blockquote>
+Show that the set $\mathbb{R}$ of all real numbers is <bb>nonenumerable</bb>.</p></blockquote>
 
 <p style="font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Saturday, March 18, 2023, 14:28:42 by <a href="https://duoyu.ren/cycling/">王小花</a>.</p>
     </article>
@@ -3724,7 +3661,8 @@ Show that the set $\mathbb{R}$ of all real numbers is <bb>nonenumerable</bb>.</p
     
     
       
-<img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/wechatpay.5enlnefaah34.webp"  alt="支持作者" style="width:110px;height:110px;"class="whoami__image"/><p style="font-size:88%; margin: auto; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">🤑乞討碼🤑</p> 
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+
 
 
 
@@ -3802,7 +3740,7 @@ Show that the set $\mathbb{R}$ of all real numbers is <bb>nonenumerable</bb>.</p
 </div>
 
 
-<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
+<script defer src="/js/swipe.min.dc9adde7c0568fad55b1d47730c3b3629469b0aebd103d58226bee25a0736e92.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

@@ -1266,7 +1266,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="TeX 排版漢語辭書的一種版式。">
 
-<meta name="generator" content="Hugo 0.140.2">
+<meta name="generator" content="Hugo 0.148.2">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1893,8 +1893,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <li>頁面分欄排版，欄數設置依據依據字號、紙型等調整。</li>
 <li>「常用字」字頭下沉三行排版，其餘漢字字頭下沉兩行排版。</li>
 <li>與常見英文字典類似，每頁均標記所屬「<a href="https://en.wikipedia.org/wiki/Cangjie_input_method" title="倉頡部首" class="icon_external" rel="noopener external" target="_blank">倉頡部首</a>」，如本頁爲倉頡部首「十」（J）部，則本部首下每一頁均有此指示，以便於提升翻檢效率。</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <h1 id="dic-entry-style">Dic Entry Style</h1>
 <h2 id="字頭樣例">字頭樣例</h2>
 <p><img src="https://github.com/duoyuren/picx-img/raw/master/blog/2016/20160430-02.1igqal35zqw0.webp" alt=""></p>
@@ -1910,8 +1909,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <li><a href="https://en.wikipedia.org/wiki/Four-Corner_Method" title="四角號碼檢字法" class="icon_external" rel="noopener external" target="_blank">四角號碼檢字法</a>或許風行過一段時間，目前一般讀者極少會用到它。一個例子如：<a href="http://dict2.variants.moe.edu.tw/variants/rbt/page_content3.rbt?pageId=2982180" title="《教育部異體字字典》" class="icon_external" rel="noopener external" target="_blank">《教育部異體字字典》</a>附錄的四角碼檢字法介紹。但是一字四角碼之確定卻較爲麻煩，蓋此檢字法幾經變遷，存在幾個差別不大的版本，導致同一字在不同版本中的四角碼不一致，困擾翻檢者。本模板之所以仍標記漢字四角碼，皆因重要古籍出版物的附錄大多都附有漢字四角碼索引檢字。</li>
 <li>普通話讀音，每本漢語辭書都標記的信息。本模板預期所附漢字「國音索引」，只索引常用的大約一萬三千多字的讀音作「拼音檢字」用，大致參考 <a href="https://zh.wikipedia.org/wiki/%e5%a4%a7%e4%ba%94%e7%a2%bc" title="big5" class="icon_external" rel="noopener external" target="_blank">big5</a> 碼收字狀況。</li>
 <li>本模板標記<z>粵</z>音純粹爲試驗，又因在<z>粵</z>斷斷續續寫完這個模板。<z>粵</z>拼似乎也存在好幾種方案，市面上的<a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/" title="粵音辭書" class="icon_external" rel="noopener external" target="_blank"><z>粵</z>音辭書</a>使用的<z>粵</z>拼方案也不一致。不過標記此信息，可以製作國<z>粵</z>讀音對照表與索引。同理<z>粵</z>音換成字頭的上古音、中古音、客家話讀音、<z>吳</z>語讀音都可以，同理也可以製作國語<z>吳</z>語讀音對照之類的索引。</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <h2 id="字頭源碼">字頭源碼</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1996,8 +1994,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <li><strong>倉頡碼索引</strong> （Cangjie Input Code Index），依據漢字倉頡碼排序檢字，也是正文字頭排序的方案。</li>
 <li><strong>粵音索引</strong> （Cantonese Index），常用字<z>粵</z>音檢字表，也是簡易的<z>粵</z>國讀音對照表——從<z>粵</z>音查國音。</li>
 <li><strong>國音索引</strong> （Mandarin Index），常用字普通話讀音檢字表，也是簡易的國<z>粵</z>讀音對照表——從國音查<z>粵</z>音。之所以限於常用字，乃考慮篇幅與實際使用情況而定。一萬三千字以外的非常用字，若需查檢，查檢者大多不識其音而採其他檢字法查檢，故無必要索引非常用字的讀音，以節省篇幅。</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <h1 id="conclusion">Conclusion</h1>
 <p>上文簡單列舉了 <a href="https://github.com/elegist/Cangjie-Chinese-English-Dictionary" title="Cangjie Chinese-English Dictionary" class="icon_external" rel="noopener external" target="_blank">Cangjie Chinese-English Dictionary</a> 幾個關鍵設計樣例。此外還有許多細節源碼，以及許多 package 依賴關係，都可在<a href="https://github.com/elegist/Cangjie-Chinese-English-Dictionary" title="這裏" class="icon_external" rel="noopener external" target="_blank">這裏</a>查看、下載、改進。使用、修正本模板時有任何問題，也可聯繫作者：<a href="" title="logos@duoyu.ren" class="icon_mail" target="_blank">logos@duoyu.ren</a>。</p>
 
@@ -2164,7 +2161,8 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/wechatpay.5enlnefaah34.webp"  alt="支持作者" style="width:110px;height:110px;"class="whoami__image"/><p style="font-size:88%; margin: auto; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">🤑乞討碼🤑</p> 
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+
 
 
 
@@ -2241,7 +2239,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </div>
 
 
-<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
+<script defer src="/js/swipe.min.dc9adde7c0568fad55b1d47730c3b3629469b0aebd103d58226bee25a0736e92.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
