@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Diary on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/diary/</link>
+    <description>Recent content in Diary on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 10 Sep 2018 15:25:25 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      <item>
+        <title>過去的六個九月十號</title>
+        <link>https://duoyu.ren/essay/2018_09_10_teacher_day/</link>
+        <pubDate>Mon, 10 Sep 2018 15:25:25 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Mon, 23 Oct 2023 13:42:46 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/2018_09_10_teacher_day/</guid>
+        <description>&lt;p&gt;編按：今日決定「歸正」。閉門一日，完善域名。趁着網站由 http 協議轉爲 https 協議的機會，臨時拼湊一文，以測試網站訪問效果。東西南北，征途漫漫。男女老幼，長亭西風。自畢業以來，不覺間已歷六個九月十日。抓筆無文，只剩下一堆絮絮叨叨，長吁短歎。&lt;/p&gt;</description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>diary</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>map[categories:[隨想] draft:true password:&lt;nil&gt;]</category>
+            
+          
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Novel on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/novel/</link>
+    <description>Recent content in Novel on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 25 Oct 2019 23:28:58 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/novel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      <item>
+        <title>偷桃术</title>
+        <link>https://duoyu.ren/essay/2019_10_25_toutaoshu/</link>
+        <pubDate>Fri, 25 Oct 2019 23:28:58 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Thu, 31 Aug 2023 17:38:25 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/2019_10_25_toutaoshu/</guid>
+        <description>&lt;div&gt;
+  &lt;div class=&#34;freeboxtitle&#34;&gt;
+  	&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 作者的話 ⦿&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;freebox&#34;&gt;
+  本文主要情节完全改编自《故事会》某期某篇作品。所以，若非编者威逼利诱，作者是不愿意将此文公开登载在这儿的。特此声明。
+  &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;民间自古流传着老人活久了会偷儿孙寿命的说法，殊不知儿孙也能偷老人寿命，偷桃术即如此。&lt;/p&gt;</description>
+        
+        <dc:creator>康师傅冰红茶</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/hmq.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>novel</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>map[categories:[作業] draft:true password:&lt;nil&gt;]</category>
+            
+          
+        
+      </item>
+    
+      <item>
+        <title>窥荷</title>
+        <link>https://duoyu.ren/essay/2019_10_25_kuihe/</link>
+        <pubDate>Fri, 25 Oct 2019 21:10:21 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Thu, 31 Aug 2023 17:38:21 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/2019_10_25_kuihe/</guid>
+        <description>&lt;div&gt;
+  &lt;div class=&#34;freeboxtitle&#34;&gt;
+  	&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 作者的話 ⦿&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;freebox&#34;&gt;
+  &lt;p&gt;写这篇东西不仅是为了完成作业，更有把高中挖的几个坑多少填一点的打算。&lt;/p&gt;
+&lt;p&gt;我最初的构思里，何先生与现版本相比没什么变化，小连则天差地别。初版的小连一腔救国救社会的孤勇为黑暗现实浇灭，从而变得寡言、沉郁。二人由于政治理念相左而分道扬镳，从此生离至死别。但因为笔力不足，论政时只能浅谈辄止，只好放弃。（这个故事告诉我们，优质的产真的需要无尽的积累，需要把自己变成杂家）&lt;/p&gt;</description>
+        
+        <dc:creator>陆成江</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/nezha.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>novel</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>map[categories:[作業] draft:true password:&lt;nil&gt;]</category>
+            
+          
+        
+      </item>
+    
+  </channel>
+</rss>
