@@ -49,6 +49,20 @@
 @import url('https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
 @import url('https://fonts.loli.net/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
+
+@import url('https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/%E4%BA%AC%E8%8F%AF%E8%80%81%E5%AE%8B%E4%BD%93v2_002/result.css'); /* 全站使用「中文網字計劃」流量的京華老宋体v2_002 KingHwa_OldSong */
+@import url('https://chinese-fonts-cdn.deno.dev/packages/moon-stars-kai/dist/MoonStarsKaiTHW-Bold/result.css'); /* 使用 Moon Stars Kai T HW 作爲默認粗體 */
+
+/* 使用 Moon Stars Kai T HW 作爲 KingHwa_OldSong 的默認粗體。在 mian.css 中@import url('https://chinese-fonts-cdn.deno.dev/packages/moon-stars-kai/dist/MoonStarsKaiTHW-Bold/result.css'); */
+@font-face {
+  font-family: 'KingHwa_OldSong';
+  font-style: normal;
+  //font-weight: bold;
+  font-weight: 700;
+  src: local('Moon Stars Kai T HW'),
+       local('Moon Stars Kai T HW'); /* 有些字體內部名 */
+}
+
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
