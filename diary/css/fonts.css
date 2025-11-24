@@ -350,7 +350,17 @@ b {
     font-weight: bold;
 }
 */
-
+strong { 
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-stroke: 0.6px currentColor;
+}
+em {
+    font-style: italic;
+    //font-weight: bold;
+    -webkit-text-stroke: 0.25px currentColor;
+    letter-spacing: 1.25px;
+}
 
 @counter-style hanenum {/* 爲 _markdown.scss 的 ol 編號列表定義樣式 1-10 漢字數字 */
   font-weight: bold;
