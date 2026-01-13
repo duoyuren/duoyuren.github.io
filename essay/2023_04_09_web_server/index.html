@@ -1266,7 +1266,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="初次配置阿里雲輕量應用服務器備忘。">
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.154.4">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -2067,12 +2067,12 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-YAML" data-lang="YAML"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">SSH Upload to Alibaba Cloud</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">on</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">master</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">upload</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    
@@ -2173,44 +2173,44 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl">    <span class="c1"># ……
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    
+</span></span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="k">server</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">443</span> <span class="s">ssl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">#配置HTTPS的默认访问端口为443。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">#如果未在此处配置HTTPS的默认访问端口，可能会造成Nginx无法启动。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">#如果您使用Nginx 1.15.0及以上版本，请使用listen 443 ssl代替listen 443和ssl on。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">    <span class="c1">#如果未在此处配置HTTPS的默认访问端口，可能会造成Nginx无法启动。
+</span></span></span><span class="line"><span class="cl">    <span class="c1">#如果您使用Nginx 1.15.0及以上版本，请使用listen 443 ssl代替listen 443和ssl on。
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">server_name</span> <span class="s">yourdomain</span><span class="p">;</span> <span class="c1">#需要将yourdomain替换成证书绑定的域名。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1"># root html;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1"># index index.html index.htm;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">    <span class="c1"># root html;
+</span></span></span><span class="line"><span class="cl">    <span class="c1"># index index.html index.htm;
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">/etc/nginx/conf.d/cert/xxx.pem</span><span class="p">;</span> <span class="c1">#在相應路徑創建xxx.pem並複製ssl證書.pem文檔中的內容到其中。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">/etc/nginx/conf.d/cert/xxx.key</span><span class="p">;</span> <span class="c1">#在相應路徑創建xxx.key並複製ssl證書.key文檔中的內容到其中。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kn">ssl_session_timeout</span> <span class="mi">5m</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kn">/etc/nginx/conf.d/cert/xxx.key</span><span class="p">;</span> <span class="c1">#在相應路徑創建xxx.key並複製ssl證書.key文檔中的內容到其中。
+</span></span></span><span class="line"><span class="cl">    <span class="kn">ssl_session_timeout</span> <span class="mi">5m</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">ssl_ciphers</span> <span class="s">ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">#表示使用的加密套件的类型。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">ssl_protocols</span> <span class="s">TLSv1.3</span><span class="p">;</span> <span class="c1">#表示使用的TLS协议的类型。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">ssl_prefer_server_ciphers</span> <span class="no">on</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="s">/</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1"># 此前設置的網頁存放目錄
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># ……
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1"># HTTP 定向到 HTTPS
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="s">server</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="s">server</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">listen</span>        <span class="mi">80</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">server_name</span>  <span class="s">yourdomain</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="kn">rewrite</span> <span class="s">^(.*)</span>$ <span class="s">https://</span><span class="nv">$host$1</span> <span class="s">permanent</span><span class="p">;</span> <span class="c1">#将所有HTTP请求通过rewrite指令重定向到HTTPS。
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>配置完畢後運行 <code>nginx -t</code> 命令檢驗配置有無報錯信息，如成功配置則重新加載配置文件或重新啓動 nginx 即可使用 <code>https</code> 訪問站點頁面。</p>
@@ -2267,7 +2267,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-SCSS" data-lang="SCSS"><span class="line"><span class="cl"><span class="k">@font-face</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Noto Sans&#39;</span><span class="p">;</span> <span class="c1">//regular 字重 400
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-weight</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-display</span><span class="o">:</span> <span class="n">swap</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">src</span><span class="o">:</span> <span class="sx">url(&#39;https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.woff2&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff2&#39;</span><span class="p">)</span><span class="o">,</span>
@@ -2275,7 +2275,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@font-face</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Noto Sans&#39;</span><span class="p">;</span> <span class="c1">//設置默認的斜體樣式（字重可改）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="na">font-style</span><span class="o">:</span> <span class="ni">italic</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="na">font-style</span><span class="o">:</span> <span class="ni">italic</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-weight</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-display</span><span class="o">:</span> <span class="n">swap</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">src</span><span class="o">:</span> <span class="sx">url(&#39;https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-600italic.woff2&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff2&#39;</span><span class="p">)</span><span class="o">,</span>
@@ -2283,7 +2283,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@font-face</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Noto Sans&#39;</span><span class="p">;</span> <span class="c1">//bold 700（字重可以改爲600或更粗的800）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="na">font-style</span><span class="o">:</span> <span class="ni">normal</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-weight</span><span class="o">:</span> <span class="ni">bold</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-display</span><span class="o">:</span> <span class="n">swap</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">src</span><span class="o">:</span> <span class="sx">url(&#39;https://lib.baomitu.com/fonts/noto-sans/noto-sans-700.woff2&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff2&#39;</span><span class="p">)</span><span class="o">,</span>
@@ -2291,7 +2291,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@font-face</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-family</span><span class="o">:</span> <span class="s1">&#39;Noto Sans&#39;</span><span class="p">;</span> <span class="c1">//設置默認的粗斜體樣式（字重可改）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="na">font-style</span><span class="o">:</span> <span class="ni">italic</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl">  <span class="na">font-style</span><span class="o">:</span> <span class="ni">italic</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-weight</span><span class="o">:</span> <span class="ni">bold</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">font-display</span><span class="o">:</span> <span class="n">swap</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="na">src</span><span class="o">:</span> <span class="sx">url(&#39;https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-700italic.woff2&#39;)</span> <span class="nf">format</span><span class="p">(</span><span class="s1">&#39;woff2&#39;</span><span class="p">)</span><span class="o">,</span>
@@ -2302,7 +2302,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span></span><span class="line"><span class="cl"><span class="c1">//@import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&amp;display=swap&#39;);
 </span></span></span><span class="line"><span class="cl"><span class="c1">//@import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&amp;display=swap&#39;);
 </span></span></span><span class="line"><span class="cl"><span class="c1">//@import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&amp;display=swap&#39;);
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@import</span> <span class="sx">url(&#39;https://fonts.loli.net/css2?family=Noto+Sans+HK:wght@400;700&amp;display=swap&#39;)</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">@import</span> <span class="sx">url(&#39;https://fonts.loli.net/css2?family=Noto+Sans+HK:wght@400;700&amp;display=swap&#39;)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="k">@import</span> <span class="sx">url(&#39;https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@400;700&amp;display=swap&#39;)</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="k">@import</span> <span class="sx">url(&#39;https://fonts.loli.net/css2?family=Noto+Sans+KR:wght@400;700&amp;display=swap&#39;)</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table>
@@ -2413,7 +2413,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
+<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-images-hosting@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
 
 
 
@@ -2491,7 +2491,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-images-hosting@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
 
 
 
@@ -3630,7 +3630,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2025, All Rights Reserved
+                    ©2013-2026, All Rights Reserved
                 
             </p>
         

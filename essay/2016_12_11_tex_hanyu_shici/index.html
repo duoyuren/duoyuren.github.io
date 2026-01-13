@@ -1266,7 +1266,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="本文介紹漢語詩詞橫排的 TeX 版式。">
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.154.4">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1867,9 +1867,9 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%漢字自動注音
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\usepackage</span><span class="nb">{</span>xpinyin<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>xpinyin<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%漢字注音設置
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\xpinyinsetup</span><span class="nb">{</span>ratio = .4,font =<span class="k">\ubufont</span>,multiple=<span class="nb">{</span><span class="k">\color</span><span class="nb">{</span>black<span class="nb">}}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\xpinyinsetup</span><span class="nb">{</span>ratio = .4,font =<span class="k">\ubufont</span>,multiple=<span class="nb">{</span><span class="k">\color</span><span class="nb">{</span>black<span class="nb">}}}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h1 id="tang-poem-environment">Tang Poem Environment</h1>
@@ -1926,7 +1926,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\newenvironment</span><span class="nb">{</span>poem<span class="nb">}</span>[3] <span class="c">%code={\doublespacing},
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="nb">{</span><span class="k">\begin</span><span class="nb">{</span>tcolorbox<span class="nb">}</span>[left=1mm,right=1mm,top=3mm,bottom=2mm,enhanced,breakable,pad at break*=.5mm,title=#2,
+</span></span></span><span class="line"><span class="cl"><span class="nb">{</span><span class="k">\begin</span><span class="nb">{</span>tcolorbox<span class="nb">}</span>[left=1mm,right=1mm,top=3mm,bottom=2mm,enhanced,breakable,pad at break*=.5mm,title=#2,
 </span></span><span class="line"><span class="cl">		colframe=blue!50!black,colback=blue!10!white,colbacktitle=blue!5!myred!10!white,
 </span></span><span class="line"><span class="cl">		fonttitle=<span class="k">\Large\HGBM</span>,coltitle=black,attach boxed title to top center=
 </span></span><span class="line"><span class="cl">		<span class="nb">{</span>yshift=-0.25mm-<span class="k">\tcboxedtitleheight</span>/2,yshifttext=2mm-<span class="k">\tcboxedtitleheight</span>/2<span class="nb">}</span>,
@@ -1941,7 +1941,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl">      <span class="k">\index</span><span class="na">[ian]</span><span class="nb">{</span>#1!#2<span class="nb">}</span><span class="k">\index</span><span class="na">[ibn]</span><span class="nb">{</span>#2［#1］<span class="nb">}</span><span class="k">\begin</span><span class="nb">{</span>pinyinscope<span class="nb">}</span> <span class="k">\begin</span><span class="nb">{</span>center<span class="nb">}</span><span class="k">\subsectionmark</span><span class="nb">{</span>#2<span class="nb">}</span><span class="k">\phantomsection</span>
 </span></span><span class="line"><span class="cl">      <span class="k">\addcontentsline</span><span class="nb">{</span>toc<span class="nb">}{</span>subsection<span class="nb">}{</span>#2<span class="nb">}</span><span class="k">\label</span><span class="nb">{</span>#1《#2》<span class="nb">}</span><span class="k">\hypertarget</span><span class="nb">{</span>#1《#2》<span class="nb">}</span>
 </span></span><span class="line"><span class="cl">      <span class="k">\LARGE\linespread</span><span class="nb">{</span>1.4<span class="nb">}</span><span class="k">\selectfont</span> #3  <span class="c">%\HGBUM\ZSKS
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">	<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">{</span><span class="k">\end</span><span class="nb">{</span>center<span class="nb">}</span><span class="k">\end</span><span class="nb">{</span>pinyinscope<span class="nb">}</span><span class="k">\end</span><span class="nb">{</span>tcolorbox<span class="nb">}}</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -1957,10 +1957,10 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%邊註交互引用
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\NewDocumentCommand\pref</span><span class="nb">{</span>m<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\NewDocumentCommand\pref</span><span class="nb">{</span>m<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">{</span><span class="k">\marginpar</span><span class="nb">{</span><span class="k">\ding</span><span class="nb">{</span>43<span class="nb">}</span><span class="k">\HGB\ubufontc\hyperlink</span><span class="nb">{</span>#1<span class="nb">}</span>#1(<span class="k">\pageref</span><span class="nb">{</span>#1<span class="nb">}</span>)<span class="nb">}}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%正文交互引用
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\NewDocumentCommand\lref</span><span class="nb">{</span>m<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\NewDocumentCommand\lref</span><span class="nb">{</span>m<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">{{</span><span class="k">\HGB\ubufontc\hyperlink</span><span class="nb">{</span>#1<span class="nb">}</span>#1(<span class="k">\pageref</span><span class="nb">{</span>#1<span class="nb">}</span>)<span class="nb">}}</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -1979,11 +1979,11 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%人名地名書名索引
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[isn]</span> <span class="c">% zhmakeindex -s isn.ist isn.idx
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[isn]</span> <span class="c">% zhmakeindex -s isn.ist isn.idx
 </span></span></span><span class="line"><span class="cl"><span class="c">%作者索引
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[ian]</span> <span class="c">% zhmakeindex -s ian.ist ian.idx 
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[ian]</span> <span class="c">% zhmakeindex -s ian.ist ian.idx 
 </span></span></span><span class="line"><span class="cl"><span class="c">%篇目索引
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[ibn]</span> <span class="c">% zhmakeindex -s ibn.ist ibn.idx
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[ibn]</span> <span class="c">% zhmakeindex -s ibn.ist ibn.idx
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="https://github.com/duoyuren/picx-img/raw/master/blog/2016/20161211-04.27xj18l1181s.webp" alt=""></p>
@@ -2099,7 +2099,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
+<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-images-hosting@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
 
 
 
@@ -2176,7 +2176,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-images-hosting@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
 
 
 
@@ -3293,7 +3293,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2025, All Rights Reserved
+                    ©2013-2026, All Rights Reserved
                 
             </p>
         

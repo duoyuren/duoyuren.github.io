@@ -1266,7 +1266,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta property="og:type" content="article">
 <meta property="og:description" content="TeX 中的中文索引製作方案，以 zhmakeindex 爲工具。">
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.154.4">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -2059,13 +2059,13 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-LaTeX" data-lang="LaTeX"><span class="line"><span class="cl"><span class="k">\makeatletter</span>
 </span></span><span class="line"><span class="cl"><span class="c">%%define index items layout
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\def\@</span>idxitem<span class="nb">{</span><span class="k">\par\addvspace</span><span class="nb">{</span>7<span class="k">\p</span>@ <span class="k">\@</span>plus 3<span class="k">\p</span>@ <span class="k">\@</span>minus 3<span class="k">\p</span>@<span class="nb">}</span><span class="k">\hangindent</span> 17<span class="k">\p</span>@<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\def\@</span>idxitem<span class="nb">{</span><span class="k">\par\addvspace</span><span class="nb">{</span>7<span class="k">\p</span>@ <span class="k">\@</span>plus 3<span class="k">\p</span>@ <span class="k">\@</span>minus 3<span class="k">\p</span>@<span class="nb">}</span><span class="k">\hangindent</span> 17<span class="k">\p</span>@<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%%define index subitems layout
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\def\subitem</span><span class="nb">{</span><span class="k">\par\hangindent</span> 0<span class="k">\p</span>@ <span class="k">\hspace*</span><span class="nb">{</span>0<span class="k">\p</span>@<span class="nb">}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\def\subitem</span><span class="nb">{</span><span class="k">\par\hangindent</span> 0<span class="k">\p</span>@ <span class="k">\hspace*</span><span class="nb">{</span>0<span class="k">\p</span>@<span class="nb">}}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%%define index subsubitems layout
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\def\subsubitem</span><span class="nb">{</span><span class="k">\par\hangindent</span> 0<span class="k">\p</span>@ <span class="k">\hspace*</span><span class="nb">{</span>0<span class="k">\p</span>@<span class="nb">}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\def\subsubitem</span><span class="nb">{</span><span class="k">\par\hangindent</span> 0<span class="k">\p</span>@ <span class="k">\hspace*</span><span class="nb">{</span>0<span class="k">\p</span>@<span class="nb">}}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%%define vspace above lettergroup name
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\def\indexspace</span><span class="nb">{</span><span class="k">\par\addvspace</span><span class="nb">{</span>12<span class="k">\p</span>@ <span class="k">\@</span>plus 2<span class="k">\p</span>@ <span class="k">\@</span>minus 2<span class="k">\p</span>@<span class="nb">}}</span> 
+</span></span></span><span class="line"><span class="cl"><span class="k">\def\indexspace</span><span class="nb">{</span><span class="k">\par\addvspace</span><span class="nb">{</span>12<span class="k">\p</span>@ <span class="k">\@</span>plus 2<span class="k">\p</span>@ <span class="k">\@</span>minus 2<span class="k">\p</span>@<span class="nb">}}</span> 
 </span></span><span class="line"><span class="cl"><span class="k">\patchcmd\theindex</span><span class="nb">{</span><span class="k">\indexname</span><span class="nb">}{</span><span class="k">\indexname\vspace</span><span class="nb">{</span>5pt<span class="nb">}}{}{}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\makeatother</span>
 </span></span></code></pre></td></tr></table>
@@ -2096,13 +2096,13 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl"><span class="k">\onecolumn</span>
 </span></span><span class="line"><span class="cl"><span class="k">\pagestyle</span><span class="nb">{</span>mipage<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[zb]</span> <span class="c">% zhmakeindex -s zb.ist -z pinyin ec.idx
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[ec]</span> <span class="c">% zhmakeindex -s ec.ist -z pinyin ec.idx 
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[th]</span> <span class="c">% zhmakeindex -s th.ist -z pinyin th.idx 
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[bh]</span> <span class="c">% texindy -M bh.xdy bh.idx
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[cj]</span> <span class="c">% texindy -M cj.xdy cj.idx 
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[yy]</span> <span class="c">% zhmakeindex -s yy.ist -z bihua yy.idx
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printindex</span><span class="na">[gy]</span> <span class="c">% zhmakeindex -s gy.ist -z bihua gy.idx 
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[ec]</span> <span class="c">% zhmakeindex -s ec.ist -z pinyin ec.idx 
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[th]</span> <span class="c">% zhmakeindex -s th.ist -z pinyin th.idx 
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[bh]</span> <span class="c">% texindy -M bh.xdy bh.idx
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[cj]</span> <span class="c">% texindy -M cj.xdy cj.idx 
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[yy]</span> <span class="c">% zhmakeindex -s yy.ist -z bihua yy.idx
+</span></span></span><span class="line"><span class="cl"><span class="k">\printindex</span><span class="na">[gy]</span> <span class="c">% zhmakeindex -s gy.ist -z bihua gy.idx 
+</span></span></span><span class="line"><span class="cl"><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="editing-and-using-xdy-style-files">Editing and Using .xdy style files</h2>
@@ -2135,7 +2135,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <pre tabindex="0" class="chroma"><code class="language-LaTeX" data-lang="LaTeX"><span class="line"><span class="cl">(markup-index :open  &#34;<span class="k">\begin</span><span class="nb">{</span>theindex<span class="nb">}</span> ~n
 </span></span><span class="line"><span class="cl"> <span class="k">\providecommand*\lettergroupDefault</span><span class="na">[1]</span><span class="nb">{}</span>
 </span></span><span class="line"><span class="cl"> <span class="k">\providecommand*\lettergroup</span><span class="na">[1]</span><span class="nb">{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span> <span class="k">\par</span><span class="nb">{</span><span class="k">\color</span><span class="nb">{</span>black<span class="nb">}</span><span class="k">\HGBM\centering</span>~——<span class="nb">{</span><span class="k">\fontsizec</span><span class="nb">{</span>1.2cm<span class="nb">}</span><span class="k">\ABCFONTU</span><span class="nb">{</span>#1<span class="nb">}}</span>——<span class="nb">}</span><span class="k">\par\vspace</span><span class="nb">{</span>-0.5em<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"> <span class="k">\par</span><span class="nb">{</span><span class="k">\color</span><span class="nb">{</span>black<span class="nb">}</span><span class="k">\HGBM\centering</span>~——<span class="nb">{</span><span class="k">\fontsizec</span><span class="nb">{</span>1.2cm<span class="nb">}</span><span class="k">\ABCFONTU</span><span class="nb">{</span>#1<span class="nb">}}</span>——<span class="nb">}</span><span class="k">\par\vspace</span><span class="nb">{</span>-0.5em<span class="nb">}</span>
 </span></span><span class="line"><span class="cl">   <span class="k">\nopagebreak</span>
 </span></span><span class="line"><span class="cl">  <span class="nb">}</span>&#34;
 </span></span><span class="line"><span class="cl">          :close &#34;~n~n<span class="k">\end</span><span class="nb">{</span>theindex<span class="nb">}</span>~n&#34;
@@ -2185,7 +2185,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl">headings<span class="nb">_</span>flag 1
 </span></span><span class="line"><span class="cl">heading<span class="nb">_</span>prefix &#34;<span class="k">\\</span>nopagebreak<span class="k">\\</span>par<span class="k">\n</span><span class="nb">{</span><span class="k">\\</span>abcfontu<span class="k">\\</span>fontsizec<span class="nb">{</span>1.1cm<span class="nb">}</span><span class="k">\\</span>centering——<span class="nb">{</span>&#34; heading<span class="nb">_</span>suffix &#34;<span class="nb">}</span>——<span class="nb">}</span><span class="k">\\</span>vspace*<span class="nb">{</span>0em<span class="nb">}</span><span class="k">\\</span>nopagebreak<span class="k">\n</span>&#34;
 </span></span><span class="line"><span class="cl">item<span class="nb">_</span>x1 &#34;<span class="nb">}</span> <span class="k">\n</span>  <span class="k">\\</span>linfont<span class="k">\\</span>subitem &#34; <span class="c">% Provide the right brace for level_0 items when they have no page number:
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>item<span class="nb">_</span>0 &#34;<span class="k">\n</span> <span class="k">\\</span>ubufont<span class="k">\\</span>centering<span class="k">\\</span>item <span class="k">\\</span>indexmark<span class="nb">{</span>&#34;<span class="c">%added this with its usual default to mark it up
+</span></span></span><span class="line"><span class="cl">item<span class="nb">_</span>0 &#34;<span class="k">\n</span> <span class="k">\\</span>ubufont<span class="k">\\</span>centering<span class="k">\\</span>item <span class="k">\\</span>indexmark<span class="nb">{</span>&#34;<span class="c">%added this with its usual default to mark it up
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then run zhmakeindex in terminal with this style file:</p>
@@ -2219,16 +2219,16 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-LaTeX" data-lang="LaTeX"><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\indexmark</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="k">\sectionmark</span><span class="nb">{</span>#1<span class="nb">}</span>#1<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\newpagestyle</span><span class="nb">{</span>mipage<span class="nb">}{</span> <span class="c">%%index chapter
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">\setheadrule</span><span class="nb">{</span>0.7pt<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">	<span class="k">\setheadrule</span><span class="nb">{</span>0.7pt<span class="nb">}</span>
 </span></span><span class="line"><span class="cl">	<span class="k">\sethead</span><span class="na">[{\toptitlemarks\sectiontitle}---{\bottitlemarks\sectiontitle}]</span>
 </span></span><span class="line"><span class="cl">                [<span class="k">\linfontb\thepage</span>]
 </span></span><span class="line"><span class="cl">                [<span class="nb">{</span><span class="k">\profonta</span> Appendices—<span class="k">\chaptertitle</span><span class="nb">}</span>]<span class="c">%even head
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	        <span class="nb">{{</span><span class="k">\profonta</span> Appendices—<span class="k">\chaptertitle</span><span class="nb">}}</span>
+</span></span></span><span class="line"><span class="cl">	        <span class="nb">{{</span><span class="k">\profonta</span> Appendices—<span class="k">\chaptertitle</span><span class="nb">}}</span>
 </span></span><span class="line"><span class="cl">                <span class="nb">{</span><span class="k">\linfontb\thepage</span><span class="nb">}</span>
 </span></span><span class="line"><span class="cl">                <span class="nb">{{</span><span class="k">\toptitlemarks\sectiontitle</span><span class="nb">}</span>---<span class="nb">{</span><span class="k">\bottitlemarks\sectiontitle</span><span class="nb">}}</span><span class="c">%odd head
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">\setfoot</span><span class="na">[][][]</span> <span class="c">%even foot
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	        <span class="nb">{}{}{}</span> <span class="c">%odd foot
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">	<span class="k">\setfoot</span><span class="na">[][][]</span> <span class="c">%even foot
+</span></span></span><span class="line"><span class="cl">	        <span class="nb">{}{}{}</span> <span class="c">%odd foot
+</span></span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then add \indexmark to .ist file or .xdy file as above .ist or .xdy example. Finally the output file will be like below:</p>
@@ -2335,7 +2335,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
+<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-images-hosting@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
 
 
 
@@ -2412,7 +2412,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-images-hosting@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
 
 
 
@@ -3538,7 +3538,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2025, All Rights Reserved
+                    ©2013-2026, All Rights Reserved
                 
             </p>
         

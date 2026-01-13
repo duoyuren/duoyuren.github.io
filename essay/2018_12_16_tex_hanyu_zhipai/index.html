@@ -1275,7 +1275,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     <meta property="twitter:description" content="TeX 排版漢語文獻的直排版式。">
   
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.154.4">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1877,7 +1877,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 
       
       
-      <artcoverl><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/blog/2018/20181216-00.1pw996rxwvts.webp"  alt="圖掛了"></artcoverl> 
+      <artcoverl><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-images-hosting@master/blog/2018/20181216-00.1pw996rxwvts.webp"  alt="圖掛了"></artcoverl> 
       
       
       <p>半個世紀以來，「橫排」逐漸成爲出版物排版的主流。十年前，境內還能偶爾看到一些出版社以「直排」方式出版一些古籍圖書。目下，僅有境外幾家出版社偶爾還以「直排」方式出版一些文史讀物。前幾日瀏覽素材，看到過去十年間網絡上零零散散的基於 LaTeX 的中文直排方案，逐一分析下來，發覺大都需要完善需求、更新源碼。自己久不讀書，讀「直排」書的機會就更少了。近來因飲酒吹風而感冒閉門，趁着這般光景，嘗試整理出一份基於 XeLaTeX 與 XeCJK 的中文直書方案。</p>
@@ -1912,11 +1912,11 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%文檔類型加入landscape選項
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\documentclass</span><span class="na">[a4paper,12pt,openany,landscape]</span><span class="nb">{</span>book<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\documentclass</span><span class="na">[a4paper,12pt,openany,landscape]</span><span class="nb">{</span>book<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%導入XeCJK Package
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\usepackage</span><span class="na">[CJKchecksingle,AutoFallBack=true]</span><span class="nb">{</span>xeCJK<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[CJKchecksingle,AutoFallBack=true]</span><span class="nb">{</span>xeCJK<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%設定直排字體
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\setCJKmainfont</span><span class="na">[Script=CJK,Vertical=RotatedGlyphs,RawFeature={vertical:+vert},BoldFont=H-SiuNiu-Bold,ItalicFont=HGBLight-H]</span><span class="nb">{</span>I.MingCP<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\setCJKmainfont</span><span class="na">[Script=CJK,Vertical=RotatedGlyphs,RawFeature={vertical:+vert},BoldFont=H-SiuNiu-Bold,ItalicFont=HGBLight-H]</span><span class="nb">{</span>I.MingCP<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\defaultCJKfontfeatures</span><span class="nb">{</span>RawFeature=<span class="nb">{</span>vertical:+vert<span class="nb">}}</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -1937,7 +1937,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%漢字基線調整適應中英文混排
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\let\CJKsymbolOrig\CJKsymbol</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\let\CJKsymbolOrig\CJKsymbol</span>
 </span></span><span class="line"><span class="cl"><span class="k">\let\CJKpunctsymbolOrig\CJKpunctsymbol</span>
 </span></span><span class="line"><span class="cl"><span class="k">\newcommand*\CJKmovesymbol</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\raise</span>.35em<span class="k">\hbox</span><span class="nb">{</span><span class="k">\CJKsymbolOrig</span><span class="nb">{</span>#1<span class="nb">}}}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\newcommand*\CJKmovepunctsymbol</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\raise</span>.35em<span class="k">\hbox</span><span class="nb">{</span><span class="k">\CJKpunctsymbolOrig</span><span class="nb">{</span>#1<span class="nb">}}}</span>
@@ -1945,7 +1945,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></span><span class="line"><span class="cl">	<span class="k">\let\CJKsymbol\CJKmovesymbol</span>
 </span></span><span class="line"><span class="cl">	<span class="k">\let\CJKpunctsymbol\CJKmovepunctsymbol</span><span class="nb">}</span>	
 </span></span><span class="line"><span class="cl"><span class="c">%在\begin{document}後添加\CJKmove
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\CJKmove</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -1962,7 +1962,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\titlecontents</span><span class="nb">{</span>chapter<span class="nb">}</span>[0em]<span class="nb">{</span><span class="k">\addvspace</span><span class="nb">{</span>5pt<span class="nb">}</span><span class="k">\fontsizec</span><span class="nb">{</span>0.7cm<span class="nb">}</span><span class="k">\it</span><span class="nb">}</span>     <span class="c">% for  Chinese table of contents
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thecontentslabel</span><span class="nb">}}</span>~<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thecontentslabel</span><span class="nb">}}</span>~<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\Alphcircwcu</span><span class="nb">{</span>21<span class="nb">}}</span>~<span class="k">\thecontentslabel\helfont</span><span class="nb">}{</span><span class="k">\fontsizec</span><span class="nb">{</span>0.7cm<span class="nb">}</span><span class="k">\color</span><span class="nb">{</span>black<span class="nb">}</span><span class="k">\;\titlerule*</span><span class="na">[.5pc]</span><span class="nb">{</span>.<span class="nb">}</span><span class="k">\;\zhnumsetup</span><span class="nb">{</span>style=<span class="nb">{</span>Traditional,Financial<span class="nb">}}</span><span class="k">\zhdigits</span><span class="nb">{</span><span class="k">\thecontentspage</span><span class="nb">}}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">\titlecontents</span><span class="nb">{</span>section<span class="nb">}</span>[0cm]<span class="nb">{</span><span class="k">\it</span><span class="nb">}</span>
@@ -2001,24 +2001,24 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%%竖排章样式
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\assignpagestyle</span><span class="nb">{</span><span class="k">\chapter</span><span class="nb">}{</span>empty<span class="nb">}</span><span class="c">%去掉章页面页码
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\assignpagestyle</span><span class="nb">{</span><span class="k">\chapter*</span><span class="nb">}{</span>empty<span class="nb">}</span><span class="c">%去掉章页面页码
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mychapter</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\HGBM\fontsize</span><span class="nb">{</span>37<span class="nb">}{</span>37<span class="nb">}</span>第~<span class="k">\rotatebox</span><span class="na">[x=0.715cm,origin=c]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thechapter</span><span class="nb">}}</span>~章<span class="nb">{{</span><span class="k">\ZSKS</span>·<span class="nb">}</span>#1<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\assignpagestyle</span><span class="nb">{</span><span class="k">\chapter</span><span class="nb">}{</span>empty<span class="nb">}</span><span class="c">%去掉章页面页码
+</span></span></span><span class="line"><span class="cl"><span class="k">\assignpagestyle</span><span class="nb">{</span><span class="k">\chapter*</span><span class="nb">}{</span>empty<span class="nb">}</span><span class="c">%去掉章页面页码
+</span></span></span><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mychapter</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
+</span></span></span><span class="line"><span class="cl">	<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\HGBM\fontsize</span><span class="nb">{</span>37<span class="nb">}{</span>37<span class="nb">}</span>第~<span class="k">\rotatebox</span><span class="na">[x=0.715cm,origin=c]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thechapter</span><span class="nb">}}</span>~章<span class="nb">{{</span><span class="k">\ZSKS</span>·<span class="nb">}</span>#1<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mychapterun</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\fontsize</span><span class="nb">{</span>37<span class="nb">}{</span>37<span class="nb">}</span><span class="k">\ding</span><span class="nb">{</span>109<span class="nb">}</span>~<span class="k">\akzfont\HGBM</span> #1
+</span></span></span><span class="line"><span class="cl">	<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\fontsize</span><span class="nb">{</span>37<span class="nb">}{</span>37<span class="nb">}</span><span class="k">\ding</span><span class="nb">{</span>109<span class="nb">}</span>~<span class="k">\akzfont\HGBM</span> #1
 </span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\titleformat</span><span class="nb">{</span><span class="k">\chapter</span><span class="nb">}{}{}{</span>0em<span class="nb">}{</span><span class="k">\mychapter</span><span class="nb">}</span><span class="c">% code preceding the title body  (title body is taken as argument)
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\titleformat</span><span class="nb">{</span>name=<span class="k">\chapter</span>,numberless<span class="nb">}{}{}{</span>0pt<span class="nb">}{</span><span class="k">\mychapterun</span><span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\titleformat</span><span class="nb">{</span>name=<span class="k">\chapter</span>,numberless<span class="nb">}{}{}{</span>0pt<span class="nb">}{</span><span class="k">\mychapterun</span><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\titlespacing</span><span class="nb">{</span><span class="k">\chapter</span><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">{</span>0pt<span class="nb">}{</span>0pt<span class="nb">}{</span>36pt<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%%竖排節样式
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mysection</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>			<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\MLan</span> <span class="k">\fontsize</span><span class="nb">{</span>21<span class="nb">}{</span>21<span class="nb">}</span>第~<span class="nb">{</span><span class="k">\thesection</span><span class="nb">}</span>~節~~~~ #1
+</span></span></span><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mysection</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
+</span></span></span><span class="line"><span class="cl">			<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\MLan</span> <span class="k">\fontsize</span><span class="nb">{</span>21<span class="nb">}{</span>21<span class="nb">}</span>第~<span class="nb">{</span><span class="k">\thesection</span><span class="nb">}</span>~節~~~~ #1
 </span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mysectionun</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>			<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\fontsize</span><span class="nb">{</span>21<span class="nb">}{</span>21<span class="nb">}</span><span class="k">\ding</span><span class="nb">{</span>109<span class="nb">}</span>~<span class="k">\akzfont\MLan</span> #1
+</span></span></span><span class="line"><span class="cl">			<span class="k">\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\fontsize</span><span class="nb">{</span>21<span class="nb">}{</span>21<span class="nb">}</span><span class="k">\ding</span><span class="nb">{</span>109<span class="nb">}</span>~<span class="k">\akzfont\MLan</span> #1
 </span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\titleformat</span><span class="nb">{</span><span class="k">\section</span><span class="nb">}{}{}{</span>0mm<span class="nb">}{</span><span class="k">\mysection</span><span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\titleformat</span><span class="nb">{</span>name=<span class="k">\section</span>,numberless<span class="nb">}{}{}{</span>0pt<span class="nb">}{</span><span class="k">\mysectionun</span><span class="nb">}</span>
@@ -2046,9 +2046,9 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>wrapfig<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>caption<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\captionsetup</span><span class="na">[wrapfigure]</span><span class="nb">{</span>font=small,labelfont=bf,textfont=it,aboveskip=6pt,belowskip=-1.02em,justification=raggedright,name=<span class="nb">{</span>Fig.<span class="nb">}}</span><span class="c">%,labelsep=period
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mafig</span><span class="nb">}</span>[2]<span class="nb">{</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\mafig</span><span class="nb">}</span>[2]<span class="nb">{</span>
 </span></span><span class="line"><span class="cl">	<span class="k">\begin</span><span class="nb">{</span>wrapfigure<span class="nb">}{</span>O<span class="nb">}</span>[0pt]<span class="nb">{</span>0.2<span class="k">\textwidth</span><span class="nb">}</span><span class="c">%[10]
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>		<span class="k">\vspace</span><span class="nb">{</span>-6pt<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">		<span class="k">\vspace</span><span class="nb">{</span>-6pt<span class="nb">}</span>
 </span></span><span class="line"><span class="cl">	<span class="nb">{</span><span class="k">\tcbincludegraphics</span><span class="na">[size=fbox,colframe=myred!50!black,colback=red!60!black,center title,drop fuzzy shadow,colback=myred,boxsep=3pt,arc=0pt,graphics options={scale=.5,angle=-270},title={\large\HGBR\helfont #2}]</span><span class="nb">{</span>#1<span class="nb">}}</span>
 </span></span><span class="line"><span class="cl">		<span class="k">\vspace</span><span class="nb">{</span>-6pt<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\end</span><span class="nb">{</span>wrapfigure<span class="nb">}</span>
@@ -2076,20 +2076,20 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%採用gb7714-2015格式
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\usepackage</span><span class="na">[backend = biber,bibstyle = gb7714-2015,citestyle=gb7714-2015ay,natbib=true,mcite=true,sorting=nyt,sortcites=true,autopunct=true,hyperref=true,abbreviate=false,backref=true]</span><span class="nb">{</span>biblatex<span class="nb">}</span><span class="c">%國標2015文獻引用格式 %bibstyle = gb7714-2015,citestyle=gb7714-2015ay,bibstyle=alphabetic,%=gb7714-2015ay为（作者年份页码）样式引用
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\addbibresource</span><span class="nb">{</span>bibliography.bib<span class="nb">}</span> <span class="c">% BibTeX bibliography file bibliography.bib
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\defbibheading</span><span class="nb">{</span>bibempty<span class="nb">}{}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[backend = biber,bibstyle = gb7714-2015,citestyle=gb7714-2015ay,natbib=true,mcite=true,sorting=nyt,sortcites=true,autopunct=true,hyperref=true,abbreviate=false,backref=true]</span><span class="nb">{</span>biblatex<span class="nb">}</span><span class="c">%國標2015文獻引用格式 %bibstyle = gb7714-2015,citestyle=gb7714-2015ay,bibstyle=alphabetic,%=gb7714-2015ay为（作者年份页码）样式引用
+</span></span></span><span class="line"><span class="cl"><span class="k">\addbibresource</span><span class="nb">{</span>bibliography.bib<span class="nb">}</span> <span class="c">% BibTeX bibliography file bibliography.bib
+</span></span></span><span class="line"><span class="cl"><span class="k">\defbibheading</span><span class="nb">{</span>bibempty<span class="nb">}{}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\DefineBibliographyStrings</span><span class="nb">{</span>english<span class="nb">}{</span><span class="c">%
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	backrefpage = <span class="nb">{</span>引用頁：<span class="nb">}</span>,
+</span></span></span><span class="line"><span class="cl">	backrefpage = <span class="nb">{</span>引用頁：<span class="nb">}</span>,
 </span></span><span class="line"><span class="cl">	backrefpages= <span class="nb">{</span>引用頁：<span class="nb">}</span>,
 </span></span><span class="line"><span class="cl"><span class="nb">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">%正文行文示例
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>……<span class="k">\cite</span><span class="na">[P178]</span><span class="nb">{</span>adornoRethinkingArchitectureReader1997<span class="nb">}</span>。
+</span></span></span><span class="line"><span class="cl">……<span class="k">\cite</span><span class="na">[P178]</span><span class="nb">{</span>adornoRethinkingArchitectureReader1997<span class="nb">}</span>。
 </span></span><span class="line"><span class="cl"><span class="k">\textcite</span><span class="na">[P352]</span><span class="nb">{</span>haidegeerHeErDeLinShiDeChanShi2000<span class="nb">}</span>認爲……
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">%正文列印參考文獻
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\printbibliography</span><span class="na">[heading=bibempty]</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\printbibliography</span><span class="na">[heading=bibempty]</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="https://github.com/duoyuren/picx-img/raw/master/blog/2018/20181216-03.51u75zm8ueps.webp" alt="參考文獻直排樣式"></p>
@@ -2107,7 +2107,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">%%%gezhu environment
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\usepackage</span><span class="nb">{</span>zhulem<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>zhulem<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>gezhu<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\setgezhuraise</span><span class="nb">{</span>-3.5pt<span class="nb">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">\setgezhulines</span><span class="nb">{</span>2<span class="nb">}</span>
@@ -2140,21 +2140,21 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="nb">{</span>titleps<span class="nb">}</span> <span class="c">%詳細參見說明文檔
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">\newpagestyle</span><span class="nb">{</span>mapage<span class="nb">}{</span><span class="c">%   %numbered chapter
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">\sethead</span><span class="na">[\MLan\color{myred}\bottitlemarks{第{\thesection}節}~~~\sectiontitle]</span>
+</span></span></span><span class="line"><span class="cl">	<span class="k">\sethead</span><span class="na">[\MLan\color{myred}\bottitlemarks{第{\thesection}節}~~~\sectiontitle]</span>
 </span></span><span class="line"><span class="cl">	 []
 </span></span><span class="line"><span class="cl">	 [<span class="nb">{</span><span class="k">\MLan\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\rotatebox</span><span class="na">[x=0.225cm,origin=c]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thechapter</span><span class="nb">}}</span>~<span class="k">\chaptertitle</span>《~<span class="k">\parttitle</span> 編《~<span class="k">\thebooktitle</span>《~第<span class="nb">{</span><span class="k">\HGBM\color</span><span class="nb">{</span>black<span class="nb">}</span><span class="k">\zhnumsetup</span><span class="nb">{</span>style=<span class="nb">{</span>Traditional,Financial<span class="nb">}}</span><span class="k">\zhdigits</span><span class="nb">{</span><span class="k">\thepage</span><span class="nb">}}</span>頁<span class="nb">}</span>] <span class="c">%even head
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	 <span class="nb">{}</span>
+</span></span></span><span class="line"><span class="cl">	 <span class="nb">{}</span>
 </span></span><span class="line"><span class="cl">	 <span class="nb">{}</span>
 </span></span><span class="line"><span class="cl">	 <span class="nb">{}</span> <span class="c">%odd head
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	 <span class="k">\setfoot</span><span class="na">[]</span>
+</span></span></span><span class="line"><span class="cl">	 <span class="k">\setfoot</span><span class="na">[]</span>
 </span></span><span class="line"><span class="cl">	 []
 </span></span><span class="line"><span class="cl">	 [] <span class="c">%even foot
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>	 <span class="nb">{</span><span class="k">\MLan\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\bottitlemarks</span><span class="nb">{</span>第<span class="nb">{</span><span class="k">\thesection</span><span class="nb">}</span>節<span class="nb">}</span>~~~<span class="k">\sectiontitle</span><span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">	 <span class="nb">{</span><span class="k">\MLan\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\bottitlemarks</span><span class="nb">{</span>第<span class="nb">{</span><span class="k">\thesection</span><span class="nb">}</span>節<span class="nb">}</span>~~~<span class="k">\sectiontitle</span><span class="nb">}</span>
 </span></span><span class="line"><span class="cl">	 <span class="nb">{}</span>
 </span></span><span class="line"><span class="cl">	 <span class="nb">{{</span><span class="k">\MLan\color</span><span class="nb">{</span>myred<span class="nb">}</span><span class="k">\rotatebox</span><span class="na">[x=0.225cm,origin=c]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span><span class="k">\thechapter</span><span class="nb">}}</span>~<span class="k">\chaptertitle</span>《~<span class="k">\parttitle</span> 編《~<span class="k">\thebooktitle</span>《~第<span class="nb">{</span><span class="k">\HGBM\color</span><span class="nb">{</span>black<span class="nb">}</span><span class="k">\zhnumsetup</span><span class="nb">{</span>style=<span class="nb">{</span>Traditional,Financial<span class="nb">}}</span><span class="k">\zhdigits</span><span class="nb">{</span><span class="k">\thepage</span><span class="nb">}}</span>頁<span class="nb">}}</span> <span class="c">%odd foot
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>				<span class="nb">}</span>
+</span></span></span><span class="line"><span class="cl">				<span class="nb">}</span>
 </span></span><span class="line"><span class="cl">	<span class="k">\settitlemarks</span><span class="nb">{</span>part,chapter,section,subsection,subsubsection<span class="nb">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -2175,13 +2175,13 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[page]</span><span class="nb">{</span>pagenote<span class="nb">}</span><span class="c">%[page] Because of how TeX writes information to files, when the page option is used there must be no notes on the page where \printnotes or \printnotes* closes the ent file. If necessary, a \clearpage or similar must be used before the \print （標記注釋所在頁碼必須讓printnotes另起一頁，否則可能吃掉與\printnotes同頁的注釋^_^）
-</span></span></span><span class="line"><span class="cl"><span class="c"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">% 正文中的注释编号样式调整：圓圈數字
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\renewcommand\notenumintext</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\textsuperscript</span><span class="nb">{</span><span class="k">\footnotesize\ncircrds</span><span class="nb">{</span>#1<span class="nb">}}}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\renewcommand\notenumintext</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\textsuperscript</span><span class="nb">{</span><span class="k">\footnotesize\ncircrds</span><span class="nb">{</span>#1<span class="nb">}}}}</span>
 </span></span><span class="line"><span class="cl"><span class="c">% 章节末尾的注释编号样式调整：方形黑底數字
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\renewcommand\notenuminnotes</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span>#1<span class="nb">}}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\renewcommand\notenuminnotes</span><span class="na">[1]</span><span class="nb">{</span><span class="k">\rotatebox</span><span class="na">[origin=cc]</span><span class="nb">{</span>-270<span class="nb">}{</span><span class="k">\ncircbs</span><span class="nb">{</span>#1<span class="nb">}}}</span>
 </span></span><span class="line"><span class="cl"><span class="c">%尾註標記該註釋在正文出現的頁碼
-</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\pagename</span><span class="nb">}{{</span>P.<span class="nb">}}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\pagename</span><span class="nb">}{{</span>P.<span class="nb">}}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">\makepagenote</span>	
 </span></span></code></pre></td></tr></table>
@@ -2320,7 +2320,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-img@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
+<a href=""><img src="https://cdn.jsdelivr.net/gh/duoyuren/picx-images-hosting@master/base/avatar.77x5dp3ggrgg.webp"  alt="李梅亭" class="circular--portrait"/></a>
 
 
 
@@ -2397,7 +2397,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     
     
       
-<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-img@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
+<img src="https://cdn.jsdmirror.com/gh/duoyuren/picx-images-hosting@master/base/sclogo.5rwnqp5kd0cg.webp"  alt="僅供娛樂" class="circular--portrait"/>
 
 
 
@@ -3523,7 +3523,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             <p class="caption">
                 
-                    ©2013-2025, All Rights Reserved
+                    ©2013-2026, All Rights Reserved
                 
             </p>
         
