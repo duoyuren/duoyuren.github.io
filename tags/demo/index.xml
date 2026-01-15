@@ -25,9 +25,11 @@
         <link>https://duoyu.ren/essay/2023_10_27_web_font/</link>
         <pubDate>Fri, 27 Oct 2023 09:41:20 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Fri, 27 Oct 2023 12:07:17 +0800</atom:modified>
+        <atom:modified>Thu, 15 Jan 2026 10:31:19 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/2023_10_27_web_font/</guid>
-        <description>&lt;h1 id=&#34;站點資源字體與在線字體&#34;&gt;站點資源字體與在線字體&lt;/h1&gt;
+        <description>&lt;h1 id=&#34;二二五最新方案&#34;&gt;二〇二五最新方案&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://chinese-font.netlify.app/zh-cn/cdn/&#34; title=&#34;中文网字计划&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;中文网字计划&lt;/a&gt; 提供了大量中文字體的免費 CDN，整合到網頁，訪問加載速度大大加快。所以，除了漢字標點居中的 &lt;code&gt;chdot&lt;/code&gt; 與外文字體外，本文下面的辦法大致已棄用。&lt;/p&gt;
+&lt;h1 id=&#34;站點資源字體與在線字體&#34;&gt;站點資源字體與在線字體&lt;/h1&gt;
 &lt;p&gt;使用網頁字體製作工具，將 &lt;code&gt;.ttf&lt;/code&gt; 字體轉換爲 &lt;code&gt;.woff2&lt;/code&gt;，將生成的網頁字體放入相應路徑文件夾中，在網頁的 CSS 文檔中定義字體名稱、路徑並引用即可。對中文而言，因字體加載較多，此方法不僅消耗服務器流量較大，而且有時會導致頁面加載速度緩慢。&lt;/p&gt;</description>
         
         <dc:creator>Duōyú Rén</dc:creator>
