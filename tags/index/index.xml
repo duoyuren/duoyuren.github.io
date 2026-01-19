@@ -11,8 +11,8 @@
     <description>Recent content in Index on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
-    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <managingEditor>mail@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>mail@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
     
         <atom:link href="https://duoyu.ren/tags/index/index.xml" rel="self" type="application/rss+xml" />
@@ -23,10 +23,10 @@
         <title>往事與隨想</title>
         <link>https://duoyu.ren/essay/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Tue, 20 Aug 2024 17:40:08 +0800</atom:modified>
+        <author>mail@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Tue, 20 Jan 2026 00:44:32 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/</guid>
-        <description>&lt;p&gt;一派胡言盡是歪理邪說，大放厥屁還比誰的更響。本站無力且&lt;strong&gt;無意&lt;/strong&gt;影響成年訪客的三觀。諸位讀者訪客須提高警惕，切勿輕信本站說法。所有文章，作者一概不負文責。特此鄭重聲明。有意見請聯絡 &lt;mm&gt;&lt;a href=&#34;&#34; title=&#34;logos@duoyu.ren&#34; class=&#34;icon_mail&#34; target=&#34;_blank&#34;&gt;logos@duoyu.ren&lt;/a&gt;&lt;/mm&gt;。&lt;/p&gt;</description>
+        <description>&lt;p&gt;一派胡言盡是歪理邪說，大放厥屁還比誰的更響。本站無力且&lt;strong&gt;無意&lt;/strong&gt;影響成年訪客的三觀。諸位讀者訪客須提高警惕，切勿輕信本站說法。所有文章，作者一概不負文責。特此鄭重聲明。有意見請聯絡 &lt;mm&gt;&lt;a href=&#34;&#34; title=&#34;mail@duoyu.ren&#34; class=&#34;icon_mail&#34; target=&#34;_blank&#34;&gt;mail@duoyu.ren&lt;/a&gt;&lt;/mm&gt;。&lt;/p&gt;</description>
         
         <dc:creator>Duō Yúrén</dc:creator>
         
@@ -47,8 +47,8 @@
         <title>打工與行騙</title>
         <link>https://duoyu.ren/teaching/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 29 Oct 2023 00:30:23 +0800</atom:modified>
+        <author>mail@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Tue, 20 Jan 2026 00:43:20 +0800</atom:modified>
         <guid>https://duoyu.ren/teaching/</guid>
         <description>&lt;p&gt;使用 Hugo, Quarto, Bookdown, Python, Julia 等整理課程材料頁面，便於公式排版與章節、習題、例題的相互參照。課程門類與資料視需要或有增刪。根據務工所需，目前暫擬列入：邏輯基礎、社會統計等幾種。&lt;/p&gt;</description>
         
@@ -71,8 +71,8 @@
         <title>閱讀與書評</title>
         <link>https://duoyu.ren/reading/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 15 Oct 2025 18:11:35 +0800</atom:modified>
+        <author>mail@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Tue, 20 Jan 2026 00:43:33 +0800</atom:modified>
         <guid>https://duoyu.ren/reading/</guid>
         <description>&lt;p&gt;將&lt;a href=&#34;https://duoyuren.github.io/cycling/&#34; title=&#34;步行、騎行、旅行&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;步行、騎行、旅行&lt;/a&gt;分出爲專門的子站點後，又覺得需要爲閱讀、書評單獨劃分一個子欄目，以區別於其他的隨想、雜記、備忘內容。&lt;/p&gt;
 &lt;p&gt;讀書不多，藏書亦少，間又遺失、遺忘。因此，此處記錄一些讀書筆記與&lt;strong&gt;基於個人認知水準的&lt;/strong&gt;書評，聊以備忘。所提及的書目大多是自購或由他人所贈，機緣所致而簡單瀏覽、翻閱。列出它們僅僅表示自己讀過並有些不夠專業的看法，不代表推薦或讚賞它們。有些時候，也讓 ChatGPT 生成初稿，自己再酌加修補。&lt;/p&gt;</description>
