@@ -95,11 +95,12 @@ h1 {
 color: #0E6251;
 font-size: 22px;
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-weight: normal;
   line-height: 25px;
    text-align: center; 
 counter-reset : h2;
 	 border-bottom: solid 3px #517a72;  
-	width:7.1em;
+	width:7.7em;
 	position: relative; 
 	/*   position: absolute; */
 	
@@ -193,6 +194,7 @@ h3 {
 	color: #424949;
         font-size: 22px;
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-weight: normal;
 	line-height: 23px;
 counter-reset : h4;
         font-weight: normal;
@@ -211,6 +213,7 @@ text-shadow:
 
 h4 { /* Card Title  */
         font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+        font-weight: normal;
 	margin: 0 0 0 0;
 	color: #424949;
 	font-size: 27px;
@@ -242,7 +245,6 @@ sec-book-title {
         margin-left:-0.77em;
         display: inline-block;
          /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
-        font-weight: bold;
         font-size:1.25rem;
         line-height:1.25rem;
         text-align:center;
@@ -282,21 +284,24 @@ font-size: 22px;
 
 strong {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    font-weight:bold;
-    /* text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
+    font-weight: normal;
+    color:#001BB7;
+    text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 bb {
     font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    font-weight:bold;
-    text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
+    font-weight: normal;
+    /* text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 bi {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    text-shadow: 0.005em 0.005em 0.005em #666666; /* 字體添加陰影以使得筆畫略粗 */
+font-weight: normal;
+    /* text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 em {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    text-shadow: 0.007em 0.007em 0.007em #666666; /* 字體添加陰影以使得筆畫略粗 */
+color:#001BB7;
+    text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 @counter-style hanenum {/* 爲 _markdown.scss 的 ol 編號列表定義樣式 1-10 漢字數字 */
   font-weight: bold;
