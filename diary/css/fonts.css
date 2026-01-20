@@ -214,16 +214,16 @@ text-shadow:
 }*/
 
 h4 { /* Card Title  */
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
+        font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    text-shadow: 0.008em 0.008em 0.008em #666666;
 	margin: 0 0 0 0;
 	color: #424949;
 	font-size: 27px;
 	line-height: 40px;
-        font-weight: bold;
         text-align: left;
 }
 h4author { /* Card Title  Author*/
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
+        font-family: "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 	color: #424949;
 	font-size: 1rem;
   /* font-weight: bold; */
@@ -288,13 +288,21 @@ font-size: 22px;
 strong {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
     font-weight:bold;
+    /* text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
+}
+bb {
+    font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    font-weight:bold;
     text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
+}
+bi {
+font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    text-shadow: 0.005em 0.005em 0.005em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 em {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
     text-shadow: 0.007em 0.007em 0.007em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
-
 @counter-style hanenum {/* 爲 _markdown.scss 的 ol 編號列表定義樣式 1-10 漢字數字 */
   font-weight: bold;
   system: fixed;
