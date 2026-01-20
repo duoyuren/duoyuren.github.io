@@ -287,12 +287,12 @@ font-size: 22px;
 
 strong {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    font-weight:normal;
-    text-shadow: 0.007em 0.007em 0.007em #666666; /* 字體添加陰影以使得筆畫略粗 */
+    font-weight:bold;
+    text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 em {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    text-shadow: 0.006em 0.006em 0.006em #666666; /* 字體添加陰影以使得筆畫略粗 */
+    text-shadow: 0.007em 0.007em 0.007em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 
 @counter-style hanenum {/* 爲 _markdown.scss 的 ol 編號列表定義樣式 1-10 漢字數字 */
