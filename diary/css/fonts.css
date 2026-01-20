@@ -94,8 +94,8 @@ h1 {
 /* margin: 1em 0 0.8em 0; */
 color: #0E6251;
 font-size: 22px;
- /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
-  font-weight: bold;
+font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    text-shadow: 0.008em 0.008em 0.008em #666666;
   line-height: 25px;
    text-align: center; 
 counter-reset : h2;
@@ -172,8 +172,8 @@ h2 {
 	margin: 0.55em 0 0.35em 0;
 	color: #0E6251;
 	font-size: 22px;
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
-        font-weight: bold;
+font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    text-shadow: 0.008em 0.008em 0.008em #666666;
 	line-height: 23px;
 counter-reset : h3;
         font-weight: normal;
@@ -194,8 +194,8 @@ h3 {
 	margin: 0.55em 0 0.35em 0;
 	color: #424949;
         font-size: 22px;
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
-        font-weight: bold;
+font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+    text-shadow: 0.008em 0.008em 0.008em #666666;
 	line-height: 23px;
 counter-reset : h4;
         font-weight: normal;
