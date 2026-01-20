@@ -6,7 +6,6 @@
 
 @import url('https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/%E4%BA%AC%E8%8F%AF%E8%80%81%E5%AE%8B%E4%BD%93v2_002/result.css'); /* 全站使用「中文網字計劃」流量的京華老宋体v2_002 KingHwa_OldSong */
 
-
 @import url('https://chinese-fonts-cdn.deno.dev/packages/yozai/dist/Yozai-Bold/result.css'); /* 使用 Yozai 700 作爲默認粗體 */
 @import url('https://chinese-fonts-cdn.deno.dev/packages/ToneOZ-Pinyin-WenKai/dist/ToneOZ-Pinyin-WenKai-Bold/result.css'); /* 使用 ToneOZ-Pinyin-WenKai-Regular 作爲默認拼音字體 */
 
@@ -291,12 +290,13 @@ font-size: 22px;
 
 strong {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    text-shadow: 0.001em 0.001em 0.001em #666666; /* 字體添加陰影以使得筆畫略粗 */
+    font-weight:bold;
+    /* text-shadow: 0.001em 0.001em 0.001em #666666; 字體添加陰影以使得筆畫略粗 */
 }
 em {
 font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
-    text-shadow: 0.005em 0.005em 0.005em #666666; /* 字體添加陰影以使得筆畫略粗 */
-    }
+    text-shadow: 0.006em 0.006em 0.006em #666666; /* 字體添加陰影以使得筆畫略粗 */
+}
 
 @counter-style hanenum {/* 爲 _markdown.scss 的 ol 編號列表定義樣式 1-10 漢字數字 */
   font-weight: bold;
