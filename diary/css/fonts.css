@@ -229,21 +229,18 @@ h4author { /* Card Title  Author*/
   /* font-weight: bold; */
 }
 .list-toc { /* Card Title  Author*/
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
 padding-left:0;
 list-style:none;
 font-size: 1.2rem;
-	line-height: 2rem;
+line-height: 2rem;
   /* font-weight: bold; */
 }
 
 .list-toc-menu { /* list-toc in menu */
-         /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
 padding-left:0;
 list-style:none;
 font-size: 1.2rem;
-	line-height: 1.8rem;
-  /* font-weight: bold; */
+line-height: 1.8rem;
 }
 
 sec-book-title {
