@@ -94,7 +94,7 @@ h1 {
 /* margin: 1em 0 0.8em 0; */
 color: #0E6251;
 font-size: 22px;
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 font-weight: normal;
   line-height: 25px;
    text-align: center; 
@@ -172,7 +172,7 @@ h2 {
 	margin: 0.55em 0 0.35em 0;
 	color: #0E6251;
 	font-size: 22px;
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 	line-height: 23px;
 counter-reset : h3;
         font-weight: normal;
@@ -193,7 +193,7 @@ h3 {
 	margin: 0.55em 0 0.35em 0;
 	color: #424949;
         font-size: 22px;
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 font-weight: normal;
 	line-height: 23px;
 counter-reset : h4;
@@ -212,7 +212,7 @@ text-shadow:
 }*/
 
 h4 { /* Card Title  */
-        font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+        font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
         font-weight: normal;
 	margin: 0 0 0 0;
 	color: #424949;
@@ -283,7 +283,7 @@ font-size: 22px;
 }
 
 strong {
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
     font-weight: normal;
     color:#001BB7;
     text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
@@ -294,12 +294,12 @@ bb {
     /* text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 bi {
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 font-weight: normal;
     /* text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
 em {
-font-family: "Truetypewriter-PolyglOTT", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+font-family: "Truetypewriter-PolyglOTT", "Truetypewriter-PolyglOTT_Local", "chdot", "Yozai Medium", "Yozai_Local", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
 color:#001BB7;
     text-shadow: 0.029em 0.029em 0.029em #666666; /* 字體添加陰影以使得筆畫略粗 */
 }
