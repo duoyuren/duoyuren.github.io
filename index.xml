@@ -9,370 +9,6 @@
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
     <atom:link href="https://duoyu.ren/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第 00 章 緒論：邏輯與邏輯學</title>
-      <link>https://duoyu.ren/books/logic/ch00/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch00/</guid>
-      <description>&lt;div&gt;&#xA;  &lt;div class=&#34;freeboxtitle&#34;&gt;&#xA;  &#x9;&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 本章主要參考文獻 ⦿&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;freebox&#34;&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;&lt;bb&gt;徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本書的緒論章節是本章內容的主要來源。)&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;宋文坚, 郭世铭,1998. 逻辑学[M].北京: 人民出版社: 5‑30.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本敎材的緒言章節簡要講述了邏輯研究的進化歷程。)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;div&gt;&#xA;&lt;blockquote&gt;&amp;ldquo;I know what you&amp;rsquo;re thinking about,&amp;rdquo; said Tweedledum; &amp;ldquo;but it isn&amp;rsquo;t so, nohow.&amp;rdquo; &amp;ldquo;Contrariwise,&amp;rdquo; continued Tweedledee, &amp;ldquo;if it was so, it might be; and if it were so, it would be; but as it isn&amp;rsquo;t, it ain&amp;rsquo;t. That&amp;rsquo;s logic.&amp;rdquo;&#xA;      &#xA;        &lt;quocnchcite&gt;&#xA;          &lt;a href=&#34;https://mengxianjun.org/books/logic/&#34; title=&#34;https://mengxianjun.org/books/logic/&#34;&gt;@Lewis Carroll, Through the Looking-Glass, 1872&lt;/a&gt; &#xA;       &lt;/quocnchcite&gt;&#xA;    &#xA;  &lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;在我上大學的時候，不少關於 X 的課程始於下面這樣的問題：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>第 01 章</title>
-      <link>https://duoyu.ren/books/art/ch01/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch01/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;直排與現代排版需求&#34;&gt;直排與現代排版需求&lt;/h1&gt;&#xA;&lt;h1 id=&#34;xecjk-直書設置&#34;&gt;XeCJK 直書設置&lt;/h1&gt;&#xA;&lt;p&gt;在 XeCJK 中直書需要旋轉 PDF，並且原橫排環境中的樣式皆需調整以適應直排版式。以下爲需要調整的若干樣式。&lt;/p&gt;&#xA;&lt;h2 id=&#34;總設置&#34;&gt;總設置&lt;/h2&gt;&#xA;&lt;h1 id=&#34;結語&#34;&gt;結語&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>第 01 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch01/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch01/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;直排與現代排版需求&#34;&gt;直排與現代排版需求&lt;/h1&gt;&#xA;&lt;h1 id=&#34;xecjk-直書設置&#34;&gt;XeCJK 直書設置&lt;/h1&gt;&#xA;&lt;p&gt;在 XeCJK 中直書需要旋轉 PDF，並且原橫排環境中的樣式皆需調整以適應直排版式。以下爲需要調整的若干樣式。&lt;/p&gt;&#xA;&lt;h2 id=&#34;總設置&#34;&gt;總設置&lt;/h2&gt;&#xA;&lt;h1 id=&#34;結語&#34;&gt;結語&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>第 01 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch01/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch01/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;直排與現代排版需求&#34;&gt;直排與現代排版需求&lt;/h1&gt;&#xA;&lt;h1 id=&#34;xecjk-直書設置&#34;&gt;XeCJK 直書設置&lt;/h1&gt;&#xA;&lt;p&gt;在 XeCJK 中直書需要旋轉 PDF，並且原橫排環境中的樣式皆需調整以適應直排版式。以下爲需要調整的若干樣式。&lt;/p&gt;&#xA;&lt;h2 id=&#34;總設置&#34;&gt;總設置&lt;/h2&gt;&#xA;&lt;h1 id=&#34;結語&#34;&gt;結語&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>第 01 章 預備：素樸集合論</title>
-      <link>https://duoyu.ren/books/logic/ch01/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch01/</guid>
-      <description>&lt;div&gt;&#xA;  &lt;div class=&#34;freeboxtitle&#34;&gt;&#xA;  &#x9;&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 本章主要參考文獻 ⦿&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;freebox&#34;&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://builds.openlogicproject.org/&#34; title=&#34;Zach, Richard. Open Logic Project.&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;&lt;bb&gt;Zach, Richard.&lt;/bb&gt; &lt;em&gt;Open Logic Project.&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;&#xA;（這個龐大的開源項目，囊括了非哲學、數學專業的邏輯學習所需的大部分材料。本章內容卽基於其 $\TeX$ 源碼整理而成）&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;安德鲁·辛普森, 2005. 离散数学导学[M].冯速,译. 北京: 机械工业出版社.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本書雖是計算機科學領域的基礎課本，但其第三、四、五、六、七、八、九、十章以豐富的實例友好而簡約地講解了集合論、命題邏輯、謂詞邏輯的基礎知識。)&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;邢滔滔, 2008. 数理逻辑[M].北京: 北京大学出版社.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本教材的第二章節簡要講述了邏輯學基礎學習階段可能需要的集合論知識。）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;h1 id=&#34;集合属性元素外延&#34;&gt;集合：属性、元素、外延&lt;/h1&gt;&#xA;&lt;h2 id=&#34;extensionality&#34;&gt;Extensionality&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;bb&gt;set&lt;/bb&gt; is a collection of objects, considered {as} a single object. The objects making up the set are called &lt;bb&gt;elements&lt;/bb&gt; or &lt;bb&gt;members&lt;/bb&gt; of the set. If $x$ is an &lt;bb&gt;element&lt;/bb&gt; of a set $a$, we write $x \in a$; if not, we write $x \notin a$. The set which has no &lt;bb&gt;element&lt;/bb&gt;s is called the &lt;bb&gt;empty&lt;/bb&gt; set and denoted &amp;ldquo;$\varnothing$&amp;rsquo;&#39;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>第 02 章</title>
-      <link>https://duoyu.ren/books/art/ch02/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch02/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 02 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch02/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch02/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 02 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch02/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch02/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 02 章 PL 聯結詞與真值表</title>
-      <link>https://duoyu.ren/books/logic/ch02/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch02/</guid>
-      <description>&lt;div&gt;&#xA;  &lt;div class=&#34;freeboxtitle&#34;&gt;&#xA;  &#x9;&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 本章主要參考文獻 ⦿&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;freebox&#34;&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;&lt;bb&gt;徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本書第二章是本章內容的主要來源）&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;Bergmann M, Moor J, Nelson J, 2014.The Logic Book[M].Sixth. NewYork: McGraw‑Hill.&lt;/bb&gt;&lt;br /&gt;&#xA;（這本敎材第二、三、四章詳細而友好地講述了命題聯結詞與真值表方法)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;div&gt;&#xA;&lt;blockquote&gt;There is no royal road to logic, and really valuable ideas can only be had at the price of close attention.&#xA;      &#xA;        &lt;quocnchcite&gt;&#xA;          &lt;a href=&#34;https://mengxianjun.org/books/logic/&#34; title=&#34;https://mengxianjun.org/books/logic/&#34;&gt;@Charles Peirce, How to Make our Ideas Clear, 1878&lt;/a&gt; &#xA;       &lt;/quocnchcite&gt;&#xA;    &#xA;  &lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;命題邏輯（propositional logic），也稱語句邏輯（sentential logic），是從聯結詞和複合句的角度討論邏輯蘊涵、可演繹性和一致性。這意味着我們會忽略很多常見的東西，如主詞、謂詞和量詞等。命題和語句其實還是有區別的，但我們在這門課裏暫時不加區分（技術用語除外）。用「命題」方便時用「命題」，用「語句」或「句子」方便時用「語句」或「句子」。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>第 03 章</title>
-      <link>https://duoyu.ren/books/art/ch03/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch03/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 03 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch03/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch03/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 03 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch03/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch03/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 03 章 PL 概念的嚴格刻畫</title>
-      <link>https://duoyu.ren/books/logic/ch03/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch03/</guid>
-      <description>&lt;div&gt;&#xA;  &lt;div class=&#34;freeboxtitle&#34;&gt;&#xA;  &#x9;&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 本章主要參考文獻 ⦿&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;freebox&#34;&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;&lt;bb&gt;徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社.&lt;/bb&gt;&lt;br /&gt;&#xA;這本書第三章是本章內容的主要來源&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;Bergmann M, Moor J, Nelson J, 2014.The Logic Book[M].Sixth. NewYork: McGraw‑Hill.&lt;/bb&gt;&lt;br /&gt;&#xA;這本書第六章講述了語句邏輯的元理論（metatheory）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;div&gt;&#xA;&lt;blockquote&gt;&amp;hellip; in mathematics a mere moral conviction, supported by a mass of successful applications, is not good enough.&#xA;      &#xA;        &lt;quocnchcite&gt;&#xA;          &lt;a href=&#34;https://mengxianjun.org/books/logic/&#34; title=&#34;https://mengxianjun.org/books/logic/&#34;&gt;@Gottlob Frege, The Foundations of Arithmetic, 1884. Trans. by J. I. Austin&lt;/a&gt; &#xA;       &lt;/quocnchcite&gt;&#xA;    &#xA;  &lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;在這一章裏，我們對命題邏輯的基本概念給出嚴格的表述，並對這些概念做進一步的討論和說明。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>第 04 章</title>
-      <link>https://duoyu.ren/books/art/ch04/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch04/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 04 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch04/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch04/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 04 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch04/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch04/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 04 章 PL 推演系統概說</title>
-      <link>https://duoyu.ren/books/logic/ch04/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch04/</guid>
-      <description>&lt;div&gt;&#xA;  &lt;div class=&#34;freeboxtitle&#34;&gt;&#xA;  &#x9;&lt;span style=&#34;font-family:Sarasa-Heavy,SYHei Heavy;&#34;&gt;⦿ 本章主要參考文獻 ⦿&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;freebox&#34;&gt;&#xA;  &lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://builds.openlogicproject.org/&#34; title=&#34;Zach, Richard. Open Logic Project.&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;&lt;bb&gt;Zach, Richard.&lt;/bb&gt; &lt;em&gt;Open Logic Project.&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;&#xA;（本章內容卽基於其 $\TeX$ 源碼整理而成）&lt;/li&gt;&#xA;&lt;li&gt;&lt;bb&gt;刘壮虎, 1993. 逻辑演算[M].北京: 中国社会科学出版社&lt;/bb&gt;&lt;br /&gt;&#xA;（這本書第二章簡單説明了命題演算的常識）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;p&gt;This chapter collects general material on &lt;bb&gt;derivation&lt;/bb&gt; systems.  A text-book using a specific system can insert the introduction section plus the relevant survey section at the beginning of the chapter introducing that system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>第 05 章</title>
-      <link>https://duoyu.ren/books/art/ch05/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch05/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 05 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch05/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch05/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 05 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch05/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch05/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 05 章  PL 矢列演算</title>
-      <link>https://duoyu.ren/books/logic/ch05/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch05/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 06 章</title>
-      <link>https://duoyu.ren/books/art/ch06/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/art/ch06/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 06 章</title>
-      <link>https://duoyu.ren/books/zgwx/ch06/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgwx/ch06/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 06 章</title>
-      <link>https://duoyu.ren/books/zgzx/ch06/</link>
-      <pubDate>Sun, 06 Oct 2019 18:33:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/zgzx/ch06/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;內容建設中……&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 06 章  PL 自然演繹</title>
-      <link>https://duoyu.ren/books/logic/ch06/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch06/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 07 章  PL 表列演算</title>
-      <link>https://duoyu.ren/books/logic/ch07/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch07/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 08 章  PL 弗-希演算（一）</title>
-      <link>https://duoyu.ren/books/logic/ch08/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch08/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 09 章  PL 弗-希演算（二）</title>
-      <link>https://duoyu.ren/books/logic/ch09/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch09/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 10 章  PL 完全性定理</title>
-      <link>https://duoyu.ren/books/logic/ch10/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch10/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 11 章  PL 自動證明程序</title>
-      <link>https://duoyu.ren/books/logic/ch11/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch11/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 12 章  PL 傳統的分析</title>
-      <link>https://duoyu.ren/books/logic/ch12/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch12/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 13 章  FOL 謂詞符號化</title>
-      <link>https://duoyu.ren/books/logic/ch13/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch13/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 14 章  FOL 語義語法（一）</title>
-      <link>https://duoyu.ren/books/logic/ch14/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch14/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 15 章  FOL 語義語法（二）</title>
-      <link>https://duoyu.ren/books/logic/ch15/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch15/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 16 章  FOL 矢列演算</title>
-      <link>https://duoyu.ren/books/logic/ch16/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch16/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 17 章  FOL 自然演繹</title>
-      <link>https://duoyu.ren/books/logic/ch17/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch17/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 18 章  FOL 表列演算</title>
-      <link>https://duoyu.ren/books/logic/ch18/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch18/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 19 章  FOL 弗-希演算（三）</title>
-      <link>https://duoyu.ren/books/logic/ch19/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch19/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 20 章  FOL 弗-希演算（四）</title>
-      <link>https://duoyu.ren/books/logic/ch20/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch20/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 22 章  FOL 完全性定理</title>
-      <link>https://duoyu.ren/books/logic/ch21/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch21/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 22 章  FOL 自動證明程序</title>
-      <link>https://duoyu.ren/books/logic/ch22/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch22/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 23 章  FOL 傳統的分析</title>
-      <link>https://duoyu.ren/books/logic/ch23/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch23/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 24 章  IR 傳統歸納推理</title>
-      <link>https://duoyu.ren/books/logic/ch24/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch24/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 25 章  IR 現代歸納推理</title>
-      <link>https://duoyu.ren/books/logic/ch25/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch25/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 26 章  語用邏輯：語境</title>
-      <link>https://duoyu.ren/books/logic/ch26/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch26/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 27 章  語用邏輯：言語行爲</title>
-      <link>https://duoyu.ren/books/logic/ch27/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch27/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 28 章  語用邏輯：預設</title>
-      <link>https://duoyu.ren/books/logic/ch28/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch28/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 29 章  語用邏輯：語用原則</title>
-      <link>https://duoyu.ren/books/logic/ch29/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch29/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 30 章  邏輯方法：定義</title>
-      <link>https://duoyu.ren/books/logic/ch30/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch30/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 31 章  邏輯方法：論證反駁</title>
-      <link>https://duoyu.ren/books/logic/ch31/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch31/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 32 章  邏輯方法：謬誤</title>
-      <link>https://duoyu.ren/books/logic/ch32/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch32/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第 33 章  邏輯方法：思維規律</title>
-      <link>https://duoyu.ren/books/logic/ch33/</link>
-      <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
-      <guid>https://duoyu.ren/books/logic/ch33/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;建設中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
       <title>從入坑到破產的玩筆歷程</title>
       <link>https://duoyu.ren/essay/2023_12_05_pen_ink/</link>
       <pubDate>Tue, 05 Dec 2023 11:01:55 +0800</pubDate>
@@ -707,6 +343,41 @@
       <pubDate>Tue, 20 Sep 2016 17:56:18 +0800</pubDate>
       <guid>https://duoyu.ren/essay/2016_09_20_cangjie_lizi/</guid>
       <description>&lt;h1 id=&#34;導言&#34;&gt;導言&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%92%BC%E9%A0%A1%E6%AA%A2%E5%AD%97%E6%B3%95&#34; title=&#34;蒼頡檢字法&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;蒼頡檢字法&lt;/a&gt;，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字&lt;strong&gt;輸入&lt;/strong&gt;，而在完整解決漢字&lt;strong&gt;檢索&lt;/strong&gt;及應用問題。&lt;/li&gt;&#xA;&lt;li&gt;因&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%92%BC%E9%A0%A1%E6%AA%A2%E5%AD%97%E6%B3%95&#34; title=&#34;蒼頡檢字法&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;蒼頡檢字法&lt;/a&gt;至今並無所謂「官方」版本釋出，據稱「原本並不公開，僅供與『&lt;z&gt;朱邦復&lt;/z&gt;工作室』有工作關係的人士，及部分文史專家學者使用」。因而本文所依據之字碼方案，係依據 &lt;a href=&#34;https://github.com/LEOYoon-Tsaw/Cangjie6&#34; title=&#34;LEOYoon-Tsaw&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;LEOYoon-Tsaw&lt;/a&gt; 爲 Rime 輸入法引擎所製蒼頡檢字法輸入方案，此版好處在於製作時參與者眾，使用者又可依自身用字習慣修正使用；但此版與傳說中的「官版」未必一致，當然，「官版」也未必勝過此版。&lt;/li&gt;&#xA;&lt;li&gt;本文作者使用&lt;a href=&#34;https://github.com/LEOYoon-Tsaw/Cangjie6&#34; title=&#34;此版&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;此版&lt;/a&gt;試着逐個輸入了&lt;a href=&#34;https://en.wikipedia.org/wiki/Ciyuan&#34; title=&#34;《辭源》&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;《辭源》&lt;/a&gt;所收一萬多個字頭，期間亦曾對異體字、新舊字形輸入之類問題簡單分辨。這一萬多字大概涵蓋先秦古籍所出現的所有字頭，也包括了絕大部分兩漢至清之間（「後起」與「晚起」）產生的常用字。&lt;/li&gt;&#xA;&lt;li&gt;結果顯示，在輸入方面，&lt;a href=&#34;https://github.com/LEOYoon-Tsaw/Cangjie6&#34; title=&#34;此版&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;此版&lt;/a&gt;蒼頡檢字法全部覆蓋上述字頭，且大致能兼顧不同輸入習慣。&lt;/li&gt;&#xA;&lt;li&gt;如旣有「兼」（的的廿金hhtc：合《說文》字源），也有「兼」（金一止金cmxc：合「舊字形」），也有「兼」（廿止金：合楷化與手寫風格）；旣有「研」（一口一十十），也有「研」（一口一廿）。（各機器與頁面字體支持情形不一，以上三個字形，頁面未必能區別開來）&lt;/li&gt;&#xA;&lt;li&gt;當然，若使用者不特別修正，此版極個別字碼之定立或可商榷，極個別字碼之定立也未能兼顧其各種字形輸入習慣。如「冒」字碼只有「日月山abu」而無「月月山bbu」，「曼」字碼只有「日田中水awle」而無「月田中水bwle」。&lt;/li&gt;&#xA;&lt;li&gt;結論：權衡&lt;strong&gt;檢索&lt;/strong&gt;效率與&lt;strong&gt;輸入&lt;/strong&gt;效率，在三、五、六之間，個人更偏愛「六代」。涵蓋近八萬字頭的碼表，大致滿足古籍、簡體、異體字、新舊字形等各種輸入需求。再也不必爲文獻中出現的某個稀奇古怪的字而煩惱了。&lt;/li&gt;&#xA;&lt;li&gt;當然，對多數用戶而言，目前許多拼音輸入法也完全可以滿足使用需求，&lt;strong&gt;毫無必要&lt;/strong&gt;浪費寶貴的生命年華學習這玩意兒。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;倉頡字母&#34;&gt;倉頡字母&lt;/h1&gt;&#xA;&lt;p&gt;對應英文字母A-Z，倉頡輸入法也有26個「倉頡字母」（字根）：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>學而：儒門總路線</title>
+      <link>https://duoyu.ren/essay/2016_06_05_kongzi_zongluxian/</link>
+      <pubDate>Sun, 05 Jun 2016 21:39:35 +0000</pubDate>
+      <guid>https://duoyu.ren/essay/2016_06_05_kongzi_zongluxian/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;作者按語&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;此文純粹爲「安利」學生多寫作業而編造。因某日課後，一三級漢文二班某生曰「一個『怎麼就高興了呢』講了兩節課」，有必要記錄整個「說服」以便後續&lt;strong&gt;重複&lt;/strong&gt;使用。&lt;/li&gt;&#xA;&lt;li&gt;一直信奉「師逸而功倍，師勤而功半」的敎條（《禮記・學記》），是以最愛「佈置作業」，每令諸生「叫苦不迭」，亦常引起反彈。今日又起反彈，特在課堂花費諸多口舌以《論語・學而》「安利」之。&lt;/li&gt;&#xA;&lt;li&gt;雖然「半路出家」研習哲學，對「中國哲學」依然一竅不通，自然不會扯出啥深刻而振聾發聵的理論來；又沒有&lt;z&gt;于丹&lt;/z&gt;那般「熬雞湯」的本事，自然也未能引起諸生興趣，「說服」效果不明顯。&lt;/li&gt;&#xA;&lt;li&gt;是以本文後半部分&lt;strong&gt;全是「瞎扯」&lt;/strong&gt;，就是爲敎師偷懶找辯辭——學生不做作業老師怎麼偷懶呢。自然也不會有啥紮實的考證、嚴密的邏輯、有效的結論，&lt;strong&gt;特文前告示之&lt;/strong&gt;，語文考試若以本文說法作答風險巨大。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;學而第一原文&#34;&gt;《學而》第一原文&lt;/h1&gt;&#xA;&lt;p&gt;相較而言，因爲漢語原文在字面上不存在「轉換」的問題，除卻「說」與「悅」、「樂」與「悅」、「有朋」與「&lt;strong&gt;友朋&lt;/strong&gt;」（如《續修四庫全書》所收《戴氏注論語》便作「友朋」，釋爲「弟子」），這幾個與義理關係不大的文字差異之外，各本差別不大。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《法學拉丁文教程》序言</title>
+      <link>https://duoyu.ren/essay/2016_05_05_law_latin/</link>
+      <pubDate>Thu, 05 May 2016 18:30:51 +0800</pubDate>
+      <guid>https://duoyu.ren/essay/2016_05_05_law_latin/</guid>
+      <description>&lt;h1 id=&#34;the-role-of-humanities-in-legal-education&#34;&gt;The Role of Humanities in Legal Education&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.livelib.ru/book/1000195925&#34; title=&#34;法學敎育&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;法學敎育&lt;/a&gt;在目前&lt;z&gt;俄國&lt;/z&gt;人文敎育體系中日漸重要。這與社會對法律專家的需求增加有關，伴隨著法學敎育質量的上昇、人文通識課程敎育的加強，社會對法科畢業生文化水準要求也日漸提高。現在學習法律的學生不只是未來的律師和法律工作者，而且還包括那些將要從事政治、商業、新聞諸行業的學生與知識階層。即便那些甫一入學就決心接受出路很窄的職業敎育的學生，要成爲專家，成爲通常所謂受過敎育的人，也不僅僅是要簡單地掌握法律技能和具有一套處理模式化材料的技能。&lt;/p&gt;&#xA;&lt;p&gt;法律知識體系中，人文通識敎育的加強將明顯影響法學敎育。只有長於邏輯思考與言說、具有語言造詣和一定文化眼界的學生纔能真正理解法學及其基本研究對象——人的自由。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TeX 漢語字典模板</title>
+      <link>https://duoyu.ren/essay/2016_04_30_tex_hanyu_zidian/</link>
+      <pubDate>Sat, 30 Apr 2016 21:57:33 +0800</pubDate>
+      <guid>https://duoyu.ren/essay/2016_04_30_tex_hanyu_zidian/</guid>
+      <description>&lt;h1 id=&#34;full-of-sadness-in-my-heart&#34;&gt;Full of Sadness in My Heart&lt;/h1&gt;&#xA;&lt;p&gt;這些天，一想到至死也不可能「獨立」「手工」「研編」出一部滿意的漢語辭書，便滿心傷悲。獨立者，不抄襲、不取藍本；手工者，較少依賴計算機輔助（實因未能掌握語料庫建設、語言處理等相關技能）；研編者，字字歷史與邏輯統一地寫出來。照這種方式試寫詞條，揣摩拿捏、定義取例，一天竟寫不完一個字頭，且沈跡下流、文獻稀缺、功力不濟，索性放棄（實因一毛錢都掙不到）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《題破山寺後禪院》英譯六種</title>
+      <link>https://duoyu.ren/essay/2016_04_17_changjian/</link>
+      <pubDate>Sun, 17 Apr 2016 19:09:56 +0800</pubDate>
+      <guid>https://duoyu.ren/essay/2016_04_17_changjian/</guid>
+      <description>&lt;p&gt;近授影視聲音創作，提及&lt;z&gt;常建&lt;/z&gt;《題破山寺後禪院》意境轉化與配音創作問題。以「清晨入古寺」之境界聲音爲例，問諸生如欸配音。回答皆以「有我之境」轉換此詩意境，深違向之所識。一週蒐集資料，似「有我之境」爲主流解讀，「有我」、「無我」非關乎對錯，關乎題旨也。「無我之境」固需多方資料佐證，本文所錄亦爲「轉換」之作，大多「轉換」爲「有我之境」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>曾氏門徒、美國記者、蘇聯專家</title>
+      <link>https://duoyu.ren/essay/2016_04_09_elegist/</link>
+      <pubDate>Sat, 09 Apr 2016 19:41:40 +0800</pubDate>
+      <guid>https://duoyu.ren/essay/2016_04_09_elegist/</guid>
+      <description>&lt;h1 id=&#34;曾氏門徒&#34;&gt;曾氏門徒&lt;/h1&gt;&#xA;&lt;p&gt;晚清&lt;z&gt;李伯元&lt;/z&gt;《南亭筆記》卷八錄有幾則&lt;z&gt;曾文正&lt;/z&gt;軼事，其一《曾國藩包作輓聯》，內載其爲「平日之友」作輓聯之事。&lt;/p&gt;&#xA;&lt;p&gt;&lt;chq&gt;&lt;z&gt;曾&lt;/z&gt;與&lt;z&gt;湯海秋&lt;/z&gt;稱莫逆交，後忽割席。&lt;z&gt;曾&lt;/z&gt;無事舉其平日之友，皆作一輓聯，&lt;z&gt;湯&lt;/z&gt;亦在其中。&lt;z&gt;湯&lt;/z&gt;大怒，拂衣而去，自此遂與&lt;z&gt;曾&lt;/z&gt;不通聞問。&lt;z&gt;曾&lt;/z&gt;工撰輓聯，長短高下，無不合格。&lt;chcite&gt;李伯元&lt;/chcite&gt;&lt;/chq&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
