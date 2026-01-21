@@ -195,7 +195,7 @@
         <link>https://duoyu.ren/essay/2016_11_24_tikz_mcquail_figures/</link>
         <pubDate>Thu, 24 Nov 2016 18:13:38 +0000</pubDate>
         <author>mail@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 14 Jan 2026 11:39:43 +0800</atom:modified>
+        <atom:modified>Thu, 22 Jan 2026 02:36:35 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/2016_11_24_tikz_mcquail_figures/</guid>
         <description>&lt;p&gt;Last month re-composed the classic Textbook, &lt;em&gt;&lt;a href=&#34;https://uk.sagepub.com/en-gb/asi/mcquails-mass-communication-theory/book234219#contents&#34; title=&#34;McQuail&amp;rsquo;s Mass Communication Theory&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;McQuail&amp;rsquo;s Mass Communication Theory&lt;/a&gt;&lt;/em&gt;, the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -335,7 +335,7 @@
         <link>https://duoyu.ren/essay/2016_10_15_zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>mail@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 22 Jan 2026 02:26:01 +0800</atom:modified>
+        <atom:modified>Thu, 22 Jan 2026 02:37:07 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/2016_10_15_zhmakeindex/</guid>
         <description>&lt;p&gt;In some big documents, for example &lt;a href=&#34;https://superfluous-man.github.io/essay/20160430-tex-han-yu-zi-dian/&#34; title=&#34;The Cangjie Chinese-English Dictionary&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Cangjie Chinese-English Dictionary&lt;/em&gt;&lt;/a&gt;, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the &lt;a href=&#34;https://github.com/leo-liu/zhmakeindex&#34; title=&#34;zhmakeindex&#34; class=&#34;icon_external&#34; rel=&#34;noopener external&#34; target=&#34;_blank&#34;&gt;zhmakeindex&lt;/a&gt; program that aims to sort Chinese index entries.&lt;/p&gt;
 &lt;h1 id=&#34;generating-latex-indices-separately&#34;&gt;Gen­er­a­ting LaTeX Indices Separately&lt;/h1&gt;
