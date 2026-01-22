@@ -89,45 +89,5 @@
         
       </item>
     
-      <item>
-        <title>Logic 01 Slides</title>
-        <link>https://duoyu.ren/presentation/logic-slides/ch00-slides/</link>
-        <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
-        <author>mail@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 14:39:45 +0800</atom:modified>
-        <guid>https://duoyu.ren/presentation/logic-slides/ch00-slides/</guid>
-        <description></description>
-        
-        <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren//images/author/schoollogo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>logic</category>
-            
-          
-            
-              <category>lecture</category>
-            
-          
-        
-        
-          
-            
-              <category>logic-slides</category>
-            
-          
-        
-        
-          
-            
-              <category>logic</category>
-            
-          
-        
-      </item>
-    
   </channel>
 </rss>
