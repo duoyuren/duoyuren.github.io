@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://duoyu.ren/books/zgwx/ch01/</loc>
+    <lastmod>2026-01-22T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/ch02/</loc>
+    <lastmod>2022-10-02T23:51:05+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/ch03/</loc>
+    <lastmod>2022-10-02T23:51:07+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/ch04/</loc>
+    <lastmod>2022-10-02T23:51:08+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/ch05/</loc>
+    <lastmod>2022-10-02T23:51:10+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/ch06/</loc>
+    <lastmod>2022-10-02T23:51:11+08:00</lastmod>
+  </url><url>
     <loc>https://duoyu.ren/tags/pen/</loc>
     <lastmod>2024-01-12T13:28:56+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/tags/</loc>
-    <lastmod>2026-01-22T09:40:28+08:00</lastmod>
+    <lastmod>2026-01-22T09:52:37+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/essay/2023_12_05_pen_ink/</loc>
     <lastmod>2024-01-12T13:28:56+08:00</lastmod>
@@ -182,6 +200,12 @@
     <loc>https://duoyu.ren/essay/2019_10_15_demos/</loc>
     <lastmod>2024-08-20T17:30:14+08:00</lastmod>
   </url><url>
+    <loc>https://duoyu.ren/tags/shortcode/</loc>
+    <lastmod>2026-01-22T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/books/zgwx/</loc>
+    <lastmod>2023-11-09T20:32:30+08:00</lastmod>
+  </url><url>
     <loc>https://duoyu.ren/tags/chinese/</loc>
     <lastmod>2026-01-14T11:40:45+08:00</lastmod>
   </url><url>
@@ -255,7 +279,7 @@
     <lastmod>2022-10-04T17:51:38+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/tags/index/</loc>
-    <lastmod>2026-01-21T19:48:53+08:00</lastmod>
+    <lastmod>2026-01-22T09:52:37+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/presentation/</loc>
     <lastmod>2022-10-02T04:56:38+08:00</lastmod>
@@ -263,8 +287,11 @@
     <loc>https://duoyu.ren/essay/</loc>
     <lastmod>2026-01-21T19:48:53+08:00</lastmod>
   </url><url>
+    <loc>https://duoyu.ren/books/</loc>
+    <lastmod>2026-01-22T09:50:18+08:00</lastmod>
+  </url><url>
     <loc>https://duoyu.ren/teaching/</loc>
-    <lastmod>2026-01-20T00:43:20+08:00</lastmod>
+    <lastmod>2026-01-22T09:52:37+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/reading/</loc>
     <lastmod>2026-01-21T15:21:44+08:00</lastmod>
