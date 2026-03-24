@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>philogic&#39;s blog</title>
-<link>https://philogic.cn/atom.html</link>
-<atom:link href="https://philogic.cn/atom.xml" rel="self" type="application/rss+xml"/>
+<link>https://duoyu.ren/academic/atom.html</link>
+<atom:link href="https://duoyu.ren/academic/atom.xml" rel="self" type="application/rss+xml"/>
 <description>philogic&#39;s blog</description>
 <language>en</language>
 <generator>quarto-1.9.36</generator>
@@ -15,8 +15,9 @@
 <item>
   <title>How to automatically convert TikZ images to SVG with Quartoxyz</title>
   <dc:creator>philogic </dc:creator>
-  <link>https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/</link>
+  <link>https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -26,7 +27,7 @@
 <p>For instance, let’s say I want to include a minimalist little standard directed acyclic graph (DAG) that shows that some treatment <img src="https://latex.codecogs.com/png.latex?X"> causes some outcome <img src="https://latex.codecogs.com/png.latex?Y"> in the subsequent time period, but the effect is confounded by a third variable <img src="https://latex.codecogs.com/png.latex?Z">. Something like this:</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/basic-example.svg" class="img-fluid figure-img" style="width:50.0%"></p>
+<p><img src="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/basic-example.svg" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption class="margin-caption">A simple DAG</figcaption>
 </figure>
 </div>
@@ -420,7 +421,7 @@ background-color: null;
 font-style: inherit;">```</span></span></code></pre></div></div></li>
 <li><p><strong>Render!</strong> Render the document to PDF and you should see a diagram. Render it to HTML or .docx or Typst and it should use <code>inkscape</code> to convert it to SVG. Magic.</p>
 <div class="centered-tikz">
-<img src="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/basic-example.svg" class="img-fluid" style="width:50.0%">
+<img src="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/basic-example.svg" class="img-fluid" style="width:50.0%">
 </div></li>
 </ol>
 <p>That’s it! No weird LaTeX recompilation. No special R-only knitr templates and engine overrides. Quarto, pandoc, Lua, and Inkscape take care of everything automatically.</p>
@@ -540,7 +541,7 @@ font-style: inherit;">```</span></span>
 <div id="fig-dag-thing" class="centered-tikz quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-dag-thing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/a-neat-dag.svg" class="img-fluid figure-img" style="width:50.0%">
+<img src="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/a-neat-dag.svg" class="img-fluid figure-img" style="width:50.0%">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-dag-thing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Caption for the DAG
@@ -557,7 +558,7 @@ Figure&nbsp;1: Caption for the DAG
 <div id="fig-cone" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/cone.svg" class="img-fluid figure-img" style="width:100.0%" data-ref-parent="fig-tikz-examples">
+<img src="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/cone.svg" class="img-fluid figure-img" style="width:100.0%" data-ref-parent="fig-tikz-examples">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-cone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (a) A cone with a height and radius (<a href="https://github.com/ctesta01/tikz-examples/blob/main/2023/cone/cone.tex">original</a>)
@@ -569,7 +570,7 @@ Figure&nbsp;1: Caption for the DAG
 <div id="fig-set" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-set-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/set-belonging.svg" class="img-fluid figure-img" style="width:100.0%" data-ref-parent="fig-tikz-examples">
+<img src="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/index_files/mediabag/set-belonging.svg" class="img-fluid figure-img" style="width:100.0%" data-ref-parent="fig-tikz-examples">
 </div>
 <figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-set-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) Definition of an intersection (<a href="https://github.com/ctesta01/tikz-examples/blob/main/2023/intersection/intersection.tex">original</a>)
@@ -759,7 +760,7 @@ font-style: inherit;">](https://github.com/ctesta01/tikz-examples/blob/main/2023
   title = {How to Automatically Convert {TikZ} Images to {SVG} with
     {Quarto}},
   date = {2026-02-25},
-  url = {https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/},
+  url = {https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/},
   doi = {10.59350/5m018-qax35},
   langid = {en}
 }
@@ -769,15 +770,16 @@ Convert TikZ Images to SVG with Quarto.”</span> February 25, 2026. <a href="ht
 </div></div></section></div> ]]></description>
   <category>quarto</category>
   <category>tikz</category>
-  <guid>https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/</guid>
+  <guid>https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/</guid>
   <pubDate>Tue, 24 Feb 2026 16:00:00 GMT</pubDate>
-  <media:content url="https://philogic.cn/blog/2026/02/25/tikz-quarto-svg-fun/fancy-dag.png" medium="image" type="image/png" height="74" width="144"/>
+  <media:content url="https://duoyu.ren/academic/blog/2026/02/25/tikz-quarto-svg-fun/fancy-dag.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 <item>
   <title>How to make your data analysis life easier using Positron, Raycast, and Espanso</title>
   <dc:creator>philogic </dc:creator>
-  <link>https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/</link>
+  <link>https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -799,7 +801,7 @@ Convert TikZ Images to SVG with Quarto.”</span> February 25, 2026. <a href="ht
 <li><a href="https://open-vsx.org/extension/ban/spellright">Spell Right</a></li>
 </ul>
 <p><strong>My custom Positron settings</strong> (these all live in <code>settings.json</code>):</p>
-<details id="details-1" aria-label="Click to expand">
+<details aria-label="Click to expand" id="details-1">
 <summary>Click to expand</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2264,7 +2266,7 @@ background-color: null;
 font-style: inherit;">}</span></span></code></pre></div></div>
 </details>
 <p><strong>My Positron keyboard shortcuts</strong> (these all live in <code>keybindings.json</code>):</p>
-<details id="details-2" aria-label="Click to expand">
+<details aria-label="Click to expand" id="details-2">
 <summary>Click to expand</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb2-1"><span class="ot" style="color: #003B4F;
 background-color: null;
@@ -3303,10 +3305,10 @@ font-style: inherit;">connection_close</span>(con)</span></code></pre></div></di
 <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">First half</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Second half</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
-<p><img src="https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/img/settings-1.png" class="img-fluid"></p>
+<p><img src="https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/img/settings-1.png" class="img-fluid"></p>
 </div>
 <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
-<p><img src="https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/img/settings-2.png" class="img-fluid"></p>
+<p><img src="https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/img/settings-2.png" class="img-fluid"></p>
 </div>
 </div>
 </div></li>
@@ -3384,11 +3386,11 @@ font-style: inherit;">#| fig-width: </span></span>
 background-color: null;
 font-style: inherit;">#| fig-height: </span></span></code></pre></div></div></li>
 <li><p>…and lots of other Quarto things like panel tabsets (<code>;;pan</code>), slideshow columns (<code>;;col</code>), includes (<code>;;include</code>), conditional content (<code>;;visible</code>), callouts (<code>;;call</code>), etc.:</p>
-<p><img src="https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/img/callout.png" class="img-fluid"></p></li>
+<p><img src="https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/img/callout.png" class="img-fluid"></p></li>
 <li><p>…and creating boilerplate Quarto YAML front matter with <code>;;qmd</code>:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/img/qmd-espanso.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<p><img src="https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/img/qmd-espanso.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div></li>
 </ul>
@@ -3404,7 +3406,7 @@ font-style: inherit;">#| fig-height: </span></span></code></pre></div></div></li
   title = {How to Make Your Data Analysis Life Easier Using {Positron,}
     {Raycast,} and {Espanso}},
   date = {2026-01-13},
-  url = {https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/},
+  url = {https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/},
   doi = {10.59350/zj8p7-7kg49},
   langid = {en}
 }
@@ -3420,15 +3422,16 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
   <category>databases</category>
   <category>duckdb</category>
   <category>automator</category>
-  <guid>https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/</guid>
+  <guid>https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/</guid>
   <pubDate>Mon, 12 Jan 2026 16:00:00 GMT</pubDate>
-  <media:content url="https://philogic.cn/blog/2026/01/13/dsl-positron-workflow/img/dsl-header.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://duoyu.ren/academic/blog/2026/01/13/dsl-positron-workflow/img/dsl-header.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Open files in external programs with Positron or Visual Studio Code</title>
   <dc:creator>philogic </dc:creator>
-  <link>https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/</link>
+  <link>https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -3436,21 +3439,21 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
 <p><a href="https://quarto.org/docs/tools/positron/">Positron’s Quarto support</a> is really quite robust and it’s full of nice little features like previewing a citation using whatever bibliography style your document is using (Chicago, APA, etc.) when you hover over a citation key:</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="img/quarto-citation-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Preview of a citation"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/quarto-citation-preview.png" class="img-fluid figure-img" alt="Preview of a citation"></a></p>
+<p><a href="img/quarto-citation-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Preview of a citation"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/quarto-citation-preview.png" class="img-fluid figure-img" alt="Preview of a citation"></a></p>
 <figcaption class="margin-caption">Preview of a citation</figcaption>
 </figure>
 </div>
 <p>…or knowing about the different headings inside your document for tab-completed cross references:</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="img/quarto-jump-to-section.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Tab completion list of sections in a document"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/quarto-jump-to-section.png" class="img-fluid figure-img" alt="Tab completion list of sections in a document"></a></p>
+<p><a href="img/quarto-jump-to-section.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Tab completion list of sections in a document"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/quarto-jump-to-section.png" class="img-fluid figure-img" alt="Tab completion list of sections in a document"></a></p>
 <figcaption class="margin-caption">Tab completion list of sections in a document</figcaption>
 </figure>
 </div>
 <p>…or even knowing about those headings in other documents in a project:</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="img/quarto-jump-to-section-other-file.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Tab completion list of sections in a different document"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/quarto-jump-to-section-other-file.png" class="img-fluid figure-img" alt="Tab completion list of sections in a different document"></a></p>
+<p><a href="img/quarto-jump-to-section-other-file.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Tab completion list of sections in a different document"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/quarto-jump-to-section-other-file.png" class="img-fluid figure-img" alt="Tab completion list of sections in a different document"></a></p>
 <figcaption class="margin-caption">Tab completion list of sections in a different document</figcaption>
 </figure>
 </div>
@@ -3459,7 +3462,7 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
 <figure class="figure page-columns page-full">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/dictionary-popup.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Dictionary and thesaurus popup"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/dictionary-popup.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Dictionary and thesaurus popup"></a></p>
+<p><a href="img/dictionary-popup.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Dictionary and thesaurus popup"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/dictionary-popup.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Dictionary and thesaurus popup"></a></p>
 </figure>
 </div>
 <figcaption class="margin-caption">Dictionary and thesaurus popup</figcaption>
@@ -3477,7 +3480,7 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
 <p>Positron and Visual Studio Code don’t support macOS’s built-in dictionary unless you use the <a href="https://github.com/bartosz-antosik/vscode-spellright">vscode-spellright</a> extension which uses macOS’s native spelling API. However, even then, it doesn’t work like it does in regular apps—misspelled words appear with a red underline and display in the Problems Pane, but you can’t right click on misspelled words to change them automatically.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="img/spelling-problems.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Fixing spelling problems in Positron with vscode-spellright"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/spelling-problems.png" class="img-fluid figure-img" alt="Fixing spelling problems in Positron with vscode-spellright"></a></p>
+<p><a href="img/spelling-problems.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Fixing spelling problems in Positron with vscode-spellright"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/spelling-problems.png" class="img-fluid figure-img" alt="Fixing spelling problems in Positron with vscode-spellright"></a></p>
 <figcaption class="margin-caption">Fixing spelling problems in Positron with vscode-spellright</figcaption>
 </figure>
 </div>
@@ -3488,7 +3491,7 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
 <p>My normal workflow for writing documents in Quarto Markdown (and R Markdown before that) is to open a <code>.qmd</code> file in multiple apps. I open files in Positron or RStudio when working on code-related stuff, and I open files in Typora when focusing more on writing and editing. (I rarely actually ever put them side-by-side, and don’t typically always have the same document open in each simultaneously—it depends on what I’m doing: mainly writing or mainly coding).</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="img/quarto-typora-side-by-side.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="The same document open in both Positron and Typora"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/quarto-typora-side-by-side.png" class="img-fluid figure-img" alt="The same document open in both Positron and Typora"></a></p>
+<p><a href="img/quarto-typora-side-by-side.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="The same document open in both Positron and Typora"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/quarto-typora-side-by-side.png" class="img-fluid figure-img" alt="The same document open in both Positron and Typora"></a></p>
 <figcaption class="margin-caption">The same document open in both Positron and Typora</figcaption>
 </figure>
 </div>
@@ -3509,7 +3512,7 @@ January 13, 2026. <a href="https://doi.org/10.59350/zj8p7-7kg49">https://doi.org
 <figure class="figure page-columns page-full">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/tasks-menu.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Opening tasks.json"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/tasks-menu.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Opening tasks.json"></a></p>
+<p><a href="img/tasks-menu.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Opening tasks.json"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/tasks-menu.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Opening tasks.json"></a></p>
 </figure>
 </div>
 <figcaption class="margin-caption">Opening <code>tasks.json</code></figcaption>
@@ -3815,7 +3818,7 @@ font-style: inherit;">}</span></span></code></pre></div></div>
 <figure class="figure page-columns page-full">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/typora-status-bar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="An “Open in Typora” button in Positron’s status bar"><img src="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/typora-status-bar.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="An “Open in Typora” button in Positron’s status bar"></a></p>
+<p><a href="img/typora-status-bar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="An “Open in Typora” button in Positron’s status bar"><img src="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/typora-status-bar.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="An “Open in Typora” button in Positron’s status bar"></a></p>
 </figure>
 </div>
 <figcaption class="margin-caption">An “Open in Typora” button in Positron’s status bar</figcaption>
@@ -3836,7 +3839,7 @@ font-style: inherit;">}</span></span></code></pre></div></div>
   title = {Open Files in External Programs with {Positron} or {Visual}
     {Studio} {Code}},
   date = {2025-07-03},
-  url = {https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/},
+  url = {https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/},
   doi = {10.59350/87hpe-4ah24},
   langid = {en}
 }
@@ -3848,9 +3851,9 @@ External Programs with Positron or Visual Studio Code.”</span> July 3,
   <category>positron</category>
   <category>writing</category>
   <category>data science</category>
-  <guid>https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/</guid>
+  <guid>https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/</guid>
   <pubDate>Wed, 02 Jul 2025 16:00:00 GMT</pubDate>
-  <media:content url="https://philogic.cn/blog/2025/07/03/open-files-external-programs-positron/img/quarto-typora-side-by-side.png" medium="image" type="image/png" height="90" width="144"/>
+  <media:content url="https://duoyu.ren/academic/blog/2025/07/03/open-files-external-programs-positron/img/quarto-typora-side-by-side.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>
